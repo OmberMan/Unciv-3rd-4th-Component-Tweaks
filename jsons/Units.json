@@ -2,14 +2,15 @@
 {
 		"name": "Atlatlist",
 		"unitType": "Scout",
-                "uniqueTo": "The Maya"
+                "uniqueTo": "The Maya",
+                "replaces": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
                 "range": 1,
                 "cost": 23,
 		"obsoleteTech": "Scientific Theory",
-                "upgradesTo": "Crossbowman",
+                "upgradesTo": "Composite Bowman",
                 "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "arrow"
@@ -25,7 +26,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when adjacent to a [Hoplite] unit>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when adjacent to a [Sword] unit>"],
 		"attackSound": "metalhit"
 	},
 {
