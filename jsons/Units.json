@@ -8,7 +8,9 @@
 		"rangedStrength": 5,
                 "range": 1,
                 "cost": 23,
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"obsoleteTech": "Scientific Theory",
+                "upgradesTo": "Crossbowman",
+                "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "arrow"
 	},
@@ -23,7 +25,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength<when adjacent to a [Hoplite] unit>],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when adjacent to a [Hoplite] unit>"],
 		"attackSound": "metalhit"
 	},
 {
@@ -38,8 +40,8 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "[+33]% Strength <vs [Mounted] units> <when defending>"],
-		"attackSound": "elephant
+		"uniques": ["No defensive terrain bonus", "[+25]% Strength <vs [Mounted] units> <when defending>"],
+		"attackSound": "elephant"
 },
 {
                 "name": "African Forest Elephant",
@@ -47,14 +49,14 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
 		"movement": 3,
-		"strength": 14,
-		"cost": 100,
+		"strength": 15,
+		"cost": 110,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+33]% Strength <vs [Mounted] units> <when defending>"],
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 },
@@ -152,7 +154,7 @@
         "requiredResource": "Horses",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit", "No defensive terrain bonus"],
+        "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit", "No defensive terrain bonus", "Can move immediately once bought"],
         "attackSound": "horse"
     },
 {
@@ -167,7 +169,7 @@
         "upgradesTo": "Pikeman",
         "obsoleteTech": "Civil Service",
         "hurryCostModifier": 20,
-        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles, "[+50]% Strength <vs [Mounted] units>"],
+        "uniques": ["[+1] Sight", "[+10]% Strength bonus for [Military] units within [1] tiles, "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "nonmetalhit"
 },
 {
@@ -179,7 +181,7 @@
         "strength": 15,
         "cost": 85,
         "requiredTech": "Horseback Riding",
- "promotions": ["Shock I"], 
+        "promotions": ["Shock I"], 
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
