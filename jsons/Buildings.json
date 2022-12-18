@@ -1,0 +1,41 @@
+[
+{
+        "name": "Ivy League School",
+        "replaces": "Stadium",
+        "uniqueTo": "America",
+        "happiness": 5,
+        "specialistSlots": {"Merchant": 1},
+        "requiredBuilding": "Theatre",
+        "maintenance": 1,
+        "hurryCostModifier": 0,
+        "uniques": ["[+2 Gold] per [2] population [in this city]"],
+        "requiredTech": "Refrigeration"
+    },
+
+{
+        "name": "Homestead",
+        "replaces": "Stable",
+        "uniqueTo": "America",                             "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Bison"],
+        "culture": 1,
+        "maintenance": 0,
+        "hurryCostModifier": 25,
+        "uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+            "[+1 Production, +1 Food] from [Cattle] tiles [in this city]",
+            "[+1 Production, +1 Food] from [Horses] tiles [in this city]",
+            "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
+                                   "[+1 Production, +1 Food] from [Bison] tiles [in this city]"],
+        "requiredTech": "Horseback Riding"
+    },
+{
+        "name": "Forum Romanum",
+        "replaces": "Garden",
+        "uniqueTo": "Rome",
+        "hurryCostModifier": 25,
+        "culture": 1,
+        "happiness": 1,
+        "food": 1,
+        "maintenance": 1,
+        "uniques": ["[+33]% Great Person generation [in this city]"]
+        "requiredTech": "Construction"
+    },
+]
