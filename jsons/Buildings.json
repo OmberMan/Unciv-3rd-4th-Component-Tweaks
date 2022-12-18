@@ -39,4 +39,17 @@
         "uniques": ["[+33]% Great Person generation [in this city]"]
         "requiredTech": "Construction"
     },
+{
+                "name": "Blood Altar",
+		"replaces": "Shrine",
+		"uniqueTo": "Aztecs",
+                "culture": 1,
+		"faith": 4,
+                "happiness": 1,
+                "food": -1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled", [+2 Faith, -1 Food] per [4] population [in annexed cities]"]
+	},
 ]
