@@ -7,12 +7,12 @@
         "movement": 4,
         "strength": 11,
         "promotions": ["Shock I"],
-        "cost": 62,
+        "cost": 65,
         "requiredTech": "The Wheel",
         "requiredResource": "Horses",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[+1] Sight", "[+25]% Strength <vs [Mounted] units> <when attacking>"],
+        "uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[+1] Sight", "[+25]% Strength <vs [Mounted] units> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
         "attackSound": "horse"
     },
 {
@@ -41,7 +41,7 @@
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
-                       "promotions": ["Medic", "Charge"],
+        "promotions": ["Medic", "Charge"],
         "uniques": ["Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>"],
         "hurryCostModifier": 20,
         "attackSound": "horse"
@@ -60,7 +60,7 @@
         "obsoleteTech": "Steel",
         "uniques": ["[+25]% Strength <vs [Wounded] units>"],
         "hurryCostModifier": 20,
-            "promotions": ["Khopesh ability"],
+        "promotions": ["Khopesh ability"],
         "attackSound": "metalhit"
     },
 
@@ -75,7 +75,7 @@
         "requiredTech": "Gunpowder",
         "obsoleteTech": "Rifling",
         "upgradesTo": "Great War Infantry",
-            "promotions": ["Streltsy ability"],
+        "promotions": ["Streltsy ability"],
         "attackSound": "shot"
     },
 
@@ -93,7 +93,7 @@
         "requiredResource": "Horses",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit"],
+        "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit", "No defensive terrain bonus"],
         "attackSound": "horse"
     },
 {
@@ -103,12 +103,12 @@
         "replaces": "Spearman",
         "movement": 2,
         "strength": 11,
-        "cost": 65,
+        "cost": 62,
         "requiredTech": "Bronze Working",
         "upgradesTo": "Pikeman",
         "obsoleteTech": "Civil Service",
         "hurryCostModifier": 20,
-        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles"],
+        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles, "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "nonmetalhit"
 },
 {
