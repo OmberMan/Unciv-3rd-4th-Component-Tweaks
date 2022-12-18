@@ -9,7 +9,8 @@
 		"rangedStrength": 5,
                 "range": 1,
                 "cost": 23,
-		"obsoleteTech": "Scientific Theory",
+		"requiredTech": "Agriculture",
+                "obsoleteTech": "Scientific Theory",
                 "upgradesTo": "Composite Bowman",
                 "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
@@ -56,8 +57,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 },
@@ -170,7 +170,7 @@
         "upgradesTo": "Pikeman",
         "obsoleteTech": "Civil Service",
         "hurryCostModifier": 20,
-        "uniques": ["[+1] Sight", "[+10]% Strength bonus for [Military] units within [1] tiles, "[+50]% Strength <vs [Mounted] units>"],
+        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles, "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "nonmetalhit"
 },
 {
