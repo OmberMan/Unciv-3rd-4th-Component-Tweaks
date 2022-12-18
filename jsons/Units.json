@@ -12,7 +12,7 @@
         "requiredResource": "Horses",
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
-        "uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[+1 Sight]", "[+25]% Strength <vs [Mounted] units> <when attacking>"],
+        "uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[+1] Sight", "[+25]% Strength <vs [Mounted] units> <when attacking>"],
         "attackSound": "horse"
     },
 {
