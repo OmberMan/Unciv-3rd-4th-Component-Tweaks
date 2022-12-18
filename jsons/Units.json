@@ -170,7 +170,7 @@
         "upgradesTo": "Pikeman",
         "obsoleteTech": "Civil Service",
         "hurryCostModifier": 20,
-        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles, "[+50]% Strength <vs [Mounted] units>"],
+        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles", "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "nonmetalhit"
 },
 {
