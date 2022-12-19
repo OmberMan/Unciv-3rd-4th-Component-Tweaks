@@ -45,7 +45,6 @@
         "happiness": 1,
         "food": 1,
         "maintenance": 1,
-        "cost": 100,
         "uniques": ["[+33]% Great Person generation [in this city]"]
         "requiredTech": "Construction"
     },
@@ -89,7 +88,7 @@
                 "name": "Shadoof",
 		"replaces": "Water Mill",
 		"uniqueTo": "Egypt",
-		"food": 3,
+		"food": 2,
 		"production": 1,
 		"uniques": ["Must be on [River]", "[+1 Gold] from [Flood plains] tiles [in this city] <before discovering [Civil Service]>", "[+1 Food] from [Flood plains] tiles [in this city]", "[+15]% growth [in this city]"],
 		"hurryCostModifier": 25,
