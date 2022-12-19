@@ -83,7 +83,7 @@
 		"cost": 50,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled", "[+1 Happiness] [in the capital]", "[+2 Culture] from [Gold Ore] tiles [in this city]"]
+		"uniques": ["Hidden when religion is disabled", "[+1 Happiness] [in capital]", "[+2 Culture] from [Gold Ore] tiles [in this city]"]
 	},
 {
                 "name": "Shadoof",
