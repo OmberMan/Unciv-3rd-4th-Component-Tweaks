@@ -1,5 +1,18 @@
 [ 
 {
+		"name": "Obsidian Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "The Maya",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 60,
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+                "uniques" : ["May upgrade to [Longswordsman] through ruins-like effects", "[+25]% Strength <vs [Mounted] units>"],
+		"attackSound": "nonmetalhit"
+	},
+{
 		"name": "Atlatlist",
 		"unitType": "Scout",
                 "uniqueTo": "The Maya",
