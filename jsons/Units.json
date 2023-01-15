@@ -203,4 +203,52 @@
         "hurryCostModifier": 20,
         "attackSound": "horse"
     },
+{
+		"name": "Amazon",
+		"unitType": "Mounted",
+		"uniqueTo": "Scythia",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 13,
+		"cost": 85,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "[+50]% XP gained from combat", "[-33]% Strength <vs cities> <when attacking>", "Heals [25] damage if it kills a unit <with [25]% chance>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+{
+		"name": "Saka Horse Archer",
+		"unitType": "Mounted",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Scythia",
+		"movement": 4,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 65,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Can move after attacking", "May withdraw before melee ([50]%)"]
+		"attackSound": "arrow"
+	},
+{
+		"name": "Hittite Garrison",
+		"unitType": "Sword",
+		"uniqueTo": "The Hittites",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+                "uniques": ["[+20]% Strength <with [Iron]>"],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+
 ]
