@@ -73,6 +73,7 @@
 		"adjective": ["Scythian"],
 		"startBias": ["Plains", "Horses"],
 		"preferredVictoryType": "Domination",
+                "style": "East Asian",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -94,7 +95,7 @@
 		"afterPeace": "I hope you've learned something from our last dispute.",
 		"tradeRequest": "Do you like my offer?",
 
-		"outerColor": [	184, 154, 55],
+		"outerColor": [	184, 174, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
 		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+15]% <when attacking> <when fighting in [Plains] tiles>"],
