@@ -60,11 +60,44 @@
 		"afterPeace": "Hail, great lord. This was indeed a good fight.",
 		"tradeRequest": "That should do.",
 
-		"innerColor": [	232, 170, 158],
-		"outerColor": [	94, 50, 0],
+		"innerColor": [	252, 190, 178],
+		"outerColor": [	134, 50, 0],
 		"uniqueName": "Pyrrhic Victory",
 		"uniqueText": "All military units have +25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
-		"uniques": ["[Military] units gain the [Pyrrhic Victory] promotion","[+20]% Production when constructing [Mounted] units [in capital]","Receive free [Great General] when you discover [Bronze Working]", "Earn [33]% of the damage done to [Land] units as [Faith] <on foreign continents>" ],
+		"uniques": ["[Land] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Mounted] units [in holy cities]","Receive free [Great General] when you discover [Bronze Working]", "Earn [33]% of the damage done to [Land] units as [Faith] <on foreign continents>" ],
 		"cities": ["Ambracia","Phoenike","Passaron"]
+	},
+{
+		"name": "Scythia",
+		"leaderName": "Ateas",
+		"adjective": ["Scythian"],
+		"startBias": ["Plains", "Horses"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "I am afraid your reign is over!",
+		"attacked": "We will sunk you in your own blood.",
+		"defeated":  "I must rest.",
+		"introduction":  "Welcome to the steppes. I am Ateas, the king of the Scythian people.",
+		
+		"neutralHello": "Greeting",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!","You need to try harder."],
+		"hateYes": ["Let it be.","This offer is too good to reject."],
+		
+		"afterPeace": "I hope you've learned something from our last dispute.",
+		"tradeRequest": "Do you like my offer?",
+
+		"outerColor": [	184, 154, 55],
+		"innerColor": [	84, 9, 9],
+		"uniqueName": "People of the Steppe",
+		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+15]% <when attacking> <when fighting in [Plains] tiles>"],
+		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 ]
