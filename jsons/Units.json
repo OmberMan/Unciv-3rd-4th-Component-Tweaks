@@ -30,6 +30,21 @@
 		"attackSound": "arrow"
 	},
 {
+		"name": "Samogitian Soldier",
+		"unitType": "Sword",
+		"uniqueTo": "Lithuania",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"promotions": ["Woods Warfare"],
+		"uniques": ["Consumes [1] [Iron]","[+25]% Strength <vs [Mounted] units>", "[+10]% Strength bonus for [Archer] units within [1] tiles"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit" 
+	},
+{
 		"name": "Hoplite",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -101,7 +116,7 @@
         "requiredTech": "Bronze Working",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when attacking>", "[+25]% Strength <vs cities> <when attacking>"],
+        "uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when attacking>", "[+33]% Strength <vs cities> <when attacking>"],
         "attackSound": "metalhit"
     },
 {
