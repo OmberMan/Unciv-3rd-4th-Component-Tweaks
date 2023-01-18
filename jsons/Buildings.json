@@ -9,6 +9,49 @@
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	},
 {
+		"name": "Lamassu",
+		"replaces": "Monument",
+		"uniqueTo": "Assyria",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured", "[+15]% Production when constructing [Land] units [in this city]"]
+},
+{
+		"name": "Dam",
+		"replaces": "Water Mill",
+		"uniqueTo": "Himyar",
+		"maintenance": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]","[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city] <in tiles without [Hill]>"],
+		"requiredTech": "The Wheel"
+	},
+{
+		"name": "Iron Furnace",
+		"replaces": "Forge",
+		"uniqueTo": "The Hittites",
+		"maintenance": 2,
+		"cost": 90,
+		"hurryCostModifier": 25,
+		"requiredTech": "Iron Working",
+		"uniques": ["Available at Iron Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]", "Provides [1] [Iron]", "Must be on [Hill]",
+			"All newly-trained [Sword] units [in this city] receive the [Altitude Training] promotion",
+			"[+1 Production] from [Iron] tiles [in this city]","Free [Swordsman] appears"]
+	},
+{
+		"name": "Ballcourt",
+		"replaces": "Colosseum",
+		"uniqueTo": "The Maya",
+		"maintenance": 1,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+                "uniques": ["[+1 Culture, +1 Faith] <during We Love The King Day>"],
+	},
+{
         "name": "Ivy League School",
         "replaces": "Stadium",
         "uniqueTo": "America",
@@ -60,19 +103,6 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled", "[+2 Faith, -1 Food] per [4] population [in annexed cities]"]
-	},
-{
-		"name": "Acropolis",
-		"replaces": "Walls",
-		"uniqueTo": "Greece",
-                "culture": 1,
-                "greatPersonPoints": {"Great Artist": 1}
-		"cost": 85,
-		"cityStrength": 5,
-		"cityHealth": 50,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured", "[+1 Gold] <after discovering [Flight]>"]
 	},
 {
 		"name": "Dar-e Mehr",
