@@ -98,7 +98,7 @@
 		"outerColor": [	184, 174, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+50]% to Flank Attack bonuses <within [1] tiles of a [Plains]>"],
+		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 ]
