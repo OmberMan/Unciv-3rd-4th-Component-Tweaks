@@ -73,7 +73,7 @@
 		"adjective": ["Scythian"],
 		"startBias": ["Plains", "Horses"],
 		"preferredVictoryType": "Domination",
-                "style": "East Asian",
+                "style": "Slavic",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -101,4 +101,34 @@
 		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
+	{
+		"name": "India",
+		"leaderName": "Gandhi",
+		"adjective": ["Indian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+                "style": "Middle Eastern",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"introduction": "Hello, I am Mohandas Gandhi. My people call me Bapu, but please, call me friend.",
+		"neutralHello": "I wish you peace.",
+		"hateHello": "What do you want warmonger?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Population Growth",
+		"uniques": ["Unhappiness from number of Cities doubled", "[-50]% Unhappiness from [Population] [in all cities]", "[+20]% growth [in all non-occupied cities]"],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
 ]
