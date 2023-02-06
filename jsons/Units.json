@@ -343,19 +343,4 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-        { 
-                 "name": "Sonar Shark" 
-                 "replaces": "Trireme", 
-                 "uniqueTo": "Atlantis" 
-                 "unitType": "Melee Water", 
-                 "movement": 4, 
-                 "strength": 15, 
-                 "cost": 60, 
-                 "requiredTech": "Sailing",
-                 "uniques": ["[+1] Sight", "Can only attack [Water] units", "Ignores Zone of Control", "Never appears as a Barbarian unit"], 
-                 "promotions": ["Charge"],
-                 "upgradesTo": "Caravel", 
-                 "obsoleteTech": "Steam Power", 
-                 "attackSound": "nonmetalhit" 
-         },
 ]
