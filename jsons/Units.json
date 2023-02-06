@@ -351,8 +351,8 @@
                  "movement": 4, 
                  "strength": 15, 
                  "cost": 60, 
-                 "requiredTech": "Sailing", 
-                 "uniques": ["[+25]% Strength <vs [Wounded] units>","[+1] Sight","Can only attack [Water] units","Ignores Zone of Control","Never appears as a Barbarian unit"], 
+                 "requiredTech": "Sailing",
+                 "uniques": ["[+25]% Strength <vs [Wounded] units>", "[+1] Sight", "Can only attack [Water] units", "Ignores Zone of Control", "Never appears as a Barbarian unit"], 
                  "upgradesTo": "Caravel", 
                  "obsoleteTech": "Steam Power", 
                  "attackSound": "nonmetalhit" 
