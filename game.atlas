@@ -18,7 +18,7 @@ TileSets/FantasyHex/Units/Eagle
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Falxman
+TileSets/FantasyHex/Units/Falx Warrior
   rotate: false
   xy: 84, 4
   size: 32, 32
