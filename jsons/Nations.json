@@ -136,6 +136,7 @@
 		"leaderName": "Gediminas",
 		"adjective": ["Lithuanian"],
 		"preferredVictoryType": "Domination",
+                "style": "Slavic",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -164,5 +165,149 @@
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
+	},
+{
+		"name": "The Olmec",
+		"leaderName": "U Kix Chan",
+		"adjective": ["Olmec"],
+		"startBias": ["Jungle","Coast"],
+		"preferredVictoryType": "Scientific",
+                "style": "Mesoamerican",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "War! The Feathered Serpent demands sacrificial blood!",
+		"attacked": "Is it bravery or stupidity?",
+		"defeated":  "That's the greatest sacrifice I can offer You!",
+		"introduction":  "Were you send by the great Serpent?",
+		
+		"neutralHello": "Hello, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!"],
+		"hateYes": ["Let it be."],
+		
+		"afterPeace": "What such bloodhirsty beast might want?",
+		"tradeRequest": "What do you think?",
+
+		"outerColor": [	91, 176, 158],
+		"innerColor": [ 40, 94, 68],
+		"uniqueName": "Feathered Serpent",
+		"uniqueText": "May buy National Wonders with [Faith].",
+		"uniques": ["May buy [National Wonder] buildings with [Faith] for [1] times their normal Production cost", "Free Great Person <upon entering a Golden Age> <with [22]% chance>"],
+		"cities": ["La Venta","San Lorenzo","Tres Zapotes","Izapa","Tzapotl","Tonala","Texpa","Tlapocoya","Xoc","Coatztitlan","Izacoya"]
+	},
+			{
+		"name": "Nok",
+		"leaderName": "Olori",
+		"adjective": ["Nok"],
+		"startBias": ["Jungle","Iron"],
+		"preferredVictoryType": "Cultural",
+                "style": "African",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "You must be destroyed!",
+		"attacked": "Oh, I see. I did not expect anything else from you.",
+		"defeated":  "We might die, but our culture is eternal.",
+		"introduction":  "Welcome to our lands. May there be peace among us!",
+		
+		"neutralHello": "Hello, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!","You need to try harder."],
+		"hateYes": ["Let it be.","This offer is too good to reject."],
+		
+		"afterPeace": "Oh?",
+		"tradeRequest": "Do you like it?",
+
+		"outerColor": [	189, 182, 125],
+		"innerColor": [	82, 70, 55],
+		"uniqueName": "African Treasures",
+		"uniqueText": "All cities provide 1 copy of [Terracotta] luxury resource. +1 [Science] from every Iron.",
+		"uniques": ["Gain a free [Free Terracotta] [in all cities]","[+1 Science] from every [Iron]"],
+		"cities": ["Nok","Jos","Ife","Samun","Kagara","Janjala","Kwoi","Jere","Dokku","Bokkos","Riyom","Ogbabu","Pangajere","Taruga","Kamrun","Vom","Chakwama","Dogo-Dogo","Jagwa"]
+	},
+{
+		"name": "Phoenicia",
+		"leaderName": "Hiram I",
+		"adjective": ["Phoenician"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+                "style": "Mesopotamian",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "We accept you for no longer!",
+		"attacked": "I am disappointed. Can't we simply trade and avoid the conflict?",
+		"defeated":  "Yes, take my lands. I doubt you will make any better use of them!",
+		"introduction":  "I am Hiram of Tyre. If you are here to trade, let's go straight into business.",
+		
+		"neutralHello": "Hello, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["I can't accept!","You need to try harder."],
+		"hateYes": ["Let it be.","This offer is too good to reject."],
+		
+		"afterPeace": "If we are no longer at war, maybe we should trade?",
+		"tradeRequest": "Shall we trade?",
+
+		"outerColor": [	102, 51, 153],
+		"innerColor": [	154, 221, 255],
+		"uniqueName": "Mediterranean Seafarers",
+		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]", "[+4 Gold, +1 Science] from each Trade Route"],
+		"cities": ["Tyre","Sidon","Byblos","Sarepta","Berytos","Carthage","Baalbek","Zili","Akko","Dor","Arados",
+			"Quart Hadasht","Leptis","Utica","Karalis","Oia","Sabratha","Hadrumentum","Icosium","Iol","Thapsos",
+			"Melita","Kossyra","Gadir","Tartessos","Tharros","Magador","Igilgili","Cirta","Ebusos"]
+	},
+{
+		"name": "Sumeria",
+		"leaderName": "Gilgamesh",
+		"adjective": ["Sumerian"],
+		"startBias": ["Flood plains"],
+		"preferredVictoryType": "Scientific",
+		"style": "Mesopotamian",
+
+		"startIntroPart1": "Blessings of the heaven be upon you, oh mighty Gilgamesh, the legendary god-king of the Sumer nation. The stories of your life amaze the world to this day. After your death, the gods welcomed you as one of their kind. ",
+		"startIntroPart2": "O great Gilgamesh, builder of the Sumer might, your people seek your guidance! Will you descend from the heavens to astonish the world with your incredible deeds once again? Will you build a civilization that will stand the test of time? ",
+		
+		"declaringWar": "That's enough, prepare to be smashed into the dust!",
+		"attacked": "You dare to attack a demigod? You will regret this sooner than you think!",
+		"defeated": "Defeat. A mere mortal emerged victorious. Can't wait to see how long you will last. Even demigods aren't invicible.",
+		"introduction": "I am Gilgamesh, a demigod who descended to Earth to lead the mighty city of Uruk. Let there be peace among us!",
+		
+		"neutralHello": "Be blessed, friend.",
+		"neutralLetsHearIt": ["Yes.","Let's discuss."],
+		"neutralNo": ["No way.","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","I gladly accept."],
+		"hateHello": "Go on!",
+		"hateLetsHearIt": "Just speak, don't waste my time!",
+		"hateNo": ["Are you joking?","Are you sure?"],
+		"hateYes": ["I can accept.","Fine.","Let it be."],
+		
+		"afterPeace": "Maybe we should celebrate the end of war?",
+		"tradeRequest": "I present you this trade offer.",
+
+		"outerColor": [43, 35, 82],
+		"innerColor": [189, 145, 158],
+		"uniqueName": "Cradle of Civilization",
+		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
+		"uniques": ["[+2 Science, +1 Culture] [in capital]","[Land] units gain the [Cradle of Civilizations] promotion", "[+1 Faith] from [Flood plains] tiles [in all cities]", "[+20]% [Food] [in capital]"],
+		"cities": ["Uruk","Eridu","Kish","Lagash","Nibru","Ur","Bad-Tibira","Zimbir","Shuruppak","Umma",
+			"Larsa","Isin","Girsu","Adab","Larak","Abu Salabikh","Akshak","Hamazi","Nina","Kutha",
+			"Marad","Zabalam","Kisurra","Pazurish-Dagan","Kutallu","Kesh","Apisada","Kisiga","Enegi","Ki-an",
+			"Aratta","Kutu","Der"]
 	},
 ]
