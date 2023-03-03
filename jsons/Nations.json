@@ -64,7 +64,7 @@
 		"outerColor": [	134, 50, 0],
 		"uniqueName": "Pyrrhic Victory",
 		"uniqueText": "All military units have +25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
-		"uniques": ["[Land] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Mounted] units [in holy cities]","Receive free [Great General] when you discover [Bronze Working]", "Earn [33]% of the damage done to [Land] units as [Faith] <on foreign continents>" ],
+		"uniques": ["[Land] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Mounted] units [in holy cities]","Free [Great General] appears <upon conquering a city> <with [33]% chance>", "Earn [33]% of the damage done to [Land] units as [Faith] <on foreign continents>"],
 		"cities": ["Ambracia","Phoenike","Passaron"]
 	},
 {
@@ -98,7 +98,7 @@
 		"outerColor": [	184, 174, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>"],
+		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>", "Double quantity of [Horse] produced"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 	{
@@ -131,4 +131,38 @@
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
     },
+{
+		"name": "Lithuania",
+		"leaderName": "Gediminas",
+		"adjective": ["Lithuanian"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "You have brought the wrath of Dievas upon yourself!",
+		"attacked": "We shall now show you the true power of Lithuania and our true gods!",
+		"defeated": "Dievas, Perkunas, why do you bring the wraith of Giltine upon me?",
+		"introduction": "I am Gediminas, the Grand Duke of Lithuania, by the good will of Dievas, stay out of my way and none blood shall be spilled.",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["Yes.","Go on."],
+		"neutralNo": ["No.","That's unacceptable."],
+		"neutralYes": ["I can't refuse.","I gladly accept."],
+		"hateHello": "Why are you bothering me?",
+		"hateLetsHearIt": ["What's your offer?"],
+		"hateNo": ["I will never accept that!","No way!"],
+		"hateYes": ["I must accept.","Remember, never reject a good offer."],
+		
+		"afterPeace": "See? One can live the 'pagans'!",
+		"tradeRequest": "Here is an offer that might benefit both of us.",
+
+		"outerColor": [166, 22, 51],
+		"innerColor": [75, 156, 245],
+		"uniqueName": "Worship of the Old Gods",
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in holy cities] receive the [Woodsman] promotion", "[-25]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>", "[+10]% Food is carried over after population increases [in all cities in which the majority religion is a major religion] <in cities without a [Temple]>"]
+		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
+			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
+			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
+	},
 ]
