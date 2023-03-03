@@ -39,7 +39,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"promotions": ["Woods Warfare"],
-		"uniques": ["[+25]% Strength <vs [Mounted] units>", "[+10]% Strength bonus for [Archer] units within [1] tiles", "Gain [10]-[15] [Faith] <upon being defeated>"],
+		"uniques": ["[+20]% Strength <vs [Mounted] units>", "Heal this unit by [20] HP <upon losing at least [33] HP in a single attack>", "[+10]% Strength bonus for [Archer] units within [1] tiles", "Gain [10]-[15] [Faith] <upon being defeated>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
@@ -356,7 +356,7 @@
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
             "promotions": ["Vytis ability"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"uniques": ["Can move after attacking","Ignores Zone of Control","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
 		"attackSound": "horse"
 	},
 {
