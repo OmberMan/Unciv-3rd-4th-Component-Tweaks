@@ -39,8 +39,8 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"promotions": ["Woods Warfare"],
-		"uniques": ["[+20]% Strength <vs [Mounted] units>", "Heal this unit by [20] HP <upon losing at least [33] HP in a single attack>", "[+10]% Strength bonus for [Archer] units within [1] tiles", "Gain [10]-[15] [Faith] <upon being defeated>"],
-		"upgradesTo": "Lancer",
+		"uniques": ["May capture killed [Wounded] units <with [10]% chance> <when fighting in [Friendly Land] tiles>", "Heal this unit by [20] HP <upon losing at least [33] HP in a single attack> <with [40]% chance>", "Gain [10]-[15] [Faith] <upon being defeated>"],
+		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
@@ -224,13 +224,13 @@
 		"uniqueTo": "Scythia",
 		"replaces": "Horseman",
 		"movement": 4,
-		"strength": 13,
-		"cost": 85,
+		"strength": 12,
+		"cost": 80,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "[+50]% XP gained from combat", "[-33]% Strength <vs cities> <when attacking>", "This Unit gains the [Morale] promotion <upon defeating a [Melee] unit>"],
+		"uniques": ["Can move after attacking", "Earn [15]% of killed [Land] unit's [cost] as [Culture]", "[-33]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength <when below [50] HP>", "This Unit gains the [Haka War Dance] promotion <upon defeating a [Melee] unit>"],
 		"hurryCostModifier": 35,
 		"attackSound": "horse"
 	},
@@ -240,14 +240,14 @@
 		"replaces": "Composite Bowman",
 		"uniqueTo": "Scythia",
 		"movement": 4,
-		"strength": 7,
-		"rangedStrength": 11,
+		"strength": 6,
+		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"promotions": ["Accuracy I"],
-                "uniques": ["Can move after attacking", "May withdraw before melee ([50]%)"]
+                "uniques": ["Can move after attacking", "May withdraw before melee ([50]%)", "No movement cost to pillage"]
 		"attackSound": "arrow"
 	},
 {
@@ -339,7 +339,7 @@
 		"requiredTech": "Trapping",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","Consumes [1] [Horses]"],
+		"uniques": ["Can move after attacking", "[+50]% XP gained from combat", "Consumes [1] [Horses]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -367,7 +367,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Cheaper to buy", "May withdraw before melee ([33]%)", "Founds a new city", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population","[1] Movement point cost to embark", "[1] Movement point cost to disembark","Double movement in [Coast]"],
+			"Requires at least [2] population","[1] Movement point cost to embark", "[1] Movement point cost to disembark","Double movement in [Coast]", "May enter foreign tiles without open borders"],
 		"hurryCostModifier": -50
 	},
 {
@@ -392,7 +392,7 @@
 		"uniqueTo": "Israel",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 		"cost": 75,
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Metal Casting",
@@ -436,8 +436,8 @@
 		"replaces": "Inquisitor",
 		"uniques": ["Takes your religion over the one in their birth city","Prevents spreading of religion to the city it is next to","Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities]","Can construct [Sacred altar] <if it hasn't used other actions yet>",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"],
-                "promotions": ["Medic I"],
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit", "[+10]% Strength bonus for [Wounded] units within [1] tiles <when fighting in [Forest] tiles>", "[+10]% Strength bonus for [Wounded] units within [1] tiles <when fighting in [Marsh] tiles>"],
+                "promotions": ["Medic"],
 		"movement": 3,
 	},
 ]
