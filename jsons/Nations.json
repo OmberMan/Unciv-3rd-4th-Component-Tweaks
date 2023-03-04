@@ -6,6 +6,7 @@
 		"startBias": ["Desert", "Incense"],
 		"preferredVictoryType": "Scientific",
 		"style": "Middle Eastern",
+                "favoredReligion": "Judaism",
  
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -30,7 +31,7 @@
 		"outerColor": [	32, 34, 31],
 		"innerColor": [	247, 198, 0],
 		"uniqueName": "Desert Paradise",
-		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>"],
+		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>", "[+15]% [Gold] from Trade Routes <during a Golden Age>"],
 		"cities": ["Zafar","Sana'a","Ma'rib","Najran","Mocha","Haram","Haywan","Mukhwan","Yabrin","Shabwa","Wa'lan","Libna","Nashaq","Timna","Sirwah","Quarnawu","Kaminahu","Baraqish"]
 	},
 {
@@ -98,7 +99,7 @@
 		"outerColor": [	184, 174, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>", "Double quantity of [Horse] produced"],
+		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>", "Double quantity of [Horse] produced", "Earn [50]% of killed [Wounded] unit's [Strength] as [Culture] <for [Mounted] units> <with [33]% chance>"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 	{
@@ -107,7 +108,7 @@
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
-                "style": "Middle Eastern",
+                "style": "South Asian",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -172,7 +173,7 @@
 		"adjective": ["Olmec"],
 		"startBias": ["Jungle","Coast"],
 		"preferredVictoryType": "Scientific",
-                "style": "Mesoamerican",
+                "style": "South American",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -265,7 +266,7 @@
 		"tradeRequest": "Shall we trade?",
 
 		"outerColor": [	102, 51, 153],
-		"innerColor": [	154, 221, 255],
+		"innerColor": [	144, 219, 255],
 		"uniqueName": "Mediterranean Seafarers",
 		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]", "[+4 Gold, +1 Science] from each Trade Route"],
 		"cities": ["Tyre","Sidon","Byblos","Sarepta","Berytos","Carthage","Baalbek","Zili","Akko","Dor","Arados",
@@ -300,10 +301,10 @@
 		"afterPeace": "Maybe we should celebrate the end of war?",
 		"tradeRequest": "I present you this trade offer.",
 
-		"outerColor": [43, 35, 82],
-		"innerColor": [189, 145, 158],
+		"outerColor": [42, 35, 82],
+		"innerColor": [188, 159, 145],
 		"uniqueName": "Cradle of Civilization",
-		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
+		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital. +1 [Faith] from flood plains. +20% Growth in the capital.",
 		"uniques": ["[+2 Science, +1 Culture] [in capital]","[Land] units gain the [Cradle of Civilizations] promotion", "[+1 Faith] from [Flood plains] tiles [in all cities]", "[+20]% [Food] [in capital]"],
 		"cities": ["Uruk","Eridu","Kish","Lagash","Nibru","Ur","Bad-Tibira","Zimbir","Shuruppak","Umma",
 			"Larsa","Isin","Girsu","Adab","Larak","Abu Salabikh","Akshak","Hamazi","Nina","Kutha",
