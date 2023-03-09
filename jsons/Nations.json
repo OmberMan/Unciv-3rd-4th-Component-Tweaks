@@ -311,4 +311,34 @@
 			"Marad","Zabalam","Kisurra","Pazurish-Dagan","Kutallu","Kesh","Apisada","Kisiga","Enegi","Ki-an",
 			"Aratta","Kutu","Der"]
 	},
+	{
+		"name": "Atlantis",
+		"leaderName": "Evenor",
+		"adjective": ["Atlantean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+                "style": "Mediterranean",
+		
+		"startIntroPart1": "Greetings, Evenor. Few empires have sparked such wonder, such curiosity. As the sunken world of Atlantis. Torn and sunk by divine punishment, your people advanced beyond imagination and ruled over this world's endless seas.",
+		"startIntroPart2": "There are many who wish to see your magnificence brought to life once more, lord Evenor. Can you stand the test of time and rule over the seas once more?",					
+		
+		"declaringWar": "The seas have had enough of you!",
+		"attacked": "The Tides foresaw this...",
+		"defeated": "Moon... Where have you gone?",
+		"introduction": "Ever try holding your breath underwater?",
+		"neutralHello": "You should come for a visit.",		
+		"hateHello": "You are not welcome in the sea.",	
+		"tradeRequest": "This was actually built underwater.",
+
+		"outerColor": [0,104,139],
+		"innerColor": [129,224,255],
+		"uniqueName": "The Sunken City",
+		"uniqueText": "+1 Food on Coasts and Oceans. Doubled after discovering Astronomy. Great Improvements can be built on water, and provide double yields while there."
+		"uniques": ["[+1 Food] from every [Coast]",
+		"[+1 Food] from every [Coast] <after discovering [Astronomy]>",
+		"[+1 Food] from every [Ocean]",
+		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>",
+                "[+1] Sight <for [Embarked] units>", "[+1] Sight <for [Water] units>", "[+1 Culture] from every specialist [in all coastal cities] <during a Golden Age>"]
+		"cities": ["Atlantis","Seamound","Vussted","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
+	},
 ]
