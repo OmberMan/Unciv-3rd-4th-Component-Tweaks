@@ -99,7 +99,7 @@
 		"outerColor": [	184, 174, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[+10]% Strength  <within [1] tiles of a [Plains]>", "Double quantity of [Horse] produced", "Earn [50]% of killed [Wounded] unit's [Strength] as [Culture] <for [Mounted] units> <with [33]% chance>"],
+		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[-25]% Culture cost of natural border growth [in all cities]", "Double quantity of [Horse] produced", "[+50]% XP gained from combat <for [Mounted] units> <with [33]% chance>"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 	{
@@ -162,7 +162,7 @@
 		"outerColor": [166, 22, 51],
 		"innerColor": [75, 156, 245],
 		"uniqueName": "Worship of the Old Gods",
-		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in holy cities] receive the [Woodsman] promotion", "[-25]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>", "[+10]% Food is carried over after population increases [in all cities in which the majority religion is a major religion] <in cities without a [Temple]>"]
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in holy cities] receive the [Woodsman] promotion", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>", "[+10]% Food is carried over after population increases [in all cities in which the majority religion is a major religion] <in cities without a [Temple]>"]
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
@@ -374,7 +374,7 @@
 		"[+1 Food] from every [Coast] <after discovering [Astronomy]>",
 		"[+1 Food] from every [Ocean]",
 		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>",
-                "[+1] Sight <for [Embarked] units>", "[+1] Sight <for [Water] units>", "[+1 Culture] from every specialist [in all coastal cities] <during a Golden Age>"]
+                "[+1] Sight <for [Embarked] units>", "[+1 Culture] from every specialist [in all coastal cities] <during a Golden Age>"]
 		"cities": ["Atlantis","Seamound","Vussted","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
 	},
 	{
