@@ -1,5 +1,21 @@
 [ 
 {
+                "name": "Bireme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Phoenicia",
+		"replaces": "Trireme",
+		"movement": 3,
+		"strength": 8,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Compass",
+		"upgradesTo": "Galleass",
+		"uniques": ["Cannot enter ocean tiles", "Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence", "Transfer Movement to [Civilian]", "May enter foreign tiles without open borders"],
+		"promotions": ["Favorable Winds"],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+{
 		"name": "Obsidian Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "The Maya",
@@ -473,9 +489,10 @@
 		"strength": 6,
                 "rangedStrength": 7,
 		"cost": 35,
+                "range": 1,
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Compass",
-                "uniques": ["[1] Range", "[+2] Movement <in [Coast] tiles>", "Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <when not at war>", "[+25]% Strength <when fighting in [Water resource] tiles>", "Cannot enter ocean tiles <before discovering [Sailing]>"],
+                "uniques": ["[+2] Movement <in [Coast] tiles>", "Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <when not at war>", "[+25]% Strength <when fighting in [Water resource] tiles>", "Cannot enter ocean tiles <before discovering [Sailing]>"],
 		"upgradesTo": "Caravel",
 		"attackSound": "throw"
 	},
