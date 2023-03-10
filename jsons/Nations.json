@@ -537,4 +537,73 @@
 		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
     },
+{
+		"name": "The Khmer",
+		"leaderName": "Suryavarman II",
+		"adjective": ["Khmer"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Scientific",
+                "style": "East Asian",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "I will show you the entire might of the Khmer people!",
+		"attacked": "I think you will regret this decission quite soon.",
+		"defeated":  "You are too late! I have completed my destiny and nothing can take the eternal glory from me, not even death!",
+		"introduction":  "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe. Also the most humble man to ever walk on Earth!",
+		
+		"neutralHello": "Hail.",
+		"neutralLetsHearIt": ["Yes.","Go on."],
+		"neutralNo": ["Do not test my patience!","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","We accept."],
+		"hateHello": "Don't waste much of my time!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["You can't be serious!","No one would agree to that. Ever."],
+		"hateYes": ["Fine.","You can't simply refuse such offer."],
+		
+		"afterPeace": "I think we should forget about this misunderstanding.",
+		"tradeRequest": "What about this?",
+
+		"outerColor": [	51, 0, 255],
+		"innerColor": [	255, 225, 155],
+		"uniqueName": "Magnificient Temples",
+		"uniques": ["[10]% Food is carried over after population increases [in all cities]", "[-25]% maintenance cost for buildings [in all cities]", "Resting point for Influence with City-States is increased by [10]", "[+20]% Production when constructing [All] buildings [in all cities with a world wonder]", "[+20]% Production when constructing [All] buildings [in all non-occupied cities] <during a Golden Age>"],
+		"cities": ["Angkor Wat","Hariharalaya","Singhapura","Lavo","Bhavapura","Vyadhapura","Dviradapura","Rajavihara","Mahendraparvata",
+			"Chaiya","Wiang Chan","U Thong","Phetchaburi","Nagara Jayasri","Banteay Kdei","Chok Gargyar","Preah Vihear","Chalieng",
+			"Krong Chaktomuk","Pre Rup","Prasat Bakan","Phanom Rung","Isanapura","Shrestapura","Angkor Borei","Lovei","Udong","Aninditapura"]
+	},
+	{
+		"name": "Egypt",
+		"leaderName": "Ramesses II",
+		"adjective": ["Egyptian"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Cultural",
+                "style": "Mesopotamian",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Generous Egypt makes you this offer.",
+
+		"outerColor": [255, 252, 3],
+		"innerColor": [83, 0, 208],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Monument Builders",
+		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]", "[-33]% tile improvement construction time"],
+		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			   "Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
+			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
 ]
