@@ -225,9 +225,31 @@
 		"cost": 75,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["Unlocked at Optics","[+1 Production] from [Water resource] tiles [in this city]","[+15]% [Gold] [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]",
+		"uniques": ["Unlocked at Optics","[+1 Production] from [Water resource] tiles [in this city]","[+10]% [Gold] [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]", "Provides 1 extra copy of each improved luxury resource near this City",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Optics"
+	},
+{
+		"name": "Basilica",
+		"replaces": "Shrine",
+		"uniqueTo": "Byzantium",
+		"faith": 2,
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Luxury resource] tiles [in this city]"]
+	},
+	{
+		"name": "Tatev Monastery",
+		"replaces": "Grand Temple",
+		"uniqueTo": "Armenia",
+		"cost": 125,
+		"culture": 1,
+		"faith": 1,
+		"uniques": ["[+100]% Yield from every [Mountain]","Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+			"[+50]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in all cities in which the majority religion is a major religion]"],
+		"requiredTech": "Construction",
+		"isNationalWonder": true
 	},
 	{
 		"name": "Longhouse",
