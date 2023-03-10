@@ -162,7 +162,7 @@
 		"outerColor": [166, 22, 51],
 		"innerColor": [75, 156, 245],
 		"uniqueName": "Worship of the Old Gods",
-		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in holy cities] receive the [Woodsman] promotion", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>", "[+10]% Food is carried over after population increases [in all cities in which the majority religion is a major religion] <in cities without a [Temple]>"]
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion <in cities without a [Temple]>", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>"]
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
@@ -529,7 +529,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>"],
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>", "[+1 Food] from [Marsh] tiles [in all cities]"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
