@@ -314,4 +314,40 @@
 		"requiredBuilding": "Shrine"
 		"requiredTech": "Philosophy"
 	},
+	{
+		"name": "Prasat",
+		"replaces": "Temple",
+		"uniqueTo": "The Khmer",
+		"faith": 2,
+		"maintenance": 2,
+		"specialistSlots": {"Artist": 1, "Engineer": 1},
+		"cityHealth": 20,
+       		"cost": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine",
+		"uniques": ["Provides 1 Artist and 1 Engineer specialist slots.", "Hidden when religion is disabled", "[+1 Food] from [Farm] tiles [in this city] <with [3] to [6] neighboring [Fresh water] [Farm] tiles>"],
+		"requiredTech": "Philosophy"
+	},
+{
+		"name": "Baray",
+		"replaces": "Shrine",
+		"uniqueTo": "The Khmer",
+		"faith": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Pottery",
+		"uniques": ["[+1 Food] from every specialist [in this city] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Satrap's Court",
+		"replaces": "Market",
+		"uniqueTo": "Persia",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"happiness": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+
 ]
