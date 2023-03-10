@@ -268,10 +268,46 @@
 		"outerColor": [	102, 51, 153],
 		"innerColor": [	144, 219, 255],
 		"uniqueName": "Mediterranean Seafarers",
-		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]", "[+4 Gold, +1 Science] from each Trade Route"],
+		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]", "[+4 Gold, +1 Science] from each Trade Route", "[+50]% Gold from Great Merchant trade missions"],
 		"cities": ["Tyre","Sidon","Byblos","Sarepta","Berytos","Carthage","Baalbek","Zili","Akko","Dor","Arados",
 			"Quart Hadasht","Leptis","Utica","Karalis","Oia","Sabratha","Hadrumentum","Icosium","Iol","Thapsos",
 			"Melita","Kossyra","Gadir","Tartessos","Tharros","Magador","Igilgili","Cirta","Ebusos"]
+	},
+		{
+		"name": "Macrobia",
+		"leaderName": "Sayid",
+		"adjective": ["Macrobian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Neutral",
+                "style": "African",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "You have had your chance, now prepare for war!",
+		"attacked": "You DARE declare war on us? We shall make you suffer!",
+		"defeated":  "So that is how it all ends. I've never expected to end as a slave!",
+		"introduction":  "Who are you? I bet You are here to admire our wealth.",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Go on."],
+		"neutralNo": ["Do not test my patience!","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","We accept."],
+		"hateHello": "Don't waste much of my time!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["You can't be serious!","No one would agree to that. Ever."],
+		"hateYes": ["Fine.","You can't simply refuse such offer."],
+		
+		"afterPeace": "We shall now pray for the better, I mean more profitable, days!",
+		"tradeRequest": "I bring you an excellent offer!",
+
+		"outerColor": [	84, 215, 247],
+		"innerColor": [	255, 255, 255],
+		"uniqueName": "Shackles of Gold",
+		"uniqueText": "Earns [Gold] for killing enemy land units", 
+		"uniques": ["Earn [33]% of killed [Land] unit's [Cost] as [Gold]", "Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[+2 Gold, -1 Food] from each Trade Route", "[Gold] cost of purchasing [Land] units [-25]%"],
+		"cities": ["Mogadishu","Avalite","Botiala","Gondal","Toniki","Salweyn","Miandi","Sarapion","Hannassa","Bulhar",
+		"Essina","Famo","Mosylon","Opone","Nikon","Mundus"]
 	},
 {
 		"name": "Sumeria",
@@ -341,4 +377,65 @@
                 "[+1] Sight <for [Embarked] units>", "[+1] Sight <for [Water] units>", "[+1 Culture] from every specialist [in all coastal cities] <during a Golden Age>"]
 		"cities": ["Atlantis","Seamound","Vussted","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
 	},
+	{
+		"name": "Iroquois",
+		"leaderName": "Hiawatha",
+		"adjective": ["Iroquoise"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+                "style": "North American",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Does this trade work for you, my friend?",
+
+        "outerColor": [54,72,72],
+        "innerColor": [246,205,137],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "The Great Warpath",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+15]% Strength <for [Land] units> <when fighting in [Forest] tiles> <when fighting in [Friendly Land] tiles>", "[+1 Production] from [Forest] tiles [in all cities connected to capital] <in [unimproved] tiles>"],
+		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+    },
+	{
+		"name": "Carthage",
+		"leaderName": "Dido",
+		"adjective": ["Carthaginian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+                "style": "Mediterranean",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Tell me, do you all know how numerous my armies, elephants and the gdadons are? No? Today, you shall find out!",
+		"attacked": "Fate is against you. You earned the animosity of Carthage in your exploration. Your days are numbered.",
+		"defeated": "The fates became to hate me. This is it? You wouldn't destroy us so without their help.",
+		"introduction": "The Phoenicians welcome you to this most pleasant kingdom. I am Dido, the queen of Carthage and all that belongs to it.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What is it now?",
+		"tradeRequest": "I just had the marvelous idea, and I think you'll appreciate it too.",
+		"outerColor": [205, 205, 205],
+		"innerColor": [81, 0, 137],
+		"favoredReligion": Christianity",
+		"uniqueName": "Phoenician Heritage",
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"Units ending their turn on [Mountain] tiles take [50] damage", "[Gold] cost of purchasing [Land] units [-50]%", "[+33]% [Gold] [in all coastal cities] <on foreign continents>", "[-25]% [Production] [in all non-occupied cities] <on foreign continents>", "[-33]% Unhappiness from [Population] [in all coastal cities] <on foreign continents>"],
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
+			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
+			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
+			"Saldae"],
+        "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]
+    },
 ]
