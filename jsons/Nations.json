@@ -438,4 +438,32 @@
 			"Saldae"],
         "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]
     },
+{
+		"name": "Indonesia",
+		"leaderName": "Gajah Mada",
+		"adjective": ["Indonesian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Neutral",
+                "style": "East Asian",
+
+		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
+		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
+		"declaringWar": "Don't mean to stand in your way, but I have to protect them!",
+		"attacked": "How dare you! Really insignificant as well!",
+		"defeated": "You may win, but you cannot win upon my spirit.",
+		"introduction": "You came before the great warrior, Gajah Mada from Nusantara!",
+		"neutralHello": "Greetings!",
+		"hateHello": "Are you a male concubine, stranger?",
+		"tradeRequest": "What if we make a deal, you and me?",
+		"outerColor": [101,211,220],
+		"innerColor": [167,52,31],
+		"uniqueName": "Spice Islanders",
+                "uniques": ["[+1 Food] from every [Farm] <in [Coastal] tiles>", "[+1 Gold] from [Luxury resource] tiles [in all coastal cities]"],
+		"uniqueText": " After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources",
+		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
+			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
+			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
+			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
+			"Yogyakarta","Bima","Sorong"]
+	},
 ]
