@@ -3,4 +3,8 @@
         "name": "Pyrrhic Victory",
         "uniques": ["[+33]% Strength <when attacking>","[-33]% Strength <when defending>", "[+33]% to Flank Attack bonuses"],
 	},
+    {
+        "name": "Favorable Winds",
+        "uniques": ["Can move after attacking", "May withdraw before melee ([25]%)"]
+    },	
 ]
