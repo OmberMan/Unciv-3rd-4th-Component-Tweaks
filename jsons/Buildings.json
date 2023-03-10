@@ -252,7 +252,18 @@
                 "happiness": 1,
                 "food": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+10]% [Production] from every [Engineer] <when at war>", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[15]% Food is carried over after population increases [in all cities connected to capital] <when not at war>", "[-15]% Unhappiness from [Population] [in all other cities]", "Requires a [Workshop] in all cities", "Cost increases by [20] per owned city", "[+1 Culture, +1 Faith, +1 Production] from [Forest] tiles without [Lumber mill] [in this city] <during We Love The King Day>"],
+		"uniques": ["[+10]% [Production] from every [Workshop]", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[15]% Food is carried over after population increases [in all cities connected to capital] <when at war>", "[-15]% Unhappiness from [Population] [in all other cities]", "Requires a [Workshop] in all cities", "Cost increases by [20] per owned city", "[+1 Culture, +1 Faith, +1 Production] from [Forest] tiles without [Lumber mill] [in this city] <during We Love The King Day>"],
 		"requiredTech": "Iron Working"
 	},
+	    {
+        "name": "Candi", 
+        "replaces": "Garden",
+        "uniqueTo": "Indonesia",
+        "cost": 120,
+        "faith": 2,
+        "uniques": ["[+25]% Great Person generation [in this city]", "[+1 Faith][in all cities in which the majority religion is a major religion]"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry"
+    },
 ]
