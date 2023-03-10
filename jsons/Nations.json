@@ -1,5 +1,5 @@
 [
-			{
+	{
 		"name": "Himyar",
 		"leaderName": "Charibael",
 		"adjective": ["Himyarite"],
@@ -31,7 +31,7 @@
 		"outerColor": [	32, 34, 31],
 		"innerColor": [	247, 198, 0],
 		"uniqueName": "Desert Paradise",
-		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>", "[+15]% [Gold] from Trade Routes <during a Golden Age>"],
+		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>", "[+15]% [Gold] from Trade Routes <during a Golden Age>", "[+1 Faith] from every [Incense] <after discovering [Currency]>"],
 		"cities": ["Zafar","Sana'a","Ma'rib","Najran","Mocha","Haram","Haywan","Mukhwan","Yabrin","Shabwa","Wa'lan","Libna","Nashaq","Timna","Sirwah","Quarnawu","Kaminahu","Baraqish"]
 	},
 {
