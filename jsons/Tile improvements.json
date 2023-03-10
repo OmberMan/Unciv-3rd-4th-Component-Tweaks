@@ -1,0 +1,11 @@
+[	
+{
+		"name": "Seaside Stall",
+		"uniqueTo": "Phoenicia",
+		"gold": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 8,
+		"techRequired": "Currency",
+		"uniques": ["Can only be built on [Coastal] tiles","[+1 Food] for each adjacent [Fishing Boats]", "[+1 Gold] <with [1] to [6] neighboring [Luxury resource] tiles>", "[+1 Gold] <with [1] to [6] neighboring [Water resource] tiles>", "[+1 Production] <after discovering [Navigation]>"]
+	},
+]
