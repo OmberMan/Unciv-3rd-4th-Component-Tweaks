@@ -40,7 +40,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured", "[+15]% Production when constructing [Land] units [in this city]"]
+		"uniques": ["Destroyed when the city is captured", "[+10]% Production when constructing [Land] units [in this city]"]
 },
 {
 		"name": "Dam",
@@ -154,7 +154,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "India",
 		"faith": 2,
-                "specialistSlots": {"Scientist": 1},
+                "greatPersonPoints": {"Great Scientist": 1},
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -223,9 +223,10 @@
 		"replaces": "Harbor",
 		"uniqueTo": "Phoenicia",
 		"cost": 75,
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"uniques": ["Unlocked at Optics","[+1 Production] from [Water resource] tiles [in this city]","[+10]% [Gold] [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]", "Provides 1 extra copy of each improved luxury resource near this City",
+                "specialistSlots": {"Merchant": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"uniques": ["Unlocked at Optics","[+1 Production] from [Water resource] tiles [in this city]","[+1 Gold] from [Luxury resource] tiles [in this city]", "Provides 1 extra copy of each improved luxury resource near this City",
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Optics"
 	},
@@ -266,15 +267,13 @@
 	},
 {
 		"name": "Confederacy",
-		"replaces": "Ironworks",
+		"replaces": "National Epic",
 		"uniqueTo": "Iroquois",
-		"cost": 125,
-		"production": 1,
+		"cost": 175,
 		"culture": 1,
                 "happiness": 1,
-                "food": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+10]% [Production] from every [Workshop]", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[15]% Food is carried over after population increases [in all cities connected to capital] <when at war>", "[-15]% Unhappiness from [Population] [in all other cities]", "Requires a [Workshop] in all cities", "Cost increases by [20] per owned city", "[+1 Culture, +1 Faith, +1 Production] from [Forest] tiles without [Lumber mill] [in this city] <during We Love The King Day>"],
+		"uniques": ["[+10]% [Production] from every [Workshop] <when at war>", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[-5]% Unhappiness from [Population] [in all other cities]", "Requires a [Monument] in all cities", "Cost increases by [50] per owned city", "[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Iron Working"
 	},
 	    {
@@ -314,6 +313,19 @@
 		"requiredBuilding": "Shrine"
 		"requiredTech": "Philosophy"
 	},
+	{
+		"name": "Mughal Fort",
+		"cost": 150,
+		"replaces": "Castle",
+		"uniqueTo": "India",
+		"cityStrength": 2,
+		"cityHealth": 10,
+		"culture": 3,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "New [Mounted] units start with [10] Experience [in this city]"],
+		"requiredTech": "Engineering"
+         },
 	{
 		"name": "Prasat",
 		"replaces": "Temple",
