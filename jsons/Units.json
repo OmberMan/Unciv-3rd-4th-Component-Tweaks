@@ -82,7 +82,7 @@
 		"movement": 3,
 		"strength": 9,
 		"rangedStrength": 11,
-		"cost": 70,
+		"cost": 80,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -478,7 +478,7 @@
 		"uniqueTo": "Macrobia",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles","[-100]% maintenance costs", "[+25]% tile improvement construction time"],
-		"cost": 70
+		"cost": 50
 	},
 {
 		"name": "Kapal Jung",
@@ -526,4 +526,21 @@
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
+        {        
+                "name": "Mong Dong",
+                "uniqueTo": "China",
+		"replaces": "Trireme",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 7,
+                "rangedStrength": 5,
+                "range": 2,
+		"cost": 50,
+		"requiredTech": "Optics",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Blast radius [2]", "[+1] Movement <when below [50] HP>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+        },
 ]
