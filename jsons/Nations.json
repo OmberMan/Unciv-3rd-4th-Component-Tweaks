@@ -101,7 +101,7 @@
 		"outerColor": [	184, 174, 55],
 		"innerColor": [	84, 9, 9],
 		"uniqueName": "People of the Steppe",
-		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[-25]% Culture cost of natural border growth [in all cities]", "Double quantity of [Horse] produced", "[+50]% XP gained from combat <for [Mounted] units> <with [33]% chance>"],
+		"uniques": ["[+1 Food, +1 Culture] from every [Horses]","Starts with [Archery]", "[-25]% Culture cost of natural border growth [in all cities]", "Double quantity of [Horses] produced", "[+50]% XP gained from combat <for [Mounted] units>"],
 		"cities": ["Gelonus","Solokha","Aimonov","Tanais","Neapolis","Kalermes","Maikop","Tyras","Kul Oba","Olbia","Kerch","Mologeni","Bosporus","Chersonesos","Syebi","Phanogoria","Aorsi","Massagetae","Qabala"]
 	},
 	{
