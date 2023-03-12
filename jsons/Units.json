@@ -246,7 +246,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "Earn [15]% of killed [Land] unit's [cost] as [Culture]", "[-33]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength <when below [50] HP>", "This Unit gains the [Haka War Dance] promotion <upon defeating a [Melee] unit>"],
+		"uniques": ["Can move after attacking", "Earn [15]% of killed [Land] unit's [Cost] as [Culture]", "[-33]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength <when below [50] HP>", "This Unit gains the [Haka War Dance] promotion <upon defeating a [Melee] unit>"],
 		"hurryCostModifier": 35,
 		"attackSound": "horse"
 	},
@@ -521,7 +521,7 @@
 		"cost": 90,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Rifleman",
-                "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "Can transform to [Composite Bowman]"],
+                "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "Can transform to [Spearman]"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -537,7 +537,7 @@
 		"requiredTech": "Optics",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["[+1] Movement <when below [50] HP>", "Cannot enter ocean tiles <before discovering [Optics]>", "[+20]% <when defending>"],
+		"uniques": ["[+1] Movement <when below [50] HP>", "Cannot enter ocean tiles <before discovering [Optics]>", "[+20]% Strength <when defending>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
         },
