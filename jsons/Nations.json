@@ -40,6 +40,7 @@
 		"adjective": ["Epirote"],
 		"preferredVictoryType": "Domination",
                 "style": "Mediterranean",
+                "favoredReligion": "Christianity",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -75,7 +76,8 @@
 		"startBias": ["Plains", "Horses"],
 		"preferredVictoryType": "Domination",
                 "style": "Slavic",
-		
+		"favoredReligion": "Tengriism",
+
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
 		
@@ -280,6 +282,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Neutral",
                 "style": "African",
+                "favoredReligion": "Islam",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -354,6 +357,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
                 "style": "Mediterranean",
+                "favoredReligion": "Sikhism",
 		
 		"startIntroPart1": "Greetings, Evenor. Few empires have sparked such wonder, such curiosity. As the sunken world of Atlantis. Torn and sunk by divine punishment, your people advanced beyond imagination and ruled over this world's endless seas.",
 		"startIntroPart2": "There are many who wish to see your magnificence brought to life once more, lord Evenor. Can you stand the test of time and rule over the seas once more?",					
@@ -428,7 +432,7 @@
 		"tradeRequest": "I just had the marvelous idea, and I think you'll appreciate it too.",
 		"outerColor": [205, 205, 205],
 		"innerColor": [81, 0, 137],
-		"favoredReligion": Christianity",
+		"favoredReligion": "Christianity",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"Units ending their turn on [Mountain] tiles take [50] damage", "[Gold] cost of purchasing [Land] units [-50]%", "[+33]% [Gold] [in all coastal cities] <on foreign continents>", "[-25]% [Production] [in all non-occupied cities] <on foreign continents>", "[-33]% Unhappiness from [Population] [in all coastal cities] <on foreign continents>"],
@@ -444,6 +448,7 @@
 		"adjective": ["Indonesian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Neutral",
+                "favoredReligion": "Islam",
                 "style": "East Asian",
 
 		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
@@ -472,7 +477,8 @@
 		"adjective": ["Polynesia"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
-                "style": "Polynesian",
+                "style": "Oceania",
+                
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -501,6 +507,7 @@
 		"adjective": ["Celtic"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
+                "favoredReligion": "Christianity",
                 "style": "Germanic",
 
         "startIntroPart1": "",
@@ -526,7 +533,6 @@
         "outerColor": [12,75,25],
         "innerColor": [157,172,255],
 
-		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>", "[+1 Food] from [Marsh] tiles [in all cities]"],
@@ -542,8 +548,9 @@
 		"leaderName": "Suryavarman II",
 		"adjective": ["Khmer"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Diplomatic",
                 "style": "East Asian",
+                "favoredReligion": "Buddhism",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
