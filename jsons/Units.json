@@ -22,7 +22,7 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 12,
-		"cost": 60,
+		"cost": 65,
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
                 "uniques" : ["May upgrade to [Longswordsman] through ruins-like effects", "[+25]% Strength <vs [Mounted] units>"],
@@ -214,7 +214,7 @@
         "upgradesTo": "Pikeman",
         "obsoleteTech": "Civil Service",
         "hurryCostModifier": 20,
-        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Military] units within [1] tiles", "[+50]% Strength <vs [Mounted] units>"],
+        "uniques": ["+1 Sight", "[+10]% Strength bonus for [Melee] units within [1] tiles", "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "nonmetalhit"
 },
 {
