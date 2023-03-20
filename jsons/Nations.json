@@ -613,4 +613,16 @@
 			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
+	{
+		"name": "Cur",
+		"unitType": "Mounted",
+		"uniqueTo": "The Huns",
+		"replaces": "Great General",
+		"movement": 4,
+		"strength": 12,
+		"upgradesTo": "Knight",
+		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Wounded] units> <when attacking>", "Heals [25] damage if it kills a unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 ]
