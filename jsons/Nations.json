@@ -613,16 +613,32 @@
 			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
-	{
-		"name": "Cur",
-		"unitType": "Mounted",
-		"uniqueTo": "The Huns",
-		"replaces": "Great General",
-		"movement": 4,
-		"strength": 12,
-		"upgradesTo": "Knight",
-		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Wounded] units> <when attacking>", "Heals [25] damage if it kills a unit"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
+{
+		"name": "The Huns",
+		"leaderName": "Attila the Hun",
+		"adjective": ["Hunnic"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+                "style": "Barbarians",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
+		"defeated": "My people will mourn me not with tears, but with human blood.",
+		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
+		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
+		"neutralHello": "Good day to you.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
+
+        "outerColor": [180, 178, 164],
+        "innerColor": [70, 0, 4],
+
+        "favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [3] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "No movement cost to pillage <for [Mounted] units>"],
+		"cities": ["Atilla's Court"],
+        "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
+    },
 ]
