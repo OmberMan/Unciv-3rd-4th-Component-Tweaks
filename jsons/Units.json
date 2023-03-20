@@ -350,7 +350,7 @@
 		"uniqueTo": "Armenia",
 		"replaces": "Horseman",
 		"movement": 3,
-		"strength": 13,
+		"strength": 14,
 		"cost": 85,
 		"requiredTech": "Trapping",
 		"upgradesTo": "Knight",
@@ -556,5 +556,16 @@
 		"upgradesTo": "Crossbowman",
                 "uniques": ["[+33]% Strength <when attacking> <with [33]% chance>"],
 		"attackSound": "throw"
+	},
+	{
+		"name": "Cur",
+		"unitType": "Mounted",
+		"uniqueTo": "The Huns",
+		"replaces": "Great General",
+		"movement": 4,
+		"strength": 12,
+		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Wounded] units> <when attacking>", "Heals [25] damage if it kills a unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
 	},
 ]
