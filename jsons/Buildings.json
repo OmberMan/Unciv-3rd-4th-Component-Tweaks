@@ -410,7 +410,7 @@
 		"requiredBuilding": "Temple",
 		"requiredTech": "Engineering",
 		"uniques": ["Must be on [Hill]",
-"All newly-trained [Sword] units [in this city] receive the [Warrior Monk] promotion", "All newly-trained [Gunpowder] units [in this city] receive the [Warrior Monk] promotion",
+"All newly-trained [Sword] units [in this city] receive the [Warrior Monk] promotion <with [5]% chance>", "All newly-trained [Gunpowder] units [in this city] receive the [Warrior Monk] promotion <with [5]% chance>",
 "[+1 Production] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
 "[+2 Production] from [Holy site] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
 "Destroyed when the city is captured"]
