@@ -164,7 +164,7 @@
 		"outerColor": [166, 22, 51],
 		"innerColor": [75, 156, 245],
 		"uniqueName": "Worship of the Old Gods",
-		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion <in cities without a [Temple]>", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>"]
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>"]
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
@@ -270,7 +270,7 @@
 		"outerColor": [	102, 51, 153],
 		"innerColor": [	144, 219, 255],
 		"uniqueName": "Mediterranean Seafarers",
-		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]", "[+4 Gold, +1 Science] from each Trade Route", "[+50]% Gold from Great Merchant trade missions"],
+		"uniques": ["Starts with [Sailing]","[+1 Gold] from every [Fishing Boats]","[+50]% Production when constructing [Work Boats] units [in all cities]", "[+3 Gold, +1 Science] from each Trade Route", "[+50]% Gold from Great Merchant trade missions"],
 		"cities": ["Tyre","Sidon","Byblos","Sarepta","Berytos","Carthage","Baalbek","Zili","Akko","Dor","Arados",
 			"Quart Hadasht","Leptis","Utica","Karalis","Oia","Sabratha","Hadrumentum","Icosium","Iol","Thapsos",
 			"Melita","Kossyra","Gadir","Tartessos","Tharros","Magador","Igilgili","Cirta","Ebusos"]
@@ -575,7 +575,7 @@
 		"outerColor": [	51, 0, 255],
 		"innerColor": [	255, 225, 155],
 		"uniqueName": "Magnificient Temples",
-		"uniques": ["[10]% Food is carried over after population increases [in all cities]", "[-25]% maintenance cost for buildings [in all cities]", "Resting point for Influence with City-States is increased by [10]", "[+20]% Production when constructing [All] buildings [in all cities with a world wonder]", "[+20]% Production when constructing [All] buildings [in all non-occupied cities] <during a Golden Age>"],
+		"uniques": ["[-25]% maintenance cost for buildings [in all cities]", "Resting point for Influence with City-States is increased by [15]", "[+20]% Production when constructing [All] buildings [in all cities with a world wonder]", "[+20]% Production when constructing [All] buildings [in all non-occupied cities] <during a Golden Age>"],
 		"cities": ["Angkor Wat","Hariharalaya","Singhapura","Lavo","Bhavapura","Vyadhapura","Dviradapura","Rajavihara","Mahendraparvata",
 			"Chaiya","Wiang Chan","U Thong","Phetchaburi","Nagara Jayasri","Banteay Kdei","Chok Gargyar","Preah Vihear","Chalieng",
 			"Krong Chaktomuk","Pre Rup","Prasat Bakan","Phanom Rung","Isanapura","Shrestapura","Angkor Borei","Lovei","Udong","Aninditapura"]
@@ -672,8 +672,36 @@
 		"outerColor": [95, 163, 118],
 		"innerColor": [195, 227, 220],
 		"uniqueName": "The Roof of the World",
-		"uniques": ["[+3 Faith] from every [Great Improvement]","[+2 Faith] from every specialist [in all cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]"],
+		"uniques": ["[+3 Faith] from every [Great Improvement]","[+2 Faith] from every specialist [in all cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]", "Land units may cross [terrainName] tiles after the first [Great Prophet] is earned"],
 		"cities": ["Lhasa","Xigaze","Gyantse","Chamdo","Gyegu","Rutog","Nyingchi","Nedong","Tingri","Leh","Senggezangbo","Nagchukha",
 		"Coqen","Lhatse","Tawang","Ladakh","Batang"]
 	},
+	{
+		"name": "Arabia",
+		"leaderName": "Harun al-Rashid",
+		"adjective": ["Arabian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+                "style": "Middle Eastern",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [43, 88, 46],
+		"innerColor": [146, 221, 10],
+		"favoredReligion": "Islam",
+		"uniqueName": "Trade Caravans",
+		"uniques": ["[+2 Gold, +1 Faith] from each Trade Route", "Double quantity of [Oil] produced", "[+2 Science, +2 Faith] from every [Great Improvement]", "[+2 Gold] from every [Oasis]", "Religion naturally spreads to cities [+3] tiles away <during a Golden Age>"],
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+        "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
+
+    },
 ]
