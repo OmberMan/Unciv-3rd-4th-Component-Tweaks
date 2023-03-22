@@ -7,4 +7,8 @@
         "name": "Favorable Winds",
         "uniques": ["Can move after attacking", "May withdraw before melee ([25]%)"]
     },	
+    {
+        "name": "Warrior Monk",
+        "uniques": ["[+50]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [15] HP <upon losing at least [35] HP in a single attack>"]
+    },	
 ]
