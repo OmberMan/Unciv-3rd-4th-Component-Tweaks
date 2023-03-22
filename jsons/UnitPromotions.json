@@ -9,6 +9,6 @@
     },	
     {
         "name": "Warrior Monk",
-        "uniques": ["[+50]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [15] HP <upon losing at least [35] HP in a single attack>"]
+        "uniques": ["[+60]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [30] HP <upon losing at least [40] HP in a single attack>", "[30] HP when healing <when below [40] HP>", "[+1] additional attacks per turn", "[-20]% Strength", "[-20]% Strength <when attacking>", "[+60]% Strength <when defending> <when above [99] HP>", "Unit will heal every turn, even if it performs an action", "Can [Spread Religion] [1] times", "Can see invisible [Land] units", "Ignores terrain cost", "[-80]% XP gained from combat"]
     },	
 ]
