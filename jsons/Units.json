@@ -564,7 +564,7 @@
 		"replaces": "Great General",
 		"movement": 4,
 		"strength": 12,
-		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Wounded] units> <when attacking>", "Heals [25] damage if it kills a unit"],
+		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Wounded] units> <when attacking>", "Heals [25] damage if it kills a unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -572,16 +572,16 @@
 		"name": "Dmag Mi",
 		"unitType": "Sword",
 		"uniqueTo": "Tibet",
-		"replaces": "Swordsman",
+		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
+		"strength": 8,
+		"cost": 60,
+		"requiredTech": "Agriculture",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
-		"promotions": ["Cover I"],
-		"uniques": ["Consumes [1] [Iron]"],
-		"attackSound": "metalhit"
+		"hurryCostModifier": 0,
+		"promotions": ["Warrior Monk"],
+		"uniques": ["Damage is ignored when determining unit Strength"],
+		"attackSound": "throw"
 	},
 ]
