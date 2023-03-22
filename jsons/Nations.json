@@ -640,5 +640,40 @@
 		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [3] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "No movement cost to pillage <for [Mounted] units>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
-    },
+    }, 
+		{
+		"name": "Tibet",
+		"leaderName": "Songtsen Gampo",
+		"adjective": ["Tibetan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+                "style": "East Asian",
+		
+		"startIntroPart1": "TBD",
+		"startIntroPart2": "TBD",
+		
+		"declaringWar": "It is your time to pass the Trial of Avalanche!",
+		"attacked": "How dare you disturb the peace?",
+		"defeated": "It was inevitable... The fate is a wheel, remember that.",
+		"introduction": "Welcome to the roof of the world, friend. You must be tired, please take a rest, we will talk later.",
+		
+		"neutralHello": "Greetings.",
+		"neutralLetsHearIt": ["Yes.","Speak."],
+		"neutralNo": ["No.","That's unacceptable."],
+		"neutralYes": ["I can't refuse.","I gladly accept"],
+		"hateHello": "Don't waste my time!",
+		"hateLetsHearIt": ["What's your offer?"],
+		"hateNo": ["No way!"],
+		"hateYes": ["I must accept.","I never reject a good offer."],
+		
+		"afterPeace": "Let this peace be eternal, like the peaks of Tibet!",
+		"tradeRequest": "Are you interested?",
+
+		"outerColor": [95, 163, 118],
+		"innerColor": [195, 227, 220],
+		"uniqueName": "The Roof of the World",
+		"uniques": ["[+3 Faith] from every [Great Improvement]","[+2 Faith] from every specialist [in all cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]"],
+		"cities": ["Lhasa","Xigaze","Gyantse","Chamdo","Gyegu","Rutog","Nyingchi","Nedong","Tingri","Leh","Senggezangbo","Nagchukha",
+		"Coqen","Lhatse","Tawang","Ladakh","Batang"]
+	},
 ]
