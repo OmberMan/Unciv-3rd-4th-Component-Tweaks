@@ -443,8 +443,8 @@
 		"requiredTech": "Trapping",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "[+50]% XP gained from combat", "Consumes [1] [Horses]", ""[-33]% Strength <vs cities> <when attacking>"],
-		"hurryCostModifier": 20,
+		"uniques": ["Can move after attacking", "[+50]% XP gained from combat", "Consumes [1] [Horses]", "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 25,
 		"attackSound": "horse"
 	},
 {
@@ -669,7 +669,7 @@
 		"hurryCostModifier": 0,
 		"promotions": ["Warrior Monk"],
 		"uniques": ["Damage is ignored when determining unit Strength"],
-		"attackSound": "throw"
+		"attackSound": "gdrAttack"
 	},
 	{
 		"name": "Cliathairi",
@@ -696,7 +696,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
-		"requiredResource": "Iron",
+		"requiredResource": "Horses",
                 "uniques": ["[-50]% maintenance costs", "No defensive terrain penalty"],
 		"promotions": ["Mamluk ability", "Quick Study"],
 		"attackSound": "metalhit"
