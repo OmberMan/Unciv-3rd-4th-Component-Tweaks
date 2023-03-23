@@ -7,7 +7,7 @@
 		"strength": 20,
 		"cost": 500,
                 "replaces": "Great General",
-		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles", ""Can start an [8]-turn golden age",
+		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles", "Can start an [8]-turn golden age",
 			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable", "Unable to capture cities", "Unbuildable",
 			"Limited to [1] per Civilization",
