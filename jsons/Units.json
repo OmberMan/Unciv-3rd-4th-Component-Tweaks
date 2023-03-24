@@ -142,7 +142,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"promotions": ["Woods Warfare", "Woodsman"],
-		"uniques": ["May capture killed [Wounded] units <with [20]% chance> <when fighting in [Friendly Land] tiles>", "Heal this unit by [8] HP <upon ending a turn in a [Forest] tile>", "Gain [10]-[15] [Faith] <upon being defeated>"],
+		"uniques": ["May capture killed [Wounded] units <with [20]% chance> <when fighting in [Friendly Land] tiles>", "Heal this unit by [8] HP <upon ending a turn in a [Forest] tile>", "Gain [10]-[15] [Faith] <upon being defeated>", "[+25]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
@@ -674,7 +674,7 @@
 	{
 		"name": "Cliathairi",
 		"unitType": "Sword",
-		"uniqueTo": "The Celts",
+		"uniqueTo": "Celts",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 15,
