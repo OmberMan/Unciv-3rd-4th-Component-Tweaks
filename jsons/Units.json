@@ -53,7 +53,7 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "torpedo"
 	},
 	{
 		"name": "Dora Milaje",
@@ -68,7 +68,7 @@
 		"upgradesTo": "Musketman",
                 "promotions": ["Cover I"],
 		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit"
+		"attackSound": "jetgun"
 	},
 	{
 		"name": "Falx Warrior",
@@ -99,8 +99,8 @@
 		"upgradesTo": "Galleass",
 		"uniques": ["Cannot enter ocean tiles", "Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence", "Transfer Movement to [Civilian]", "May enter foreign tiles without open borders"],
 		"promotions": ["Favorable Winds"],
-		"hurryCostModifier": 20,
-		"attackSound": "arrow"
+		"hurryCostModifier": 15,
+		"attackSound": "throw"
 	},
 {
 		"name": "Obsidian Warrior",
@@ -130,7 +130,7 @@
                 "upgradesTo": "Composite Bowman",
                 "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "arrow"
+		"attackSound": "crossbow"
 	},
 {
 		"name": "Samogitian Soldier",
@@ -144,7 +144,6 @@
 		"promotions": ["Woods Warfare", "Woodsman"],
 		"uniques": ["May capture killed [Wounded] units <with [20]% chance> <when fighting in [Friendly Land] tiles>", "Heal this unit by [8] HP <upon ending a turn in a [Forest] tile>", "Gain [10]-[15] [Faith] <upon being defeated>", "[+25]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
 {
@@ -189,7 +188,7 @@
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"attackSound": "elephant"
 },
 {
@@ -252,7 +251,7 @@
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
         "uniques": ["[+25]% Strength <vs [Wounded] units>"],
-        "hurryCostModifier": 20,
+        "hurryCostModifier": 25,
         "promotions": ["Khopesh ability"],
         "attackSound": "metalhit"
     },
@@ -275,18 +274,17 @@
 {
         "name": "Numidian",
         "unitType": "Mounted",
-        "replaces": "Chariot Archer",
+        "replaces": "Lancer",
         "uniqueTo": "Carthage",
         "movement": 4,
         "strength": 7,
         "rangedStrength": 11,
         "cost": 56,
         "range": 1,
-        "hurryCostModifier": 0,
+        "hurryCostModifier": -15,
         "requiredTech": "Horseback Riding",
         "requiredResource": "Horses",
-        "upgradesTo": "Knight",
-        "obsoleteTech": "Chivalry",
+        "upgradesTo": "Cavalry",
         "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit", "No defensive terrain bonus", "Can move immediately once bought"],
         "attackSound": "horse"
     },
@@ -301,7 +299,7 @@
         "requiredTech": "Bronze Working",
         "upgradesTo": "Pikeman",
         "obsoleteTech": "Civil Service",
-        "hurryCostModifier": 20,
+        "hurryCostModifier": 30,
         "uniques": ["+1 Sight", "[+10]% Strength bonus for [Melee] units within [1] tiles", "[+50]% Strength <vs [Mounted] units>"],
         "attackSound": "nonmetalhit"
 },
@@ -319,7 +317,7 @@
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": ["Can move after attacking", "No defensive terrain bonus"],
-        "hurryCostModifier": 20,
+        "hurryCostModifier": 25,
         "attackSound": "horse"
     },
 {
@@ -378,12 +376,12 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 60,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 30,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+10]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit","[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [50]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "gdrattack"
 	},
 {	
 		"name": "Desert Archer",
@@ -404,18 +402,18 @@
 		"name": "Tarantine Cavalry",
 		"unitType": "Mounted",
 		"uniqueTo": "Epirus",
-		"replaces": "Chariot Archer",
+		"replaces": "Lancer",
 		"movement": 4,
 		"strength": 9,
                 "range": 1,
 		"rangedStrength": 9,
 		"cost": 70,
 		"requiredTech": "Trapping",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+                "hurryCostModifier": 0,
 		"promotions": ["Mobility"],
 		"uniques": ["Consumes [1] [Horses]","Can move after attacking","[-33]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","May withdraw before melee ([50]%)"],
-		"attackSound": "arrow"
+		"attackSound": "crossbow"
 	},
 {
 		"name": "Ptolemaic Elephant",
@@ -425,9 +423,9 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 115,
+                "hurryCostModifier": -10,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>", "Unbuildable"],
 		"attackSound": "elephant"
@@ -456,7 +454,6 @@
 		"strength": 12,
 		"cost": 70,
 		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Lancer",
 		"requiredResource": "Horses",
             "promotions": ["Vytis ability"],
@@ -498,7 +495,7 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 75,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 10,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Longswordsman",
 		"uniques": ["Invisible to non-adjacent units","Earn [25]% of killed [Military] unit's [Strength] as [Faith]"],
@@ -580,7 +577,7 @@
                 "range": 1,
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Compass",
-                "uniques": ["[+2] Movement <in [Coast] tiles>", "Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <when not at war>", "[+25]% Strength <when fighting in [Water resource] tiles>"],
+                "uniques": ["[+2] Movement <in [Coast] tiles>", "Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence <when not at war>", "[+25]% Strength <when fighting in [Water resource] tiles>"],
 		"upgradesTo": "Caravel",
 		"attackSound": "throw"
 	},
@@ -700,5 +697,17 @@
                 "uniques": ["[-50]% maintenance costs", "No defensive terrain penalty"],
 		"promotions": ["Mamluk ability", "Quick Study"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sonar Shark"
+		"replaces": "Trireme",
+		"uniqueTo": "Atlantis"
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Animal Husbandry",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","Never appears as a Barbarian unit", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] units", "[+1] Sight"],
+		"attackSound": "bombing"
 	},
 ]
