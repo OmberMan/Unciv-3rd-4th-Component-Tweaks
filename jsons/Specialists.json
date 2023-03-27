@@ -1,6 +1,6 @@
 [
 {
-		"name": Philosopher",
+		"name": "Philosopher",
 		"science": 2,
 		"culture": 2,
 		"greatPersonPoints": {"Great Artist":2},
