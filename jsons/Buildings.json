@@ -91,16 +91,16 @@
 	},
 {
         "name": "Mall",
-        "replaces": "Stock Market",
+        "replaces": "Bank",
         "uniqueTo": "America",
         "happiness": 3,
-        "specialistSlots": {"Merchant": 3},
-        "requiredBuilding": "Bank",
-        "percentStatBonus": {"gold": 33},
+        "specialistSlots": {"Merchant": 2},
+        "requiredBuilding": "Market",
+        "percentStatBonus": {"gold": 25},
         "maintenance": 1,
         "hurryCostModifier": 0,
         "uniques": ["[+1 Gold] per [2] population [in this city]"],
-        "requiredTech": "Electricity"
+        "requiredTech": "Banking"
     },
 
 {
@@ -137,7 +137,6 @@
         "gold": 2,
 	"specialistSlots": {"Merchant": 2},
 	"percentStatBonus": {"gold": 25},
-        "maintenance": 1,
         "uniques": ["[+15]% Great Person generation [in this city]", "[-10]% Unhappiness from [Population] [in this city] <when at war>"]
         "requiredTech": "Mathematics"
     },
