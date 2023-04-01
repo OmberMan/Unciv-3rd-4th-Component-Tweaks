@@ -94,7 +94,7 @@
 		"afterPeace": "Hail, great lord. This was indeed a good fight.",
 		"tradeRequest": "That should do.",
 
-		"innerColor": [	252, 190, 178],
+		"innerColor": [	253, 200, 188],
 		"outerColor": [	134, 50, 0],
 		"uniqueName": "Pyrrhic Victory",
 		"uniqueText": "All military units have +25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
@@ -568,7 +568,7 @@
 
 		"uniqueName": "Druidic Lore",
 		"uniques": ["[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
-			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>", "[+1 Food] from [Marsh] tiles [in all cities]"],
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>", "[+1 Food] from [Marsh] tiles [in all cities]", "[+1 Culture] from [Quarry] tiles [in all cities]"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
@@ -635,7 +635,7 @@
 		"tradeRequest": "Generous Egypt makes you this offer.",
 
 		"outerColor": [255, 252, 3],
-		"innerColor": [83, 0, 208],
+		"innerColor": [83, 1, 208],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Monument Builders",
 		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]", "[-33]% tile improvement construction time"],
@@ -704,9 +704,9 @@
 		"tradeRequest": "Are you interested?",
 
 		"outerColor": [95, 163, 118],
-		"innerColor": [195, 227, 220],
+		"innerColor": [232, 225, 200],
 		"uniqueName": "The Roof of the World",
-		"uniques": ["[+3 Faith] from every [Great Improvement]","[+2 Faith] from every specialist [in all cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]", "Land units may cross [terrainName] tiles after the first [Great Prophet] is earned"],
+		"uniques": ["[+3 Faith] from every [Great Improvement]","[+2 Faith] from every specialist [in all cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]", "Land units may cross [Mountain] tiles after the first [Great Prophet] is earned"],
 		"cities": ["Lhasa","Xigaze","Gyantse","Chamdo","Gyegu","Rutog","Nyingchi","Nedong","Tingri","Leh","Senggezangbo","Nagchukha",
 		"Coqen","Lhatse","Tawang","Ladakh","Batang"]
 	},
