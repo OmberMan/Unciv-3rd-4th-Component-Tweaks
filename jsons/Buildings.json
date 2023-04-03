@@ -24,7 +24,7 @@
 	},
 	{
 		"name": "Basilikoi Paides",
-		"uniqueTo": "Macedon",
+		"uniqueTo": "Macedonia",
                 "replaces": "Barracks",
 		"cost": 125,
                 "hurryCostModifier": 35,
