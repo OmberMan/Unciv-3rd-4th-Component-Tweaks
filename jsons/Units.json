@@ -146,23 +146,25 @@
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit" 
 	},
-{
-		"name": "Hoplite",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Greece",
-		"movement": 2,
-		"strength": 13,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+15]% Strength <when adjacent to a [Hoplite] unit>"],
-		"attackSound": "metalhit"
+	{
+		"name": "Camel Archer",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Arabia",
+		"movement": 4,
+		"strength": 9,
+		"rangedStrength": 13,
+		"cost": 90,
+		"requiredTech": "Horse Riding",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>"],
+		"attackSound": "arrow"
+		//Camel Archer should have no penalty attacking cities
 	},
 {
                 "name": "War Elephant",
-		"unitType": "Archery",
+		"unitType": "Mounted",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -265,7 +267,7 @@
         "strength": 20,
         "cost": 95,
         "requiredTech": "Gunpowder",
-        "obsoleteTech": "Rifling",
+        "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Great War Infantry",
         "promotions": ["Streltsy ability"],
         "attackSound": "shot"
@@ -571,12 +573,11 @@
 		"replaces": "Trireme",
 		"uniqueTo": "Indonesia",
 		"movement": 3,
-		"strength": 6,
+		"strength": 7,
                 "rangedStrength": 7,
 		"cost": 35,
                 "range": 1,
 		"requiredTech": "Sailing",
-		"obsoleteTech": "Compass",
                 "uniques": ["[+2] Movement <in [Coast] tiles>", "Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence <when not at war>", "[+25]% Strength <when fighting in [Water resource] tiles>"],
 		"upgradesTo": "Caravel",
 		"attackSound": "throw"
@@ -659,7 +660,7 @@
 		"uniqueTo": "Tibet",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 8,
+		"strength": 10,
 		"cost": 60,
 		"requiredTech": "Agriculture",
 		"upgradesTo": "Longswordsman",
@@ -707,7 +708,7 @@
 		"strength": 15,
 		"cost": 60,
 		"requiredTech": "Animal Husbandry",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>","Never appears as a Barbarian unit", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] units", "[+1] Sight"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","Never appears as a Barbarian unit", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] tiles", "[+1] Sight"],
 		"attackSound": "bombing"
 	},
 ]
