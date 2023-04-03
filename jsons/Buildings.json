@@ -311,7 +311,7 @@
 		"culture": 1,
                 "happiness": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+10]% [Production] from every [Workshop] <when at war>", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[-5]% Unhappiness from [Population] [in all other cities]", "Requires a [Monument] in all cities", "Cost increases by [50] per owned city", "[+25]% Great Person generation [in this city]"],
+		"uniques": ["[+1 Production, +1 Food] from every [Workshop] <when at war>", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[-5]% Unhappiness from [Population] [in other cities] <when not at war>", "Requires a [Monument] in all cities", "Cost increases by [50] per owned city", "[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Iron Working"
 	},
 	    {
@@ -320,7 +320,7 @@
         "uniqueTo": "Indonesia",
         "cost": 120,
         "faith": 1,
-        "uniques": ["[+25]% Great Person generation [in this city]", "[+1 Faith][in all cities in which the majority religion is a major religion]"],
+        "uniques": ["[+25]% Great Person generation [in this city]", "[+1 Faith] [in all cities in which the majority religion is a major religion]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -356,7 +356,7 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 7,
+		"cityStrength": 10,
 		"cityHealth": 15,
 		"culture": 3,
 		"hurryCostModifier": 25,
@@ -371,7 +371,7 @@
 		"faith": 2,
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1, "Engineer": 1},
-		"cityHealth": 10,
+		"cityHealth": 5,
        		"cost": 100,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
@@ -420,7 +420,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture, +1 Faith] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled"]
+		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture, +1 Faith] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled", "New [Mounted] units start with [5] Experience [in this city] <if [Heroic Epic] is constructed>", "New [Sword] units start with [5] Experience [in this city] <if [National Epic] is constructed>"]
 	},
 {
 		"name": "Blacksmith",
@@ -441,7 +441,7 @@
 		"uniqueTo": "Tibet",
                 "cost": 160,
 		"cityStrength": 7,
-		"cityHealth": 40,
+		"cityHealth": 30,
 		"hurryCostModifier": 25,
                 "greatPersonPoints": {"Great Artist": 1},
 		"requiredBuilding": "Temple",
