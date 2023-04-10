@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Great Wall",
-		"culture": 2,
+		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "Gain a free [Walls] [in this city]"],
@@ -12,7 +12,7 @@
 		"name": "Debate Hall",
 		"uniqueTo": "Athens",
 		"replaces": "Library",
-		"specialistSlots": {"Philosopher": 1},
+		"specialistSlots": {"Philosopher": 2},
 		"hurryCostModifier": 25,
                 "happiness": 1,
 		"maintenance": 1,
@@ -175,13 +175,14 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled", "[+2 Faith, -1 Food] per [4] population [in annexed cities]"]
+		"uniques": ["Hidden when religion is disabled", "[+2 Faith, -1 Food] per [4] population [in annexed cities]", "[-1] population [in this city] <upon entering a Golden Age>"]
 	},
 {
 		"name": "Dar-e Mehr",
 		"replaces": "Shrine",
 		"uniqueTo": "Persia",
 		"faith": 1,
+                "culture": 1,
 		"cost": 50,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
