@@ -1,5 +1,23 @@
 [ 
 {
+		"name": "Oromo",
+		"unitType": "Archery",
+		"uniqueTo": "Songhai",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 70,
+		"requiredTech": "Construction",
+		"promotions": ["Medic I"],
+                "uniqued": ["Can move after attacking"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "crossbow",
+		"civilopediaText": [
+			{"text": "Fill in Sofa unit of Songhai, the Weaver is a web-spewing giant bow boi that easily disarm its foes."},
+        ]
+	},
+{
 		"name": "Mounted Javelinman",
 		"uniqueTo": "Himyar",
 		"replaces": "Chariot Archer",
