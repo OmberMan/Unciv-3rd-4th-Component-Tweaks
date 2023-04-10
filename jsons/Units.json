@@ -1,4 +1,20 @@
 [ 
+{
+		"name": "Mounted Javelinman",
+		"uniqueTo": "Himyar",
+		"replaces": "Chariot Archer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 65,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["[+100]% Strength <vs [Military] units> <when attacking>","No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","Ignores Zone of Control"],
+		"attackSound": "horse"
+	},
     {
 		"name": "Black Panther",
 		"unitType": "Sword",
@@ -97,7 +113,7 @@
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Compass",
 		"upgradesTo": "Galleass",
-		"uniques": ["Cannot enter ocean tiles", "Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence", "Transfer Movement to [Civilian]", "May enter foreign tiles without open borders"],
+		"uniques": ["Cannot enter ocean tiles", "Transfer Movement to [Civilian]", "May enter foreign tiles without open borders", "[+1] Movement <upon discovering [Optics]>"],
 		"promotions": ["Favorable Winds"],
 		"hurryCostModifier": 15,
 		"attackSound": "throw"
@@ -679,8 +695,8 @@
 		"uniqueTo": "Tibet",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 10,
-		"cost": 60,
+		"strength": 11,
+		"cost": 70,
 		"requiredTech": "Agriculture",
 		"upgradesTo": "Longswordsman",
 		"hurryCostModifier": 0,
