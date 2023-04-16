@@ -33,7 +33,7 @@
 		"uniques": ["[+100]% Strength <vs [Military] units> <when attacking>","No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
-    {
+   /* {
 		"name": "Black Panther",
 		"unitType": "Sword",
 		"uniqueTo": "Wakanda",
@@ -58,7 +58,7 @@
 			"[+160]% Strength <during the [Future era]>",
 			"[+1] Movement <starting from the [Information era]>"],
 		"attackSound": "arrow"
-	},
+	}, 
 	{
 		"name": "War Rhino",
 		"unitType": "Mounted",
@@ -103,7 +103,8 @@
                 "promotions": ["Cover I"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "jetgun"
-	},
+	}, */
+
 	{
 		"name": "Falx Warrior",
 		"unitType": "Sword",
