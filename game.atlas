@@ -1,0 +1,237 @@
+
+game.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Amazon
+  rotate: false
+  xy: 4, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dali Lama
+  rotate: false
+  xy: 4, 216
+  size: 800, 800
+  orig: 800, 800
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Desert Archer
+  rotate: false
+  xy: 138, 176
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eagle
+  rotate: false
+  xy: 812, 876
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eagle Warrior
+  rotate: false
+  xy: 812, 876
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Elamite Bowman
+  rotate: false
+  xy: 920, 984
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Falcata Fighter
+  rotate: false
+  xy: 4, 84
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Falx Warrior
+  rotate: false
+  xy: 44, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Merchant-Barbarian
+  rotate: false
+  xy: 178, 176
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Prophet-Barbarian
+  rotate: false
+  xy: 178, 176
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Prophet-Barbarians
+  rotate: false
+  xy: 178, 176
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Merchant-Barbarians
+  rotate: false
+  xy: 812, 836
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nok Warrior
+  rotate: false
+  xy: 812, 836
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Barbarian
+  rotate: false
+  xy: 812, 836
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Prophet-Orcish
+  rotate: false
+  xy: 4, 164
+  size: 126, 44
+  orig: 126, 44
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Scientist-Barbarians
+  rotate: false
+  xy: 812, 916
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hittite Garrison
+  rotate: false
+  xy: 852, 876
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Italic Infantry
+  rotate: false
+  xy: 920, 944
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Khopesh
+  rotate: false
+  xy: 960, 984
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Khopesh Swordsman
+  rotate: false
+  xy: 960, 984
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Koa
+  rotate: false
+  xy: 4, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kushite Archer
+  rotate: false
+  xy: 44, 84
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longship
+  rotate: false
+  xy: 84, 124
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Macan Bodas
+  rotate: false
+  xy: 218, 176
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Martik
+  rotate: false
+  xy: 812, 796
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Minoan Archer
+  rotate: false
+  xy: 852, 836
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Missionary-Barbarians
+  rotate: false
+  xy: 960, 944
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mounted Javelinman
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Numidian
+  rotate: false
+  xy: 44, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Obsidian Warrior
+  rotate: false
+  xy: 84, 84
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sabum Kibittum
+  rotate: false
+  xy: 258, 176
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Slave Hunter
+  rotate: false
+  xy: 812, 756
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/War Cart
+  rotate: false
+  xy: 852, 796
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
