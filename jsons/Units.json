@@ -389,7 +389,7 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "Earn [15]% of killed [Land] unit's [Cost] as [Culture]", "[-33]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength <when below [50] HP>", "This Unit gains the [Haka War Dance] promotion <upon defeating a [Melee] unit>"],
-		"hurryCostModifier": 35,
+		"hurryCostModifier": 30,
 		"attackSound": "horse"
 	},
 {
@@ -452,6 +452,7 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"promotions": ["Accuracy I"],
+                "uniques": ["[+15]% Strength <when fighting in [Luxury resource] tiles>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -521,7 +522,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Phoenicia",
 		"replaces": "Settler",
-		"movement": 2,
+		"movement": 3,
 		"cost": 106,
 		"uniques": ["Cheaper to buy", "May withdraw before melee ([33]%)", "Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","[1] Movement point cost to embark", "[1] Movement point cost to disembark","Double movement in [Coast]", "May enter foreign tiles without open borders"],
@@ -550,11 +551,11 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 12,
-		"cost": 75,
+		"cost": 70,
 		"hurryCostModifier": 10,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Invisible to non-adjacent units","Earn [25]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Invisible to non-adjacent units","Earn [25]% of killed [Military] unit's [Strength] as [Faith]", "[+100]% to Flank Attack bonuses"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -763,6 +764,6 @@
 		"cost": 60,
 		"requiredTech": "Animal Husbandry",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>","Never appears as a Barbarian unit", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] tiles", "[+1] Sight"],
-		"attackSound": "bombing"
+		"attackSound": "horse"
 	},
 ]
