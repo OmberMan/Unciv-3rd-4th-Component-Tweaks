@@ -1,9 +1,0 @@
-[
-{
-		"name": "Philosopher",
-		"science": 2,
-		"culture": 2,
-		"greatPersonPoints": {"Great Artist":2},
-		"color": [225,235,250]
-	},
-]
