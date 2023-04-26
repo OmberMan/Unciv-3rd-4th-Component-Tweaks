@@ -371,10 +371,10 @@
 		"tradeRequest": "I bring you an excellent offer!",
 
 		"outerColor": [	84, 215, 247],
-		"innerColor": [	255, 255, 255],
+		"innerColor": [	255, 251, 248],
 		"uniqueName": "Shackles of Gold",
 		"uniqueText": "Earns [Gold] for killing enemy land units", 
-		"uniques": ["Earn [33]% of killed [Land] unit's [Cost] as [Gold]", "Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[+2 Gold, -1 Food] from each Trade Route", "[Gold] cost of purchasing [Land] units [-25]%"],
+		"uniques": ["Earn [33]% of killed [Land] unit's [Cost] as [Gold]", "Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[Gold] cost of purchasing [Land] units [-25]%", "[+4 Gold, -1 Production] [in all coastal cities]"],
 		"cities": ["Mogadishu","Avalite","Botiala","Gondal","Toniki","Salweyn","Miandi","Sarapion","Hannassa","Bulhar",
 		"Essina","Famo","Mosylon","Opone","Nikon","Mundus"]
 	},
@@ -398,7 +398,7 @@
 		"neutralLetsHearIt": ["Yes.","Let's discuss."],
 		"neutralNo": ["No way.","Never!"],
 		"neutralYes": ["Very good.","Of course, yes.","I gladly accept."],
-		"hateHello": "Go on!",
+		"hateHello": Bitches love bitches love me bitches love bitches love bitches olivemeolivemelovemelovemelume.",
 		"hateLetsHearIt": "Just speak, don't waste my time!",
 		"hateNo": ["Are you joking?","Are you sure?"],
 		"hateYes": ["I can accept.","Fine.","Let it be."],
