@@ -191,7 +191,7 @@
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[+20]% Production when constructing [All] buildings [in capital]", "[Great Scientist] is earned [50]% faster", "[+1 Faith] from all [Science] buildings"],
+		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[+25]% Production when constructing [All] buildings [in capital]", "[Great Scientist] is earned [50]% faster", "[+1 Faith] from all [Science] buildings"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
@@ -229,7 +229,7 @@
 		"outerColor": [166, 22, 51],
 		"innerColor": [75, 156, 245],
 		"uniqueName": "Worship of the Old Gods",
-		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>"]
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>", "Gain a free [Pantheon] belief <upon discovering [Animal Husbandry]>"]
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
@@ -406,7 +406,7 @@
 		"afterPeace": "Maybe we should celebrate the end of war?",
 		"tradeRequest": "I present you this trade offer.",
 
-		"outerColor": [42, 35, 82],
+		"outerColor": [52, 40, 92],
 		"innerColor": [188, 159, 145],
 		"uniqueName": "Cradle of Civilization",
 		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital. +1 [Faith] from flood plains. +20% Growth in the capital.",
@@ -439,8 +439,7 @@
 		"outerColor": [0,104,139],
 		"innerColor": [129,224,255],
 		"uniqueName": "The Sunken City",
-		"uniqueText": "+1 Food on Coasts and Oceans. Doubled after discovering Astronomy. Great Improvements can be built on water, and provide double yields while there."
-		"uniques": ["[+1 Food] from every [Coast]", "Starts with [Sailing]",
+		"uniques": ["[+2 Food] from every [Coast]", "Starts with [Sailing]",
 		"[+1 Food] from every [Coast] <after discovering [Astronomy]>",
 		"[+1 Food] from every [Ocean]",
 		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>",
@@ -649,7 +648,7 @@
 		"name": "Egypt",
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
-		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"startBias": ["Desert","River"],
 		"preferredVictoryType": "Cultural",
                 "style": "Mesopotamian",
 
