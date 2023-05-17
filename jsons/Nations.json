@@ -94,11 +94,11 @@
 		"afterPeace": "Hail, great lord. This was indeed a good fight.",
 		"tradeRequest": "That should do.",
 
-		"innerColor": [	253, 200, 188],
+		"innerColor": [	253, 188, 200],
 		"outerColor": [	134, 50, 0],
 		"uniqueName": "Pyrrhic Victory",
-		"uniqueText": "All military units have +25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
-		"uniques": ["[Land] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Mounted] units [in holy cities]","Free [Great General] appears <upon conquering a city> <with [33]% chance>", "Earn [33]% of the damage done to [Land] units as [Faith] <on foreign continents>", "[10]% of excess happiness converted to [Production]"],
+		//"uniqueText": "All military units have +25% more strength when attacking cities, but suffer -25% penalty when defending against cities. +25% [Production] when constructing military units in capital. Gains a free [Great General] upon researching Bronze Working and Steel",
+		"uniques": ["[Land] units gain the [Pyrrhic Victory] promotion","[+25]% Production when constructing [Mounted] units [in holy cities]","Free [Great General] appears <upon conquering a city> <with [33]% chance>", "Earn [33]% of the damage done to [Land] units as [Faith] <when fighting in [Foreign Land] tiles>"],
 		"cities": ["Ambracia","Phoenike","Passaron"]
 	},
 {
@@ -229,7 +229,7 @@
 		"outerColor": [166, 22, 51],
 		"innerColor": [75, 156, 245],
 		"uniqueName": "Worship of the Old Gods",
-		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion", "[-40]% Culture cost of natural border growth [in annexed cities] <after founding a Pantheon>", "Gain a free [Pantheon] belief <upon discovering [Animal Husbandry]>"]
+		"uniques": ["[+1 Faith] from [Forest] tiles without [Lumber mill] [in all non-occupied cities]", "All newly-trained [Sword] units [in all cities in which the majority religion is a major religion] receive the [Woodsman] promotion", "[+1 Gold, +1 Production] from [Deer] tiles [in all cities]", "[-50]% Culture cost of natural border growth [in annexed cities]", "Gain a free [Pantheon] belief <upon discovering [Trapping]>"]
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
@@ -265,7 +265,7 @@
 		"outerColor": [	91, 176, 158],
 		"innerColor": [ 40, 94, 68],
 		"uniqueName": "Feathered Serpent",
-		"uniqueText": "May buy National Wonders with [Faith].",
+		//"uniqueText": "May buy National Wonders with [Faith].",
 		"uniques": ["May buy [National Wonder] buildings with [Faith] for [1] times their normal Production cost", "Free Great Person <upon entering a Golden Age> <with [22]% chance>"],
 		"cities": ["La Venta","San Lorenzo","Tres Zapotes","Izapa","Tzapotl","Tonala","Texpa","Tlapocoya","Xoc","Coatztitlan","Izacoya"]
 	},
@@ -298,10 +298,10 @@
 		"tradeRequest": "Do you like it?",
 
 		"outerColor": [	189, 182, 125],
-		"innerColor": [	82, 70, 55],
+		"innerColor": [	57, 86, 50],
 		"uniqueName": "African Treasures",
 		"uniqueText": "All cities provide 1 copy of [Terracotta] luxury resource. +1 [Science] from every Iron.",
-		"uniques": ["Gain a free [Free Terracotta] [in all cities]","[+1 Science] from every [Iron]"],
+		"uniques": ["Gain a free [Free Terracotta] [in all cities]","[+1 Science] from every [Iron]", "[+1 Science] from every [Mine] <before discovering [Iron Working>"],
 		"cities": ["Nok","Jos","Ife","Samun","Kagara","Janjala","Kwoi","Jere","Dokku","Bokkos","Riyom","Ogbabu","Pangajere","Taruga","Kamrun","Vom","Chakwama","Dogo-Dogo","Jagwa"]
 	},
 {
@@ -370,11 +370,11 @@
 		"afterPeace": "We shall now pray for the better, I mean more profitable, days!",
 		"tradeRequest": "I bring you an excellent offer!",
 
-		"outerColor": [	84, 215, 247],
-		"innerColor": [	254, 247, 240],
+		"outerColor": [	44, 175, 207],
+		"innerColor": [	244, 197, 140],
 		"uniqueName": "Shackles of Gold",
-		"uniqueText": "Earns [Gold] for killing enemy land units", 
-		"uniques": ["Earn [33]% of killed [Land] unit's [Cost] as [Gold]", "Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[Gold] cost of purchasing [Land] units [-25]%", "[+4 Gold, -1 Production] [in all coastal cities]"],
+	//"uniqueText": "Earns [Gold] for killing enemy land units", 
+		"uniques": ["Earn [33]% of killed [Land] unit's [Cost] as [Gold]", "Retain [25]% of the happiness from a luxury after the last copy has been traded away", "[Gold] cost of purchasing [Land] units [-25]%", "[+3 Gold, -1 Production] [in all coastal cities]"],
 		"cities": ["Mogadishu","Avalite","Botiala","Gondal","Toniki","Salweyn","Miandi","Sarapion","Hannassa","Bulhar",
 		"Essina","Famo","Mosylon","Opone","Nikon","Mundus"]
 	},
@@ -410,7 +410,7 @@
 		"innerColor": [188, 159, 145],
 		"uniqueName": "Cradle of Civilization",
 		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital. +1 [Faith] from flood plains. +20% Growth in the capital.",
-		"uniques": ["[+2 Science, +1 Culture] [in capital]","[Land] units gain the [Cradle of Civilizations] promotion", "[+1 Faith] from [Flood plains] tiles [in all cities]", "[+20]% [Food] [in capital]"],
+		"uniques": ["[+2 Science, +1 Culture] [in capital]","[Land] units gain the [Cradle of Civilizations] promotion", "[+1 Culture] from [Flood plains] tiles [in all cities]", "[+10]% [Food] [in capital]"],
 		"cities": ["Uruk","Eridu","Kish","Lagash","Nibru","Ur","Bad-Tibira","Zimbir","Shuruppak","Umma",
 			"Larsa","Isin","Girsu","Adab","Larak","Abu Salabikh","Akshak","Hamazi","Nina","Kutha",
 			"Marad","Zabalam","Kisurra","Pazurish-Dagan","Kutallu","Kesh","Apisada","Kisiga","Enegi","Ki-an",
@@ -422,8 +422,8 @@
 		"adjective": ["Atlantean"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-                "style": "Mediterranean",
-                "favoredReligion": "Sikhism",
+  "style": "Mediterranean",
+  "favoredReligion": "Sikhism",
 		
 		"startIntroPart1": "Greetings, Evenor. Few empires have sparked such wonder, such curiosity. As the sunken world of Atlantis. Torn and sunk by divine punishment, your people advanced beyond imagination and ruled over this world's endless seas.",
 		"startIntroPart2": "There are many who wish to see your magnificence brought to life once more, lord Evenor. Can you stand the test of time and rule over the seas once more?",					
@@ -436,15 +436,14 @@
 		"hateHello": "You are not welcome in the sea.",	
 		"tradeRequest": "This was actually built underwater.",
 
-		"outerColor": [0,104,139],
-		"innerColor": [129,224,255],
+		"outerColor": [0,104,140],
+		"innerColor": [129,225,255],
 		"uniqueName": "The Sunken City",
-		"uniques": ["[+2 Food] from every [Coast]", "Starts with [Sailing]",
+		"uniques": ["[+1 Food, +1 Gold] from every [Coast]", "Starts with [Sailing]",
 		"[+1 Food] from every [Coast] <after discovering [Astronomy]>",
 		"[+1 Food] from every [Ocean]",
-		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>",
-                "[+1] Sight <for [Embarked] units>", "[+1 Culture] from every specialist [in all coastal cities] <during a Golden Age>"]
-		"cities": ["Atlantis","Seamound","Vussted","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
+		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>", "[+1] Sight <for [Embarked] units>", "[+1 Culture] from every specialist [in all coastal cities] <while the empire is happy>", "[+1 Culture, +2 Happiness] per [2] social policies adopted <during a Golden Age>"]
+		"cities": ["Atlantis","Zuhaitz","Anoixte","Yamylaik","Burmiunean","Seamund","Osoa","Taidorie","Doxa","Vussted","Skratlantis","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
 	},
 	{
 		"name": "Iroquois",
@@ -500,7 +499,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Units ending their turn on [Mountain] tiles take [50] damage", "[Gold] cost of purchasing [Land] units [-50]%", "[+33]% [Gold] [in all coastal cities] <on foreign continents>", "[-25]% [Production] [in all non-occupied cities] <on foreign continents>", "[-33]% Unhappiness from [Population] [in all coastal cities] <on foreign continents>"],
+			"Units ending their turn on [Mountain] tiles take [50] damage", "[Gold] cost of purchasing [Land] units [-50]%", "[+20]% Gold from Great Merchant trade missions", "[+33]% [Gold] [in all coastal cities] <on foreign continents>", "[-33]% [Production] [in all non-occupied cities] <on foreign continents>", "[-33]% Unhappiness from [Population] [in all coastal cities] <on foreign continents>"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -528,7 +527,7 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
-                "uniques": ["[+1 Food] from every [Farm] <in [Coastal] tiles>", "[+1 Gold] from [Luxury resource] tiles [in all coastal cities]"],
+                "uniques": ["[+1 Food] from every [Farm] <in [Coastal] tiles>", "[+1 Gold, +1 Food] from [Water resource] tiles [in all coastal cities]"],
 		"uniqueText": " After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources",
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
@@ -554,7 +553,7 @@
 		"neutralHello": "Welcome, friend!",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Come, let our people feast together!",
-		"outerColor": [217,89,0],
+		"outerColor": [228,100,1],
 		"innerColor": [255,255,75],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
@@ -594,12 +593,14 @@
 		"hateNo": ["That's unacceptable!","A thousand times no!","Never!"],
 		"hateYes": ["Eugh! Fine then…","Disgusting! Okay then…","But if I have to…"],
 
-        "outerColor": [12,75,25],
+        "outerColor": [12,85,28],
         "innerColor": [157,172,255],
 
 		"uniqueName": "Druidic Lore",
-		"uniques": ["[+2 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
-			"[+3 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>", "[+1 Food] from [Marsh] tiles [in all cities]", "[+1 Culture] from [Quarry] tiles [in all cities]"],
+		"uniques": [
+    "[+1 Faith] [in all cities] <with [1] to [6] neighboring [Forest] tiles>",
+    "[+1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>", "All newly-trained [Sword] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [8] [Population]>", "All newly-trained [Gunpowder] units [in all cities] receive the [Survivalism I] promotion <in cities with at least [16] [Population]>", "[+1 Food] from [Marsh] tiles [in all cities]", "[+1 Faith, +1 Culture] from [Quarry] tiles [in all cities]"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
