@@ -222,7 +222,7 @@
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
-		"strength": 9,
+		"strength": 10,
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "The Wheel",
@@ -333,7 +333,7 @@
         "replaces": "Lancer",
         "uniqueTo": "Carthage",
         "movement": 4,
-        "strength": 7,
+        "strength": 8,
         "rangedStrength": 11,
         "cost": 56,
         "range": 1,
@@ -341,7 +341,7 @@
         "requiredTech": "Horseback Riding",
         "requiredResource": "Horses",
         "upgradesTo": "Cavalry",
-        "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit", "No defensive terrain bonus", "Can move immediately once bought"],
+        "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([66]%)", "Ignores Zone of Control", "Never appears as a Barbarian unit", "No defensive terrain bonus", "Can move immediately once bought"],
         "attackSound": "horse"
     },
 {
@@ -436,8 +436,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+10]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit","[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [50]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units"],
-		"attackSound": "gdrattack"
+		"uniques": ["[+10]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit","[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [50]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units"],
+		"attackSound": "elephant"
 	},
 {	
 		"name": "Desert Archer",
@@ -461,15 +461,15 @@
 		"uniqueTo": "Epirus",
 		"replaces": "Lancer",
 		"movement": 4,
-		"strength": 9,
+		"strength": 11,
                 "range": 1,
-		"rangedStrength": 9,
+		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "Trapping",
 		"upgradesTo": "Cavalry",
                 "hurryCostModifier": 0,
 		"promotions": ["Mobility"],
-		"uniques": ["Consumes [1] [Horses]","Can move after attacking","[-33]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","May withdraw before melee ([50]%)"],
+		"uniques": ["Consumes [1] [Horses]","Can move after attacking","[-33]% Strength <vs cities> <when attacking>", "May withdraw before melee ([50]%)"],
 		"attackSound": "crossbow"
 	},
 {
@@ -480,7 +480,7 @@
 		"movement": 3,
 		"strength": 15,
 		"cost": 115,
-                "hurryCostModifier": -10,
+  "hurryCostModifier": -10,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus",
@@ -540,7 +540,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-            "promotions": ["Amphibious"],
+  "promotions": ["Amphibious"],
 	      "uniques": ["Defense bonus when embarked"],
 		"attackSound": "nonmetalhit"
 	},
@@ -555,7 +555,7 @@
 		"hurryCostModifier": 10,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Invisible to non-adjacent units","Earn [25]% of killed [Military] unit's [Strength] as [Faith]", "[+100]% to Flank Attack bonuses"],
+		"uniques": ["Invisible to non-adjacent units","Earn [25]% of killed [Military] unit's [Strength] as [Faith]", "[+150]% to Flank Attack bonuses"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -643,9 +643,9 @@
 		"uniqueTo": "The Khmer",
 		"replaces": "Catapult",
 		"movement": 3,
-		"strength": 12,
+		"strength": 11,
 		"rangedStrength": 13,
-		"cost": 110,
+		"cost": 115,
 		"requiredTech": "Construction",
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Dynamite",
@@ -695,7 +695,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-                "uniques": ["[+33]% Strength <when attacking> <with [33]% chance>"],
+  "uniques": ["[+33]% Strength <when attacking> <with [33]% chance>", "May withdraw before melee ([33]%)"],
 		"attackSound": "throw"
 	},
 	{
@@ -736,7 +736,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"hurryCostModifier": 40,
-                "uniques": ["Heal this unit by [25] HP <upon being promoted>", "Gain [5]-[10] [Culture] <upon being defeated>", "All adjacent units heal [+5] HP when healing"]
+                "uniques": ["Heal this unit by [25] HP <upon being promoted>", "Gain [5]-[10] [Culture] <upon being defeated>", "All adjacent units heal [+5] HP when healing", "[-5]% Strength for enemy [Military] units in adjacent [Land] tiles"]
 		"attackSound": "metalhit"
 	},
 {
@@ -746,11 +746,11 @@
 		"uniqueTo": "Arabia",
 		"movement": 3,
 		"strength": 14,
-		"cost": 75,
+		"cost": 80,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
 		"requiredResource": "Horses",
-                "uniques": ["[-50]% maintenance costs", "No defensive terrain penalty"],
+  "uniques": ["[-50]% maintenance costs", "No defensive terrain penalty"],
 		"promotions": ["Mamluk ability", "Quick Study"],
 		"attackSound": "metalhit"
 	},
