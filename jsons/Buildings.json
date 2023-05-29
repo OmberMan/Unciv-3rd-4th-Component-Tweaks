@@ -66,6 +66,19 @@
 		"requiredTech": "Drama and Poetry",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
+{
+		"name": "Ceilidh Hall",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Celts",
+		"culture": 4,
+		"happiness": 3,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["[+1 Culture] <during a Golden Age>"]
+	},
     {
         "name": "Cloves",
         "uniqueTo": "Indonesia",
