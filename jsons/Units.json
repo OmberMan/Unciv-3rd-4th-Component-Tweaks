@@ -138,7 +138,7 @@
 		"attackSound": "metalhit"
 	},
 {
-                "name": "Bireme",
+  "name": "Bireme",
 		"unitType": "Melee Water",
 		"uniqueTo": "Phoenicia",
 		"replaces": "Trireme",
@@ -151,7 +151,7 @@
 		"uniques": ["Cannot enter ocean tiles", "Transfer Movement to [Civilian]", "May enter foreign tiles without open borders", "[+1] Movement <upon discovering [Optics]>"],
 		"promotions": ["Favorable Winds"],
 		"hurryCostModifier": 15,
-		"attackSound": "throw"
+		"attackSound": "nonmetalthrow"
 	},
 {
 		"name": "Obsidian Warrior",
@@ -327,7 +327,18 @@
         "promotions": ["Khopesh ability"],
         "attackSound": "metalhit"
     },
-
+	{
+		"name": "Slave Hunter",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Macrobia",
+		"movement": 3,
+		"strength": 6,
+		"cost": 40,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["[1] additional attacks per turn","May upgrade to [Composite Bowman] through ruins-like effects","May capture killed [Military] units <with [67]% chance>"],
+		"promotions": ["Ignore terrain cost", "Charge"],
+		"attackSound": "nonmetalhit"
 {
         "name": "Streltsy",
         "unitType": "Gunpowder",
@@ -644,7 +655,7 @@
 		"replaces": "Trireme",
 		"uniqueTo": "Indonesia",
 		"movement": 3,
-		"strength": 7,
+		"strength": 6,
                 "rangedStrength": 7,
 		"cost": 35,
                 "range": 1,
