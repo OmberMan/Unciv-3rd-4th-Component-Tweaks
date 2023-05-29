@@ -29,7 +29,7 @@
 		"requiredResource": "Iron",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Can move after attacking","Eliminates combat penalty for attacking over a river", "[+20]% Strength <vs [Sword] units>", ""[+20]% Strength <when adjacent to a [Barbarian] unit>"],
+		"uniques": ["Can move after attacking","Eliminates combat penalty for attacking over a river", "[+20]% Strength <vs [Sword] units>", "[+20]% Strength <when adjacent to a [Barbarian] unit>"],
 		"promotions": ["[Housecarl] ability"],
 		"attackSound": "metalhit"
   }
