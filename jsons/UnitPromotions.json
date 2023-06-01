@@ -5,7 +5,9 @@
 	},
     {
         "name": "Favorable Winds",
-        "uniques": ["Can move after attacking", "May withdraw before melee ([25]%)", "Gain [40]-[240] [Gold] <in [Coast] [Major] tiles> <in tiles without [Enemy Land]>", "Gain [60]-[120] [Gold] <in [Coast] [City-states] tiles> <in tiles without [Enemy Land]>"]
+        "uniques": ["Can move after attacking", "May withdraw before melee ([25]%)"
+// "Gain [50]-[180] [Gold] <in [Coast] tiles> <in tiles without [Enemy Land]>"
+]
     },	
 {
 		"name": "[Housecarl] ability",
@@ -13,6 +15,6 @@
 	}, 
     {
         "name": "Warrior Monk",
-        "uniques": ["[+60]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [15] HP <upon losing at least [30] HP in a single attack>", "[+15] HP when healing <when below [40] HP>", "[+1] additional attacks per turn", "[-20]% Strength", "[-15]% Strength <when attacking>", "[+60]% Strength <when defending> <when above [99] HP>", "Unit will heal every turn, even if it performs an action", "Can [Spread Religion] [1] times", "Can see invisible [Land] units", "Ignores terrain cost", "[-80]% XP gained from combat", "Damage is ignored when determining unit Strength"]
+        "uniques": ["[+60]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [15] HP <upon losing at least [30] HP in a single attack>", "[+15] HP when healing <when below [40] HP>", "[+1] additional attacks per turn", "[-20]% Strength", "[-20]% Strength <when attacking>", "[+80]% Strength <when defending> <when above [99] HP>", "Unit will heal every turn, even if it performs an action", "Can [Spread Religion] [1] times", "Can see invisible [Land] units", "Ignores terrain cost", "[-80]% XP gained from combat", "Damage is ignored when determining unit Strength"]
     },	
 ]
