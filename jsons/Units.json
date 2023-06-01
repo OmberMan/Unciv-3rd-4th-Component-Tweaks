@@ -148,10 +148,10 @@
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Compass",
 		"upgradesTo": "Galleass",
-		"uniques": ["Cannot enter ocean tiles", "Transfer Movement to [Civilian]", "May enter foreign tiles without open borders", "[+1] Movement <upon discovering [Optics]>"],
+		"uniques": ["Transfer Movement to [Civilian]", "May enter foreign tiles without open borders", "[+1] Movement <upon discovering [Optics]>"],
 		"promotions": ["Favorable Winds"],
 		"hurryCostModifier": 15,
-		"attackSound": "nonmetalthrow"
+		"attackSound": "nonmetalhit"
 	},
 {
 		"name": "Obsidian Warrior",
@@ -163,7 +163,7 @@
 		"cost": 65,
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-                "uniques" : ["May upgrade to [Longswordsman] through ruins-like effects", "[+25]% Strength <vs [Mounted] units>"],
+                "uniques" : ["May upgrade to [Longswordsman] through ruins-like effects", "[+25]% Strength <vs [Mounted] units>", "[+25]% Strength <vs [Melee] units>"],
 		"attackSound": "nonmetalhit"
 	},
 {
@@ -364,7 +364,7 @@
         "rangedStrength": 11,
         "cost": 56,
         "range": 1,
-        "hurryCostModifier": -15,
+        "hurryCostModifier": -25,
         "requiredTech": "Horseback Riding",
         "requiredResource": "Horses",
         "upgradesTo": "Cavalry",
