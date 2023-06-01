@@ -22,7 +22,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-  "uniques": ["[-50]% maintenance costs <for [Military] units>", "Gain [3] [Culture] <upon gaining a [Military] unit>"]
+  "uniques": ["[-50]% maintenance costs <for [Military] units>", "Gain [3] [Culture] <upon gaining a [Military] unit>", "Only available <after adopting [Autocracy]>"]
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -74,7 +74,7 @@
   "percentStatBonus": {"gold": 20},
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]", "[+1 Gold] from [Water resource] tiles [in this city]", "[+1 Happiness] [in all coastal cities]", "Gain a free [Harbor] [in this city]", "[+3 Gold] from each Trade Route"],
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]", "[+1 Gold] from [Water resource] tiles [in this city]", "[+1 Happiness] [in all coastal cities]", "Gain a free [Harbor] [in this city]", "[+3 Gold] from each Trade Route", "Only available <after adopting [Exploration]>"],
 		"requiredTech": "Iron Working",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
@@ -83,7 +83,7 @@
 		"faith": 4,
   "culture": 1,
 		"isWonder": true,
-		"uniques": [ "[+3 Faith, + 1 Gold] from each Trade Route","[3] free [Missionary] units appear", "Religion naturally spreads to cities [5] tiles away"],
+		"uniques": [ "[+3 Faith, + 1 Gold] from each Trade Route","[3] free [Missionary] units appear", "Religion naturally spreads to cities [5] tiles away", "Only available <after adopting [Piety]>"],
 		"requiredTech": "Philosophy",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
@@ -99,7 +99,7 @@
 {
 		"name": "Porcelain Tower",
 		"culture": 2,
-  "science" 1,
+  "science": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["Science gained from research agreements [+50]%","Only available <after adopting [Rationalism]>", "[+1 Science, +1 Happiness] from every specialist [in all cities]"],
@@ -121,7 +121,7 @@
 		"cityStrength": 12,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings"],
+		"uniques": ["[+25]% City Strength from defensive buildings", "Only available <after adopting [Patronage]>"],
 		"requiredTech": "Iron Working",
 		"quote": "'When we build, let us think that we build forever.' – John Ruskin"
 	},
@@ -296,8 +296,8 @@
 		"replaces": "Shrine",
 		"uniqueTo": "Persia",
 		"faith": 1,
-                "culture": 1,
-		"cost": 50,
+  "culture": 1,
+		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled", "[+1 Happiness] [in capital]", "[+2 Culture] from [Gold Ore] tiles [in this city]"]
@@ -446,7 +446,7 @@
         "replaces": "Garden",
         "uniqueTo": "Indonesia",
         "cost": 120,
-        "faith": 1,
+        "faith": 2,
         "uniques": ["[+25]% Great Person generation [in this city]", "[+1 Faith] [in all cities in which the majority religion is a major religion] <in this city>"],
         "hurryCostModifier": 25,
         "maintenance": 1,
@@ -483,7 +483,7 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 10,
+		"cityStrength": 15,
 		"cityHealth": 15,
 		"culture": 3,
 		"hurryCostModifier": 25,
@@ -547,7 +547,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture, +1 Faith] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled", "New [Mounted] units start with [5] Experience [in this city] <if [Heroic Epic] is constructed>", "New [Sword] units start with [5] Experience [in this city] <if [National Epic] is constructed>"]
+		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture, +1 Faith] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled", "New [Mounted] units start with [10] Experience [in this city] <if [Heroic Epic] is constructed>", "New [Sword] units start with [10] Experience [in this city] <if [National Epic] is constructed>"]
 	},
 {
 		"name": "Blacksmith",
@@ -567,14 +567,14 @@
 		"replaces": "Castle",
 		"uniqueTo": "Tibet",
                 "cost": 160,
-		"cityStrength": 7,
+		"cityStrength": 10,
 		"cityHealth": 30,
 		"hurryCostModifier": 25,
                 "greatPersonPoints": {"Great Artist": 1},
 		"requiredBuilding": "Temple",
 		"requiredTech": "Engineering",
 		"uniques": ["Must be on [Hill]",
-"All newly-trained [Sword] units [in this city] receive the [Warrior Monk] promotion <with [5]% chance>", "All newly-trained [Gunpowder] units [in this city] receive the [Warrior Monk] promotion <with [5]% chance>",
+"All newly-trained [Sword] units [in this city] receive the [Warrior Monk] promotion <with [10]% chance>", "All newly-trained [Gunpowder] units [in this city] receive the [Warrior Monk] promotion <with [5]% chance>",
 "[+1 Production] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
 "[+2 Production] from [Holy site] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
 "Destroyed when the city is captured"]
