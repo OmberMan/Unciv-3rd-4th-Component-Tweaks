@@ -511,7 +511,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>", "Unbuildable"],
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
 		"attackSound": "elephant"
 	},
 {
@@ -621,7 +621,7 @@
 		"replaces": "Inquisitor",
 		"uniques": ["Takes your religion over the one in their birth city","Prevents spreading of religion to the city it is next to","Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities]","Can construct [Sacred altar] <if it hasn't used other actions yet>",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit", "[+10]% Strength bonus for [Wounded] units within [1] tiles <when fighting in [Forest] tiles>", "[+10]% Strength bonus for [Wounded] units within [1] tiles <when fighting in [Marsh] tiles>", "Can see over obstacles", "Can see invisible [All] units"],
+			"[+1] Sight", "Hidden when religion is disabled", "Religious Unit", "[+10]% Strength bonus for [Wounded] units within [1] tiles <when fighting in [Forest] tiles>", "[+10]% Strength bonus for [Wounded] units within [1] tiles <when fighting in [Marsh] tiles>", "Can see over obstacles", "Can see invisible [All] units"],
                 "promotions": ["Medic"],
 		"movement": 3,
 	},
@@ -660,7 +660,7 @@
 		"cost": 35,
                 "range": 1,
 		"requiredTech": "Sailing",
-                "uniques": ["[+2] Movement <in [Coast] tiles>", "Can undertake a trade mission with City-State, giving a large sum of gold and [5] Influence <when not at war>", "[+25]% Strength <when fighting in [Water resource] tiles>"],
+                "uniques": ["[+2] Movement <in [Coast] tiles>", "[+25]% Strength <when fighting in [Water resource] tiles>"],
 		"upgradesTo": "Caravel",
 		"attackSound": "throw"
 	},
@@ -686,7 +686,7 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 14,
-		"cost": 90,
+		"cost": 80,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Rifleman",
                 "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "Can transform to [Spearman]"],
