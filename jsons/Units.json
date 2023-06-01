@@ -25,7 +25,7 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 80,
-		"requiredTech": "Iron Working ",
+		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
