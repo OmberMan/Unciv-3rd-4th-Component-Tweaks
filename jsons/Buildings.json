@@ -438,7 +438,7 @@
 		"culture": 1,
                 "happiness": 1,
 		"isNationalWonder": true,
-		"uniques": ["[+1 Production, +1 Food] from every [Workshop] <when at war>", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[-5]% Unhappiness from [Population] [in all other cities] <when not at war>", "Requires a [Monument] in all cities", "Cost increases by [50] per owned city", "[+25]% Great Person generation [in this city]"],
+		"uniques": ["[+1 Production, +1 Food] from every [Workshop] <when at war>", "New [Sword] units start with [10] Experience [in this city]", "New [Gunpowder] units start with [10] Experience [in this city]", "New [Scout] units start with [10] Experience [in this city]", "[-5]% Unhappiness from [Population] [in other cities] <when not at war>", "Requires a [Monument] in all cities", "Cost increases by [50] per owned city", "[+25]% Great Person generation [in this city]"],
 		"requiredTech": "Iron Working"
 	},
 	    {
