@@ -83,7 +83,7 @@
 		"faith": 4,
   "culture": 1,
 		"isWonder": true,
-		"uniques": [ "[+3 Faith, + 1 Gold] from each Trade Route","[3] free [Missionary] units appear", "Religion naturally spreads to cities [5] tiles away", "Only available <after adopting [Piety]>"],
+		"uniques": [ "[+3 Faith, +1 Gold] from each Trade Route","[3] free [Missionary] units appear", "Religion naturally spreads to cities [5] tiles away", "Only available <after adopting [Piety]>"],
 		"requiredTech": "Philosophy",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
@@ -93,7 +93,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 30},
 		"requiredBuilding": "Market",
-  "uniques": ["[+1] from all [Gold] buildings"],
+  "uniques": ["[+1 Gold] from all [Gold] buildings"],
 		"requiredTech": "Currency" 
 	}, 
 {
