@@ -5,9 +5,7 @@
 	},
     {
         "name": "Favorable Winds",
-        "uniques": ["Can move after attacking", "May withdraw before melee ([25]%)"
-// "Gain [50]-[180] [Gold] <in [Coast] tiles> <in tiles without [Enemy Land]>"
-]
+        "uniques": ["Can move after attacking", "May withdraw before melee ([25]%)"]
     },	
 {
 		"name": "[Housecarl] ability",
