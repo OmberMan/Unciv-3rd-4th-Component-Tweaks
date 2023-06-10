@@ -792,13 +792,13 @@
                  "outerColor": [0,100,100], 
                  "innerColor": [255,255,255], 
   
-                 "favoredReligion": "Judaism", 
+                 "favoredReligion": "Christianity", 
   
                  "uniqueName": "The Sky Favors Us", 
                  "uniques": [ 
                  "[+2] Sight for [Scout] units", "[+1] Sight for [Military] units", "[+2] Movement for [Air] units" 
                  ], 
-                 "cities": ["Aléria", "Brutus' Edge", "Aule","Lakara","Venicia Noka","Outpost Unum","Outpost Duo","Outpost Trium","Outpost Quintum","Outpost Qunicue"], 
+                 "cities": ["Aléria", "Brutus' Edge", "Aule","Lakara","Venicia Noka","Outpost Unūm","Outpost Duo","Outpost Trēs","Outpost Quattuor","Outpost Quīnque"], 
          }, 
          { 
                  "name": "The Forelle", 
@@ -821,7 +821,7 @@
                  "tradeRequest": "So, what do you think?", 
   
                  "outerColor": [0,0,150], 
-                 "innerColor": [255,255,0], 
+                 "innerColor": [255,255,40], 
   
                  "favoredReligion": "Judaism", 
   
@@ -836,5 +836,5 @@
                          "Cannot build [Settler] units" 
                  ], 
                  "cities": ["Malani", "Sorveda","Leania","Seroni","Falon","Masara's Port", "Fasela", "Morilon","Wovelia"], 
-         },
+         }
 ]
