@@ -611,4 +611,20 @@
 		"cost": 50,
 		"requiredTech": "Philosophy",
 	},
+           { 
+                 "name": "Pigeon Network", 
+                 "replaces": "Market", 
+                 "cost": 100, 
+                 "requiredTech": "Currency", 
+                 "uniqueTo": "The Aucellus", 
+                 "hurryCostModifier": 200, 
+                 "happiness": 3,
+                 "uniques": [ 
+                         "[+1 Science, +2 Culture, +3 Gold] from each Trade Route", 
+                         "[+5]% [Science] from Trade Routes", 
+                         "[+10]% [Culture] from Trade Routes", 
+                         "[+20]% [Gold] from Trade Routes",
+                         "[+15]% [Gold] [in all cities]
+                 ] 
+         }, 
 ]
