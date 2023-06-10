@@ -796,9 +796,9 @@
   
                  "uniqueName": "The Sky Favors Us", 
                  "uniques": [ 
-                 "[+2] Sight for [Scout] units", "[+1] Sight for [Military] units", "[+2] Movement for [Air] units" 
+                 "[+2] Sight for [Scout] units", "[+1] Sight for [Military] units", "[+2] Movement for [Air] units", "[+25]% Strength for cities <in [Coastal] tiles>" 
                  ], 
-                 "cities": ["Aléria", "Brutus' Edge", "Aule","Lakara","Venicia Noka","Outpost Unūm","Outpost Duo","Outpost Trēs","Outpost Quattuor","Outpost Quīnque"], 
+                 "cities": ["Aléria", "Brutus' Edge", "Aule","Lakara","Venicia Noka","Outpost Unūm","Outpost Duo","Outpost Cīes","Outpost Quatuorth","Outpost Maîque"], 
          }, 
          { 
                  "name": "The Forelle", 
