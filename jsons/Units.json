@@ -149,8 +149,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["[+20]% Strength <when defending>", 
-//"[+20]% Strength <within [amount] tiles of a [tileFilter]>", 
+		"uniques": ["[+20]% Strength <when defending>",
 "[+50]% Strength <when fighting in [Marsh] tiles>", "[+50]% Strength <after discovering [Steel]>"],
 		"hurryCostModifier": -15,
 		"attackSound": "metalhit"
