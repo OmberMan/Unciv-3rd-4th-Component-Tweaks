@@ -646,7 +646,7 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Diplomatic",
                 "style": "East Asian",
-                "favoredReligion": "Buddhism",
+                "favoredReligion": "Hinduism",
 		
 		"startIntroPart1": "TBD",
 		"startIntroPart2": "TBD",
@@ -741,7 +741,7 @@
 		"name": "Tibet",
 		"leaderName": "Songtsen Gampo",
 		"adjective": ["Tibetan"],
-		"startBias": ["Hill"],
+		"startBias": ["Mountain"],
 		"preferredVictoryType": "Cultural",
                 "style": "East Asian",
                 "favoredReligion": "Buddhism",
@@ -769,7 +769,7 @@
 		"outerColor": [95, 163, 118],
 		"innerColor": [232, 225, 200],
 		"uniqueName": "The Roof of the World",
-		"uniques": ["[+3 Faith] from every [Great Improvement]","[+2 Faith] from every specialist [in all cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]", "Land units may cross [Mountain] tiles after the first [Great Prophet] is earned"],
+		"uniques": ["[+3 Faith] from every [Great Improvement]","[+1 Faith] from every specialist [in all cities] <with [1] to [6] neighboring [Mountain] tiles>", "[+1 Faith, +1 Food] from [Mountain] tiles [in all non-occupied cities]", "May buy [Dmag Mi] units with [Faith] [in holy cities]", "Land units may cross [Mountain] tiles after the first [Great Prophet] is earned"],
 		"cities": ["Lhasa","Xigaze","Gyantse","Chamdo","Gyegu","Rutog","Nyingchi","Nedong","Tingri","Leh","Senggezangbo","Nagchukha",
 		"Coqen","Lhatse","Tawang","Ladakh","Batang"]
 	},
