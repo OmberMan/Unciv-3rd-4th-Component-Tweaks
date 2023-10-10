@@ -696,8 +696,8 @@
 		"upgradesTo": "Caravel",
 		"attackSound": "throw"
 	},
-	{
-		"name": "Siege Elephant",
+{
+		"name": "Ballista Elephant",
 		"unitType": "Mounted",
 		"uniqueTo": "The Khmer",
 		"replaces": "Catapult",
@@ -711,20 +711,35 @@
 		"uniques": ["No defensive terrain bonus","[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack", "[+25]% Strength <vs [Mounted] units> <when defending>", "Ranged attacks may be performed over obstacles"],
 		"attackSound": "crossbow"
 	},
+	{
+		"name": "Siege Elephant",
+		"unitType": "Mounted",
+		"uniqueTo": "Siam",
+		"replaces": "Catapult",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 12,
+		"cost": 105,
+		"requiredTech": "Construction",
+		"upgradesTo": "Cannon",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["No defensive terrain bonus","[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack", "[+25]% Strength <vs [Mounted] units> <when defending>"],
+		"attackSound": "crossbow"
+	},
 {
 		"name": "Ph'kak",
 		"unitType": "Sword",
 		"uniqueTo": "The Khmer",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 14,
-		"cost": 80,
+		"strength": 12,
+		"cost": 65,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Rifleman",
-                "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "Can transform to [Spearman]"],
+  "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "[+50]% Strength <vs [Sword] units>"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
-		"attackSound": "metalhit"
+		"attackSound": "nonmetalhit"
 	},
         {        
                 "name": "Mong Dong",
