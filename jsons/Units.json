@@ -154,6 +154,20 @@
 		"hurryCostModifier": -15,
 		"attackSound": "metalhit"
 	},
+{ 
+                 "name": "T-34", 
+                 "unitType": "Armored", 
+                 "replaces": "Tank", 
+                 "uniqueTo": "Russia", 
+                 "movement": 5, 
+                 "strength": 65, 
+                 "cost": 300, 
+                 "requiredTech": "Combined Arms", 
+                 "requiredResource": "Oil", 
+                 "upgradesTo": "Modern Armor",
+                 "uniques": ["Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Armored] units>"], 
+                 "attackSound": "tankshot" 
+         },
 {
   "name": "Bireme",
 		"unitType": "Melee Water",
