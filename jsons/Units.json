@@ -150,7 +150,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["[+20]% Strength <when defending>",
-"[+50]% Strength <when fighting in [Marsh] tiles>", "Eliminates combat penalty for attacking over a river", "[+50]% Strength <after discovering [Steel]>"],
+"[+50]% Strength <when fighting in [Marsh] tiles>", "Eliminates combat penalty for attacking over a river", "[+1] Sight", "[+50]% Strength <after discovering [Steel]>"],
 		"hurryCostModifier": -15,
 		"attackSound": "metalhit"
 	},
@@ -720,7 +720,7 @@
 		"strength": 10,
 		"rangedStrength": 12,
 		"cost": 105,
-		"requiredTech": "Construction",
+		"requiredTech": "Guilds",
 		"upgradesTo": "Cannon",
 		"obsoleteTech": "Dynamite",
 		"uniques": ["No defensive terrain bonus","[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack", "[+25]% Strength <vs [Mounted] units> <when defending>"],
