@@ -218,7 +218,7 @@
 "name": "Dacha",
 		"replaces": "Garden",
 		"uniqueTo": "Russia",
-		"culture": 1,
+		"culture": 2,
 		"uniques": ["[+25]% Great Person generation [in this city]", "[+1 Food] from [Tundra] tiles [in this city]", "[+1 Gold] from [Camp] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -228,7 +228,7 @@
 		"name": "Sala",
 		"replaces": "Garden",
 		"uniqueTo": "Siam",
-		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Free [Great Engineer] appears", "Unsellable", "Cost increases by [25] per owned city"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Free [Great Merchant] appears", "Unsellable", "Cost increases by [25] per owned city"],
 		"hurryCostModifier": 35,
 		"maintenance": 0,
 		"requiredTech": "Philosophy"
@@ -521,7 +521,7 @@
   "cost": 100,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
-		"uniques": ["Provides 1 Engineer specialist slots.", "Hidden when religion is disabled", "[+1 Food] from [Farm] tiles [in this city] <with [2] to [6] neighboring [Fresh water] [Farm] tiles>"],
+		"uniques": ["Provides 1 Engineer specialist slots.", "Hidden when religion is disabled", "[+1 Food] from [Farm] tiles [in this city] <with [2] to [6] neighboring [Fresh water] [Farm] tiles>", "[15]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Philosophy"
 	},
 {
@@ -532,7 +532,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Pottery",
-		"uniques": ["[+1 Food] from every specialist [in this city] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"uniques": ["[+2 Food] from every specialist [in this city] <during a Golden Age>","Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Satrap's Court",
