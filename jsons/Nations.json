@@ -67,6 +67,77 @@
 		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>", "[+15]% [Gold] from Trade Routes <during a Golden Age>", "[+1 Faith] from every [Incense] <after discovering [Currency]>"],
 		"cities": ["Zafar","Sana'a","Ma'rib","Najran","Mocha","Haram","Haywan","Mukhwan","Yabrin","Shabwa","Wa'lan","Libna","Nashaq","Timna","Sirwah","Quarnawu","Kaminahu","Baraqish"]
 	},
+	{
+		"name": "Persia",
+		"leaderName": "Darius I",
+		"adjective": ["Persian"],
+  "startBias": ["Hills", "Plains"],
+		"preferredVictoryType": "Neutral",
+  "style": "Mesopotamian",
+  "personality": "Darius I",
+
+        "startIntroPart1": "Great King Darius of Persia, the heaven casts its light upon you! Persian people are strong and wise, as their leader. In old ages, the great Persian king Cyrus fought back the mighty Median empire and finally destroyed the Medes in 550 BC. Cunning diplomacy and military achievements helped then to conquer the wealthy Lydia and the powerful Babylon, Cyrus' son conquering the eternal Egypt some years later. At the height of its power, the Persian Empire reached the shores of Macedonia, at the very door of the upstart Greek city-states. Persia would have prospered for centuries if Alexander of Macedon hadn't brutally destroyed the great empire in one violent strike.",
+        "startIntroPart2": "King Darius, the people of Persia await, longing for its past glory and power! Persia of the Immortals must reborn, to punish its foes and rebuild the gleaming Persepolis! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
+		"attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
+		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
+		"introduction": "Peace be on you! I am Darius, the great and outstanding king of kings of great Persia... but I suppose you knew that.",
+		"neutralHello": "Good day to you!",
+		"hateHello": "Ahh... you...",
+		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+
+        "outerColor": [153,5,3],
+        "innerColor": [244,232,54],
+
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Achaemenid Legacy",
+		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+15]% Strength <for [All] units> <during a Golden Age>", ],
+		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+        "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]
+    },
+{
+		"name": "The Hittites",
+		"leaderName": "Mursilis II",
+		"adjective": ["Hittite"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "We bow before thee, King Mursili II, son of Suppiluliuma I, one of the most powerful rulers of the Hittite Empire! You had prove to be more than a match for your successful father, in your military deeds and diplomacy. Compared to the other great kingdoms of the Middle East, little is known of Hatti, yet its empire was one of the great powers of Mesopotamia, rivaling Babylon and Egypt in military strenght and influence. The first Hittites probably came from somewhere in the Caucasus or modern Russia, but settled in central Turkey and later in Syria, areas whose plentiful natural resources, particularly metals, would prove crucial to the power of Hatti. Early Hittite kings focused on consolidating their power in the region, but soon became more and more ambitious, opting to strike out and execute audacious raids against even mighty Babylon: it ended with great success, and the Hittites were able to undermine and destroy the ruling Amorite dynasty in Babylon.",
+		"startIntroPart2": "Great Mursili II, the time has come to prepare your sword and spirit. Great opportunities, challenges and dangers are waiting for you. The new world valus not only bravery, but also wisdome. Will you show that you lack none? Will you crush your enemies under the chariot and submit your rivals under the treaty? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Prepare to be torn apart!",
+		"attacked": "We would attack you anyway. You are just hastening your defeat.",
+		"defeated":  "You were a worthy opponent, but my allies will eventually avenge me.",
+		"introduction":  "I am the mighty Mursilis. Don't get in my way and we shall live in peace.",
+		
+		"neutralHello": "Hail, welcome to the land of Hatti.",
+		"neutralLetsHearIt": ["Yes.","Go on."],
+		"neutralNo": ["Do not test my patience!","Never!"],
+		"neutralYes": ["Very good.","Of course, yes.","We accept."],
+		"hateHello": "Don't waste much of my time!",
+		"hateLetsHearIt": ["Speak!"],
+		"hateNo": ["You can't be serious!","No one would agree to that. Ever."],
+		"hateYes": ["Fine.","You can't simply refuse such offer."],
+		
+		"afterPeace": "You should pray for this peace to last ages!",
+		"tradeRequest": "What about this?",
+
+		"outerColor": [	172, 142, 97],
+		"innerColor": [	71, 6, 23],
+		"uniqueName": "Iron Pioneers",
+		"uniqueText": "Iron and Horses tiles yield additional 1 [Gold] and 1 [Production]. Receive +10% [Production] bonus when constructing military units.",
+		"uniques": ["[+10]% Production when constructing [Military] units [in all cities]","[+1 Gold] from every [Horses]","[+1 Production] from every [Horses]","[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]"],
+		"cities": ["Hattusa","Nesa","Kussara","Samuha","Tarhuntassa","Kadesh","Lusna","Alalah","Halab","Tunip","Kadesh",
+			"Zalpa","Hakpish","Nerik","Shallapsa","Arinna","Adaniya","Apasha","Waliwanda","Tapikka","Tuwanuwa",
+			"Ura","Milid","Urshu","Arwada","Sanahuitta","Dimashku","Millawanda","Gaziura","Ugarit"]
+	},
 {
 		"name": "Epirus",
 		"leaderName": "Pyrrhus",
