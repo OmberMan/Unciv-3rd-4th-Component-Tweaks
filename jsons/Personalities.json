@@ -35,6 +35,27 @@
 }
         },
 {
+"name": "Pocatello",
+                "preferredVictoryType": "Neutral",
+                "food": 5,
+                "production": 3,
+                "gold": 2,
+                "culture": 7,
+                "science": 5,
+                "faith": 6,
+                "military": 7,
+                "warMongering": 6,
+"priorities": {
+    "Honor": 10,
+    "Liberty": 40,
+    "Commerce": 10,
+    "Piety": 10
+    "Tradition": 20
+    "Freesom": 10
+    
+}
+        },
+{
                 "name": "Phyrrhus",
                 "preferredVictoryType": "Domination",
                 "food": 3,
