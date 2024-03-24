@@ -133,7 +133,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-	"uniques": ["[+40]% Strength <vs [Sword] units>", "Gain [+10] [Faith] (modified by game speed) <upon being defeated>", "[+20]% Strength <when attacking> <when fighting in [tileFilter] tiles>"]
+	"uniques": ["[+40]% Strength <vs [Sword] units>", "Gain [+10] [Faith] (modified by game speed) <upon being defeated>", "[+20]% Strength <when attacking> <when fighting in [Hill] tiles>"]
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
