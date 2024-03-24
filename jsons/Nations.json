@@ -58,12 +58,12 @@
                 "hateYes": ["Fine.","You can't simply refuse such offer."],
 
                 "afterPeace": "We shall now pray for the better days!",
-                "tradeRequest": "I bring you an excellent offer!",
+                "tradeRequest": "My favorite customer, I bring you an excellent offer!",
 
-                "outerColor": [        128, 9, 46],
-                "innerColor": [        204, 170, 118],
+                "outerColor": [        128, 10, 46],
+                "innerColor": [        205, 174, 121],
                 "uniqueName": "Sacred Mountains", 
-                "uniques": ["Double quantity of [Horses] produced","[Mounted] units gain the [Ignore terrain cost] promotion","[+1 Food, +1 Culture, +1 Production] from every [Mountain]", "[+33]% Production when constructing [Siege] units [in all cities with a garrison]"],
+                "uniques": ["[Mounted] units gain the [Ignore terrain cost] promotion","[+1 Food, +1 Culture, +1 Production] from every [Mountain]", "[+33]% Production when constructing [Siege] units [in all cities] <during a Golden Age>", "[+50]% Faith cost of generating Great Prophet equivalents", "[Faith] cost of purchasing items in cities [-50]%", "[+10]% Strength <for [Mounted] units> <when fighting units from a Civilization with more Cities than you>"],
                 "cities": ["Yerevan","Tigranakert","Artashat","Yervandashat","Armavir","Gyumri","Vanadzor","Abovyan","Kapan","Ararat","Gavar",
                 "Hrazdan","Ijevan","Goris","Ashtarak","Masis"]
         },
@@ -79,7 +79,7 @@
                 "preferredVictoryType": "Domination",
                 "startIntroPart1": "Hail to you, o glorious king! Under your leadership, the Dacian tribes have been united under a single kingdom! The kingdom of Dacia spanned what is today the countries of Moldova and Romania. In your conquests and reforms, you have made the Dacian tribes into a powerful force which even the Greeks and Romans saw as a powerful threat.",
                 "startIntroPart2": "The kingdom of Dacia is at your command and is poised to be a power among the Greeks, Romans and Celts. Your people look to you to bring the kingdom to great heights! Will you accept the challenge? Will you build a civilization that will stand the test of time?",
-                "declaringWar": "Your nation has no place here. I declare war.",
+                "declaringWar": "Your nation has no place here. They call me the human can opener for a reason.",
                 "attacked": "War? You think you can stand us?",
                 "defeated": "So... Dacia is gone. I hope we will be remembered.",
                 "introduction": "Hello there. I am Burebista, king of Dacia, and I welcome you in my kingdom.",
