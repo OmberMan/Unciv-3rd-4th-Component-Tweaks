@@ -18,6 +18,23 @@
 }
         },
 {
+"name": "Burebista",
+                "preferredVictoryType": "Domination",
+                "food": 4,
+                "production": 8,
+                "gold": 4,
+                "culture": 5,
+                "science": 5,
+                "faith": 8,
+                "military": 8,
+                "warMongering": 8,
+"priorities": {
+    "Honor": 30,
+    "Piety": 20,
+    
+}
+        },
+{
                 "name": "Phyrrhus",
                 "preferredVictoryType": "Domination",
                 "food": 3,
