@@ -262,6 +262,32 @@
                                    "[+1 Production, +1 Food] from [Bison] tiles [in this city]", "[-25]% Culture cost of natural border growth [in this city]"],
         "requiredTech": "Horseback Riding"
     },
+        {
+                "name": "Dacian Walls",
+                "replaces": "Walls",
+                "cost": 100,
+                "percentStatBonus": {"production": 10},
+                "uniqueTo": "Dacia",
+                "cityStrength": 6,
+                "cityHealth": 70,
+                "hurryCostModifier": 10,
+                "requiredTech": "Masonry"
+        },
+        {
+                "name": "Solar Disk Sanctuary",
+                "cost": 60,
+                "uniqueTo": "Dacia",
+                "maintenance": 1,
+                "culture": 1,
+                "faith": 1,
+"uniques": ["[+1 Faith] from [Mine] tiles [in this city] <during a Golden Age> <after generating a Great Prophet>", "[+1 Faith, +1 Science] <after generating a Great Prophet>" ]
+                "specialistSlots": {
+                        "Scientist": 1
+                },
+                "requiredBuilding": "Stone Works",
+                "hurryCostModifier": 25,
+                "requiredTech": "Calendar"
+        },
 {
 		"name": "Aedes",
                 "replaces": "Temple",
