@@ -517,5 +517,59 @@
     "Commerce": 20,
     "Tradition": 20
 }
+        },
+{
+                "name": "Montezuma",
+                "preferredVictoryType": "Domination",
+                "food": 5,
+                "production": 3,
+                "gold": 8,
+                "culture": 7,
+                "science": 4,
+                "faith": 9,
+                "military": 9,
+                "warMongering": 9,
+"priorities": {
+    "Piety": 20,
+    "Honor": 20,
+    "Patronage": 30,
+"Aesthetics": 10
+}
+        },
+{
+                "name": "Pachacutie",
+                "preferredVictoryType": "Diplomatic",
+                "food": 7,
+                "production": 4,
+                "gold": 8,
+                "culture": 6,
+                "science": 6,
+                "faith": 5,
+                "military": 3,
+                "warMongering": 5,
+"priorities": {
+    "Tradition": 10,
+    "Commerce": 20,
+    "Patronage": 10,
+"Order": 10
+}
+        },
+{
+                "name": "T'Chanka",
+                "preferredVictoryType": "Scientific",
+                "food": 4,
+                "production": 3,
+                "gold": 3,
+                "culture": 9,
+                "science": 10,
+                "faith": 2,
+                "military": 8,
+                "warMongering": 3,
+"priorities": {
+    "Tradition": 40,
+    "Rationalism": 40,
+    "Order": 10,
+"Aesthetics": 20
+}
         }
 ]
