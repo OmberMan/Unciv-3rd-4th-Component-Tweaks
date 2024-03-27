@@ -1,5 +1,5 @@
 [
-    /*{
+    {
         "name": "Wakanda",
 		"leaderName": "T'Challa",
 		"adjective": ["Wakandan"],
@@ -20,7 +20,7 @@
 
 		"introduction": "Greetings from Wakanda. I am T'Challa, king of Africa's greatest people.",		
 		"neutralHello": "Molo unjani (Hello, how are you?)",
-		"hateHello": "What do YOU want?",		
+		"hateHello": "Fuck off cracker.",		
 		"tradeRequest": "We all know the truth: more connects us than separates us. But in times of crisis the wise build bridges, while the foolish build barriers. We must find a way to look after one another, as if we were one single tribe.",
 
 		"outerColor": [10,17,10],
@@ -32,7 +32,7 @@
 		"cities": ["Birnin Zana","Birnin Kashin","Birnin S'Yan","Birnin Azzaria","Birnin Bashenga","Adowa","Birnin Djata","Birnin T'Chaka",
 			"Black Warrior Creek","Jabari Village","Birnin Mutata","Golden Volcano","Birnin Benhazin","Birnin Tsauni","N'Jadaka Village","Obodo Makeda"],
 		"spyNames": ["White Wolf", "Hunter", "Bucky Barnes", "Shuri", "Refaat", "Ahmadou", "Mulu Ken", "Heba", "Ayub", "Wendimu"]
-    },*/
+    },
 	{
 		"name": "Aztecs",
 		"leaderName": "Montezuma I",
