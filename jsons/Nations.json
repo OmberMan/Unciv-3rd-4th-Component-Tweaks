@@ -37,8 +37,8 @@
 		"adjective": ["Aztec"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
-"style": "Slavic",
-"personality": "Tigranes",
+"style": "South American",
+"personality": "Montezuma",
 
         "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
         "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
@@ -49,7 +49,7 @@
 		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
 
 		"neutralHello": "Welcome, future allies from across the sea. Please, stay in my palace while we discuss your people's tributary status.",
-		"hateHello": "BLOOD FOR SEX \nBLOOD FOR SEX?",
+		"hateHello": "IT IS YOU \nBLOOD FOR SEX \nYOUR BLOOD FOR SEX",
 		"tradeRequest": "Accept this agreement or suffer the consequences.",
 
         "outerColor": [139,32,23],
@@ -57,34 +57,33 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sacrificial Captives",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["Earn [33]% of killed [Military] unit's [Cost] as [Culture]", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Free [Worker] appears <upon conquering a city>", "[+100]% Happiness from luxury resources gifted by City-States", "Militaristic City-States grant units [5] times as fast when you are at war with a common nation <when above [500] [Gold]>"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
 			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
 			"Itzapalapa","Ayotzinco","Iztapam"],
-        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
-
+        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepi
     },
 	{
 		"name": "Inca",
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
-"style": "Slavic",
-"personality": "Tigranes",
+		"preferredVictoryType": "Diplomatic",
+"style": "South American",
+"personality": "Pachacutie",
 
         "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
 
         "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
 		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well; or I'll come back and be million.",
 		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
 
-		"neutralHello": "How are you doing?",
-		"hateHello": "What do you want now?",
+		"neutralHello": "Castration in the sky? \nYout penis will fly!",
+		"hateHello": "That's it. \nYou are going to Acre.",
 		"tradeRequest": "The Incan people offer this fair trade.",
 
         "outerColor": [255,184,33],
@@ -94,7 +93,7 @@
 		"uniqueName": "Great Andean Road",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
 			"[-50]% maintenance on road & railroads",
-			"No Maintenance costs for improvements in [Hill] tiles"],
+			"No Maintenance costs for improvements in [Hill] tiles", "[+25]% Production when constructing [Gold] buildings [in all cities connected to capital]", "[+1 Gold] from each Trade Route", "[+2 Culture, +1 Food] from [Mountain] tiles [in all cities]"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
