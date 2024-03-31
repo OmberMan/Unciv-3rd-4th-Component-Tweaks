@@ -296,23 +296,6 @@
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "jetgun"
 	}, 
-
-	{
-		"name": "Falx Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Dacia",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 16,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-	"uniques": ["[+40]% Strength <vs [Sword] units>", "Gain [+10] [Faith] (modified by game speed) <upon being defeated>", "[+20]% Strength <when attacking> <when fighting in [Hill] tiles>"]
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
 {
 		"name": "Druzhina",
 		"unitType": "Sword",
