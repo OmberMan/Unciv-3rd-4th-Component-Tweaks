@@ -1,4 +1,18 @@
 [
+		{
+		"name": "Mistwood Smithy",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+  "specialistSlots": {"Engineer": 1},
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Iron Working",
+  "cityHealth": 20,
+		"uniqueTo": "The Stormlands",
+		"replaces": "Forge",
+		"uniques": ["[+10]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]", 
+			"[+2 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Forest] tiles [in this city]"]
+	},
 	{
 		"name": "Great Wall",
 		"culture": 1,
