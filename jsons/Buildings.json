@@ -275,18 +275,7 @@
             "[+1 Production, +1 Food] from [Sheep] tiles [in this city]"
                                    "[+1 Production, +1 Food] from [Bison] tiles [in this city]", "[-25]% Culture cost of natural border growth [in this city]"],
         "requiredTech": "Horseback Riding"
-    },
-        {
-                "name": "Dacian Walls",
-                "replaces": "Walls",
-                "cost": 100,
-                "percentStatBonus": {"production": 10},
-                "uniqueTo": "Dacia",
-                "cityStrength": 6,
-                "cityHealth": 70,
-                "hurryCostModifier": 10,
-                "requiredTech": "Masonry"
-        },
+    },           
         {
                 "name": "Solar Disk Sanctuary",
                 "cost": 60,
