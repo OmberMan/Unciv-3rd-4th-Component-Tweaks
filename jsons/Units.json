@@ -17,6 +17,183 @@
 			//{"text": "Fill in Sofa unit of Songhai, the Weaver is a web-spewing giant bow boi that easily disarm its foes."},
       //  ]
 //	}
+          { 
+                "name": "Falcon Knight",
+                "unitType": "Mounted",
+                "replaces": "Horseman",
+                "movement": 4,
+                "strength": 12,
+                "cost": 80,
+                "hurryCostModifier": 35,
+                "requiredTech": "Horseback Riding",
+                "upgradesTo": "Cavalry",
+  "requiredResource": "Horses",
+                "uniqueTo": "The Vale",
+                "uniques": ["Can move after attacking", "[+25]% Strength decreasing with distance from the capital", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"], 
+                "promotions": ["Death from Above"],
+                "civilopediaText": [
+{
+                                "extraImage": "TileSets/FantasyHex/Units/Falcon Knight",
+                                "imageSize": 128
+                        },
+                        {
+                                "Separator": true
+                        },
+                        {
+                                "text": "Holy guacamole is that a motherfucking berserk reference?!?"
+                        }
+                ],
+                "attackSound": "horse",
+   },
+{
+"name": "Knight of Flowers",
+                "unitType": "Mounted",
+                "replaces": "Knight",
+                "movement": 3,
+                "strength": 15,
+                "cost": 95,
+                "hurryCostModifier": 35,
+                "requiredTech": "Horseback Riding",
+                "upgradesTo": "Cavalry",
+"replaces": "Horseman",
+  "requiredResource": "Horses",
+                "uniqueTo": "The Reach",
+                "uniques": ["Can move after attacking", "[+33]% Strength <vs [Mounted] units>", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"], 
+                "promotions": ["Galliance"],
+                "civilopediaText": [
+{
+                                "extraImage": "TileSets/FantasyHex/Units/Knight of Flowers",
+                                "imageSize": 128
+                        },
+                        {
+                                "Separator": true
+                        },
+                        {
+                                "text": "Yeah I know it's not a word"
+                        }
+                ],
+                "attackSound": "horse",
+   },
+{
+"name": "Bannerless Brotherhood Bowman",
+                "unitType": "Archery",
+                "replaces": "Composite Bowman",
+                "movement": 2,
+                "strength": 7,
+  "rangedStrength": 10,
+                "cost": 75,
+                "hurryCostModifier": 150,
+                "requiredTech": "Construction",
+                "upgradesTo": "Gatling Gun",
+                "uniqueTo": "The Riverlands",
+                "uniques": ["Can move after attacking", "[+25]% Strength <when above [99] HP>", "[+1] Sight", "No movement cost to pillage", "[-100]% maintenance costs", "[+25]% Strength when stacked with [Great Person]", "May withdraw before melee ([50]%)", "May capture killed [mapUnitFilter] units <with [15]% chance>", "Invisible to non-adjacent units <in [Forest] tiles>", "[+1] Movement <in [Forest] tiles>", "May enter foreign tiles without open borders", "[-33]% Strength <vs cities> <when attacking>"], 
+                "civilopediaText": [
+                        {
+                                "text": "Bannerless Bois on suicide watch after learning a battle is called a fray."
+                        }
+                ],
+                "attackSound": "arrow",
+   },
+{
+"name": "Goldcloak Pikeman",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 12,
+                "cost": 66,
+                "hurryCostModifier": -35,
+                "requiredTech": "Bronze Working",
+                "upgradesTo": "Gatling Gun",
+                "uniqueTo": "The Westerlands",
+                "uniques": ["[+20]% Strength <when defending>", "[+15]% Strength <when adjacent to a [Goldcloak Pikeman] unit>", "[+50]% to Flank Attack bonuses", "[+100]% maintenance costs", "[+50]% Strength <vs [Mounted] units>"], 
+                "civilopediaText": [
+                        {
+                                "text": "Literal Redshirts."
+                        }
+                ],
+                "attackSound": "metalhit",
+   },
+{
+"name": "Goldcloak Cavalry",
+                "unitType": "Mounted",
+                "movement": 4,
+                "strength": 12,
+                "cost": 95,
+                "hurryCostModifier": -35,
+                "requiredTech": "Horseback Riding",
+                "upgradesTo": "Cavalry",
+                "uniqueTo": "The Westerlands",
+                "uniques": ["[+150]% to Flank Attack bonuses", "[+100]% maintenance costs", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"], 
+"promotions": ["Charge"],
+                "civilopediaText": [
+                        {
+                                "text": "Literal Redshirts on horses."
+                        }
+                ],
+                "attackSound": "metalhit",
+   },
+{
+"name": "Stormbringer",
+  "unitType": "Mounted",
+                "movement": 4,
+                "strength": 14,
+                "cost": 90,
+                "hurryCostModifier": 25,
+                "requiredTech": "Horseback Riding",
+"requiredResource": "Horses",
+                "upgradesTo": "Cavalry",
+"replaces": "Horseman",
+                "uniqueTo": "The Stormlands",
+                "uniques": ["[+25]% Strength <when attacking> <vs [non-[Wounded]] units>", "[+25]% Strength <vs [Sword] units>", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+"promotions": ["Blitz"],
+"attackSound": "metalhit",
+   },
+{
+"name": "Dismounted Stormbringer",
+  "unitType": "Sword",
+                "movement": 2,
+                "strength": 14,
+                "cost": 90,
+                "hurryCostModifier": 25,
+                "requiredTech": "Horseback Riding",
+"requiredResource": "Iron",
+"replaces": "Swordsman",                
+          "upgradesTo": "Musketman",
+                "uniqueTo": "The Stormlands",
+                "uniques": ["[+25]% Strength <when attacking> <vs [non-[Wounded]] units>", "[+25]% Strength <vs [Sword] units>"],
+"promotions": ["Blitz"],
+"attackSound": "metalhit",
+   },
+          {
+"name": "Stark House Guard",
+  "unitType": "Sword",
+                "movement": 2,
+                "strength": 12,
+                "cost": 65,
+                "hurryCostModifier": 25,
+                "requiredTech": "Construction",
+"replaces": "Swordsman",                
+          "upgradesTo": "Musketman",
+                "uniqueTo": "The North",
+                "uniques": ["[+15]% Strength <when defending>", "[+15]% Strength decreasing with distance from the capital", "[+15]% Strength when stacked with [Great General]"],
+"promotions": ["Blitz"],
+"attackSound": "metalhit",
+   },
+   {
+"name": "Marches Skirmisher",
+  "unitType": "Mounted",
+                "movement": 5,
+                "strength": 10,
+          "rangedStrength": 14,
+                "cost": 75,
+                "hurryCostModifier": 25,
+                "requiredTech": "Horseback Riding",
+"replaces": "Chariot Archer",                
+          "upgradesTo": "Lancer",
+                "uniqueTo": "Dorne",
+                "uniques": ["[+20]% Strength <when defending>", "[+1] additional attacks per turn", "Ignores terrain cost", "Can move after attacking", "Ignores Zone of Control", "[-33]% Strength <vs cities> <when attacking>"],
+"promotions": ["Blitz"],
+"attackSound": "metalhit",
+   },
 {
 "name": "Housecarl",
 		"uniqueTo": "Denmark",
