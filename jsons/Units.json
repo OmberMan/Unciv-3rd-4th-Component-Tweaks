@@ -196,8 +196,8 @@
    },
 {
 "name": "Housecarl",
-		"uniqueTo": "Denmark",
-		"replaces": "Chariot Archer",
+		"uniqueTo": "The Iron Islands",
+		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
