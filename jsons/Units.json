@@ -226,7 +226,7 @@
 		"uniques": ["[+100]% Strength <vs [Military] units> <when attacking>","No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit","Ignores Zone of Control"],
 		"attackSound": "horse"
 	},
-   /* {
+   {
 		"name": "Black Panther",
 		"unitType": "Sword",
 		"uniqueTo": "Wakanda",
@@ -276,7 +276,6 @@
 		"uniqueTo": "Wakanda",
 		"movement": 2,
 		"strength": 5,
-		"upgradesTo": "Infiltrator",
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects"],
@@ -296,7 +295,7 @@
                 "promotions": ["Cover I"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "jetgun"
-	}, */
+	}, 
 
 	{
 		"name": "Falx Warrior",
