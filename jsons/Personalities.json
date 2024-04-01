@@ -17,21 +17,20 @@
     "Patronage": 20
 }
         },
-{
-"name": "Burebista",
+"name": "The Mindless Horde",
                 "preferredVictoryType": "Domination",
-                "food": 4,
-                "production": 8,
-                "gold": 4,
-                "culture": 5,
-                "science": 5,
-                "faith": 8,
-                "military": 8,
-                "warMongering": 8,
+                "food": 1,
+                "production": 3,
+                "gold": 1,
+                "culture": 2,
+                "science": 1,
+                "faith": 1,
+                "military": 10,
+                "warMongering": 10,
 "priorities": {
-    "Honor": 30,
-    "Piety": 20,
-    
+    "Autocracy": 100,
+    "Tradition": 30,
+    "Rationalism": 10
 }
         },
 {
