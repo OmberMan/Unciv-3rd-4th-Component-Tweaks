@@ -284,6 +284,13 @@ TileSets/FantasyHex/Units/Gyroblimp
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Compact Zeppelin
+  rotate: false
+  xy: 418, 160
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Hittite Garrison
   rotate: false
   xy: 884, 780
