@@ -1,4 +1,20 @@
 [
+  {
+                "name": "Ashurbanipal",
+                "preferredVictoryType": "Domination",
+                "food": 5,
+                "production": 6,
+                "gold": 4,
+                "culture": 4,
+                "science": 7,
+                "faith": 7,
+                "military": 9,
+                "warMongering": 10,
+    "priorities": {
+    "Autocracy": 100,
+    "Piety": 10,
+    "Patronage": 10
+        },
 {
 "name": "Tigranes",
                 "preferredVictoryType": "Domination",
@@ -51,7 +67,7 @@
     "Commerce": 10,
     "Piety": 10
     "Tradition": 20
-    "Freesom": 10
+    "Freedom": 10
     
 }
         },
