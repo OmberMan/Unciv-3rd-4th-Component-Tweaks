@@ -1,5 +1,29 @@
 [
 	[
+        {
+                "name": "Venice",
+                "leaderName": "Enrico Dandolo",
+                "adjective": ["Venetian"],
+                "startBias": ["Coast"],
+                "preferredVictoryType": "Diplomatic",
+"style": "Mediterranean",
+		"personality": "Enrico Dandolo",
+
+                "startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
+                "startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
+                "declaringWar": "When you will be gone, Sir, there will be more for me!",
+                "attacked": "You have revealed your purposes too early, my friend!",
+                "defeated": "A wrong calculation, on my part.",
+                "introduction": "Welcome to Venice. I am Doge Enrico Dandolo.",
+                "neutralHello": "Greetings, come for a loan?",
+                "hateHello": "Ah, my friend, don't look over here yet, I've got a surprise for you... now, turn around so you can get it between the eyes.",
+                "tradeRequest": "This offer won't be valid for a lot of time, think about it.",
+                "outerColor": [105,34,172],
+                "innerColor": [255,254,231],
+                "uniqueName": "Serenissima",
+                "uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units", "Gifts of Gold to City-States generate [+50]% more Influence", "[+33]% Production when constructing [Naval] units [in capital]" ],
+                "cities": ["Venice", " Corfu"]
+        },
 	{
 		"name": "Assyria",
 		"leaderName": "Ashurbanipal",
