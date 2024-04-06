@@ -1,5 +1,22 @@
 [
   {
+                "name": "Enrico Dandolo",
+                "preferredVictoryType": "Diplomatic",
+                "food": 3,
+                "production": 5,
+                "gold": 10,
+                "culture": 7,
+                "science": 6,
+                "faith": 2,
+                "military": 3,
+                "warMongering": 5,
+    "priorities": {
+    "Commerce": 30,
+    "Exploration": 10,
+    "Patronage": 20,
+    "Tradition": 10
+        },
+  {
                 "name": "Ashurbanipal",
                 "preferredVictoryType": "Domination",
                 "food": 5,
