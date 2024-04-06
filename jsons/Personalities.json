@@ -15,7 +15,8 @@
     "Exploration": 10,
     "Patronage": 20,
     "Tradition": 10
-        },
+        }
+},
   {
                 "name": "Ashurbanipal",
                 "preferredVictoryType": "Domination",
