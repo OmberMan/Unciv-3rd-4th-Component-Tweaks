@@ -1,5 +1,4 @@
 [
-	[
         {
                 "name": "Venice",
                 "leaderName": "Enrico Dandolo",
@@ -22,7 +21,7 @@
                 "innerColor": [255,254,231],
                 "uniqueName": "Serenissima",
                 "uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units", "Gifts of Gold to City-States generate [+50]% more Influence", "[+33]% Production when constructing [Naval] units [in capital]" ],
-                "cities": ["Venice", " Corfu"]
+                "cities": ["Venice", "Corfu"]
         },
 	{
 		"name": "Assyria",
