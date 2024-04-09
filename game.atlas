@@ -130,13 +130,6 @@ TileSets/FantasyHex/Units/Gallic Oathsworn
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Clibanarii
-  rotate: false
-  xy: 218, 163
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Colonist
   rotate: false
   xy: 76, 31
@@ -361,13 +354,6 @@ TileSets/FantasyHex/Units/Macan Bodas
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mamluk
-  rotate: false
-  xy: 884, 507
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Martik
   rotate: false
   xy: 884, 467
@@ -431,13 +417,6 @@ TileSets/FantasyHex/Units/Pirate
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sabum Kibittum
-  rotate: false
-  xy: 578, 164
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Saka Horse Archer
   rotate: false
   xy: 924, 580
@@ -452,13 +431,6 @@ TileSets/FantasyHex/Units/Samogitian Soldier
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sarawit
-  rotate: false
-  xy: 618, 164
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Slave
   rotate: false
   xy: 924, 500
@@ -471,13 +443,6 @@ TileSets/FantasyHex/Units/Slave Hunter
   xy: 658, 160
   size: 32, 32
   orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Vytis
-  rotate: false
-  xy: 698, 163
-  size: 32, 29
-  orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/War Cart
