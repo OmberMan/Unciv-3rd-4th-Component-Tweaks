@@ -275,7 +275,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects"],
+		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects", "[+100]% Strength <when attacking> <with [50]% chance>"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -287,9 +287,8 @@
 		"strength": 12,
 		"cost": 45,
 		"requiredTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"< "[+50]% Strength <vs [Ranged] units>"],
 		"upgradesTo": "Musketman",
-                "promotions": ["Cover I"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "jetgun"
 	}, 
@@ -587,7 +586,7 @@
         "upgradesTo": "Knight",
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
-        "uniques": ["Can move after attacking", "No defensive terrain bonus"],
+        "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
         "hurryCostModifier": 25,
         "attackSound": "horse"
     },
@@ -966,7 +965,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"hurryCostModifier": 40,
-                "uniques": ["Heal this unit by [25] HP <upon being promoted>", "Gain [5]-[10] [Culture] <upon being defeated>", "All adjacent units heal [+5] HP when healing", "[-5]% Strength for enemy [Military] units in adjacent [Land] tiles"]
+                "uniques": ["Heal this unit by [25] HP <upon being promoted>", "Gain [8]-[16] [Culture] <upon being defeated>", "All adjacent units heal [+5] HP when healing", "[-5]% Strength for enemy [Military] units in adjacent [Land] tiles"]
 		"attackSound": "metalhit"
 	},
 {
@@ -1029,15 +1028,15 @@
                  "strength": 7, 
                  "range": 3, 
                  "rangedStrength": 9, 
-                 "cost": 85, 
+                 "cost": 75, 
                  "requiredTech": "Trapping", 
                  "obsoleteTech": "Gunpowder", 
                  "uniques": [ 
-                               "[+4] Sight", 
-                         "Can see over obstacles", "Ignores terrain cost",
+                               "[+2] Sight", 
+                         "Can see over obstacles",
                          "Ranged attacks may be performed over obstacles", 
                                "Can see invisible [Wounded] units", 
                      ], 
-                 "attackSound": "arrow" 
+                 "attackSound": "missile" 
          }
 ]
