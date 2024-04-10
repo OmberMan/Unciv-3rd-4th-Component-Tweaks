@@ -209,14 +209,14 @@
 		"name": "Iron Furnace",
 		"replaces": "Forge",
 		"uniqueTo": "The Hittites",
-		"maintenance": 2,
+		"maintenance": 1,
 		"cost": 90,
 		"hurryCostModifier": 25,
 		"requiredTech": "Iron Working",
 		"uniques": ["Available at Iron Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Melee] units [in this city]", "Provides [1] [Iron]", "Must be on [Hill]",
 			"All newly-trained [Sword] units [in this city] receive the [Altitude Training] promotion",
-			"[+1 Production] from [Iron] tiles [in this city]"]
+			"[+1 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Copper] tiles [in this city]"]
 	},
 {
 		"name": "Ballcourt",
@@ -331,13 +331,13 @@
 		"replaces": "Shrine",
 		"uniqueTo": "Aztecs",
                 "culture": 1,
-		"faith": 1,
-                "happiness": 1,
-                "food": -1,
-		"cost": 40,
+		"faith": 3,
+                "happiness": -1,
+          
+		"cost": 50,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled", "[+2 Faith, -1 Food] per [4] population [in annexed cities]", "[-1] population [in this city] <upon entering a Golden Age>"]
+		"uniques": ["Hidden when religion is disabled", "[-1] population [in this city] <upon entering a Golden Age>"]
 	},
 {
 		"name": "Dar-e Mehr",
@@ -598,19 +598,6 @@
 		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture, +1 Faith] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled", "New [Mounted] units start with [10] Experience [in this city] <if [Heroic Epic] is constructed>", "New [Sword] units start with [10] Experience [in this city] <if [National Epic] is constructed>"]
 	},
 {
-		"name": "Blacksmith",
-		"replaces": "Forge",
-		"uniqueTo": "The Hittites",
-		"maintenance": 0,
-		"cost": 85,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Bronze Working",
-		"uniques": ["Available at Bronze Working","[+15]% Production when constructing [Spaceship part] units [in this city]",
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Copper] tiles [in this city]"]
-	},
-{
 		"name": "Dzong",
 		"replaces": "Castle",
 		"uniqueTo": "Tibet",
@@ -669,10 +656,10 @@
                  "happiness": 4,
                  "uniques": [ 
                          "[+1 Science, +2 Culture, +3 Gold] from each Trade Route", 
-                         "[+5]% [Science] from Trade Routes", 
-                         "[+10]% [Culture] from Trade Routes", 
+                         "[+33]% [Science] from Trade Routes", 
+                         "[+33]% [Culture] from Trade Routes", 
                          "[+20]% [Gold] from Trade Routes",
-                         "[+15]% [Gold] [in all cities]"
+                         "[+10]% [Gold] [in all cities]"
                  ] 
          }, 
 ]
