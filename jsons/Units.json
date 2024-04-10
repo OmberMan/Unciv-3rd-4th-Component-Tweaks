@@ -287,7 +287,7 @@
 		"strength": 12,
 		"cost": 45,
 		"requiredTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"< "[+50]% Strength <vs [Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Ranged] units>"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "jetgun"
