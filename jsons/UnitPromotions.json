@@ -1,8 +1,39 @@
 [
+	{
+        "name": "Death from Above",
+        "uniques": ["[+2] Movement <in [Hill] tiles>", "[+25]% Strength decreasing with distance from the capital"]
+    },
+        {
+                "name": "Galliance",
+                "uniques": ["Earn [5]% of the damage done to [Military] units as [Culture]", "[+10]% Strength bonus for [Military] units within [1] tiles"]
+        },
+{
+                "name": "Unbowed",
+                "uniques": ["[+1] additional attacks per turn <in [Friendly land] tiles>", "[+20%] Strength <when fighting units from a Civilization with more Cities than you> <when attacking>"]
+        },
+        {
+                "name": "Unbent",
+                "uniques": ["Invisible to non-adjacent units <in [Desert] tiles>", "Ignores Zone of Control", "[+20]% Strength <when fighting in [Desert] tiles>", "[+100]% to Flank Attack bonuses"]
+        },
+        {
+                "name": "What is dead may never die",
+                "uniques": ["Heal this unit by [15] HP <upon losing at least [30] HP in a single attack>", "Free [Thrall] appears <upon defeating a [Land] unit> <with [20]% chance>", "Defense bonus when embarked"]
+        },
+        {
+                "name": "Scourge of the Seas",
+                "uniques": ["May attack when embarked", "Earn [50]% of the damage done to [City] units as [Gold]", "Earn [20]% of the damage done to [Naval] units as [Gold]", "No movement cost to pillage"]
+        },
 {
         "name": "Pyrrhic Victory",
         "uniques": ["[+33]% Strength <when attacking>","[-33]% Strength <when defending>", "[+66]% to Flank Attack bonuses"],
 	},
+	        {
+        "name": "[Macan Bodas] ability",
+        "uniques": ["[+25]% Strength <when fighting in [Forest] tiles>",
+                        "[+25]% Strength <when fighting in [Jungle] tiles>",
+                        "Double movement in [Forest]",
+                        "Double movement in [Jungle]"]
+        },
 	{
         "name": "Death from Above",
         "uniques": ["[+2] Movement <in [Hill] tiles>", "[+25]% Strength decreasing with distance from the capital"]
