@@ -1,5 +1,23 @@
 [
   {
+                "name": "Napoleon",
+                "preferredVictoryType": "Cultural",
+                "food": 5,
+                "production": 3,
+                "gold": 4,
+                "culture": 8,
+                "science": 6,
+                "faith": 4,
+                "military": 6,
+                "warMongering": 6,
+    "priorities": {
+    "Liberty": 30,
+    "Aesthetics": 30,
+    "Patronage": 10,
+    "Rationalism": 10
+        }
+},
+  {
                 "name": "Enrico Dandolo",
                 "preferredVictoryType": "Diplomatic",
                 "food": 3,
