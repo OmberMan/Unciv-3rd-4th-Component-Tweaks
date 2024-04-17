@@ -331,11 +331,11 @@
                 "replaces": "Courthouse",
                 "uniqueTo": "Rome",
                 "maintenance": 4,
-                "greatPersonPoints": {"Great General": 1},
-                "culture": 2,
+                "greatPersonPoints": {"Great General": 2},
+                "culture": 1,
                 "cost": 100,
                 "hurryCostModifier": 25,
-                "uniques": ["New [Land] units start with [15] Experience [in this city]","Remove extra unhappiness from annexed cities", "+1 Great General Point"],
+                "uniques": ["New [Land] units start with [15] Experience [in this city]","Remove extra unhappiness from annexed cities", "+2 Great General Point", "Gain [40] [Culture] (modified by game speed) <upon constructing [Triumph] [in annexed cities]>"],
                 "requiredTech": "Philosophy"
         },
 {
