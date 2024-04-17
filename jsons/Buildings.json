@@ -330,9 +330,8 @@
                 "name": "Blood Altar",
 		"replaces": "Shrine",
 		"uniqueTo": "Aztecs",
-                "culture": 1,
-		"faith": 3,
-                "happiness": -1,
+		"faith": 2,
+                "happiness": 1,
           
 		"cost": 50,
 		"maintenance": 1,
