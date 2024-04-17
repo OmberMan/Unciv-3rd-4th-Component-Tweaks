@@ -14,6 +14,23 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "crossbow",
 			},
+{
+                "name": "Auxilliary",
+                "unitType": "Mounted",
+                "uniqueTo": "Rome",
+                "replaces": "Horseman",
+                "movement": 4,
+                "strength": 12,
+                "cost": 75,
+                "requiredTech": "Horseback Riding",
+                "upgradesTo": "Knight",
+                "obsoleteTech": "Chivalry",
+                "requiredResource": "Horses",
+                "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Ignores Zone of Control"],
+                "promotions": ["Medic", "Great Generals I"],
+                "hurryCostModifier": 0,
+                "attackSound": "horse"
+        },
           { 
                 "name": "Falcon Knight",
                 "unitType": "Mounted",
