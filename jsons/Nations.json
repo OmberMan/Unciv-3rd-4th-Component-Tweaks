@@ -1,4 +1,34 @@
 [
+{
+                "name": "France",
+                "leaderName": "Napoleon",
+                "adjective": ["French"],
+                "preferredVictoryType": "Cultural",
+                "personality": "Napoleon"
+
+        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
+        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You're disturbing us, prepare for war.",
+                "attacked": "Honhonhonhonhon, you've fallen into my trap. I'll bury you.",
+                "defeated": "I congratulate you for your victory.",
+                "introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
+                "neutralHello": "Bon jour.",
+                "hateHello": "Putain, tue-toi, espèce de petit enculé mangeur de merde!",
+                "tradeRequest": "France offers you this exceptional proposition.",
+
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+
+                "favoredReligion": "Christianity",
+                "uniqueName": "Ancien Régime",
+                "uniques": ["[+1 Culture] [in all cities]", "[+1 Culture] [in all cities] <before discovering [Steam Power]>", "[+5]% [Culture] from every [Wonder]"],
+                "cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+                        "Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+                        "Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+                        "Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
+    },
         {
                 "name": "Venice",
                 "leaderName": "Enrico Dandolo",
