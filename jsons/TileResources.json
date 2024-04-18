@@ -4,6 +4,6 @@
         "food": 1,
         "happiness": 1,
             "resourceType": "Luxury",
-        "uniques": ["Doesn't generate naturally"]
+        "uniques": ["Doesn't generate naturally", "Stockpiled"]
     }
 ]
