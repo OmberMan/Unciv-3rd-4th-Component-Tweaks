@@ -1140,13 +1140,13 @@
                 "movement": 3,
                 "strength": 5,
                 "rangedStrength": 10,
-                "cost": 50,
+                "cost": 60,
                 "requiredTech": "Construction",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Rifling",
-                "promotions": ["[Elf Archer] ability", "May withdraw before melee ([40]%)", "Can speed up construction of a building"],
-                "attackSound": "crossbow",
-"attackSound": "shot"
+                "promotions": ["[Elf Archer] ability"],
+                "uniques": ["May withdraw before melee ([40]%)", "Can speed up construction of a building"],
+"attackSound": "machinegunshot"
         },
         {
                 "name": "Flying Reindeer",
