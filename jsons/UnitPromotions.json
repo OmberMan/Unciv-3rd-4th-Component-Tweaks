@@ -60,6 +60,6 @@
         },
         {
                 "name": "[Flying Reindeer] ability",
-                "uniques": ["Can pass through impassable tiles", "May Paradrop up to [5] tiles from inside friendly territory", "No defensive terrain bonus", "No defensive terrain penalty", "Invisible to non-adjacent units" , "May travel on Water tiles without embarking", "May enter foreign tiles without open borders", "Unable to capture cities", "All tiles cost 1 movement"]
+                "uniques": ["Can pass through impassable tiles", "May Paradrop up to [25] tiles from inside friendly territory", "No defensive terrain bonus", "No defensive terrain penalty", "Invisible to non-adjacent units" , "May travel on Water tiles without embarking", "May enter foreign tiles without open borders", "Unable to capture cities", "All tiles cost 1 movement"]
         }
 ]
