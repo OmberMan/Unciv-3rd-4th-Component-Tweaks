@@ -1,5 +1,23 @@
 [
   {
+                "name": "Pacal",
+                "preferredVictoryType": "Scientific",
+                "food": 7,
+                "production": 4,
+                "gold": 4,
+                "culture": 6,
+                "science": 7,
+                "faith": 8,
+                "military": 3,
+                "warMongering": 4,
+    "priorities": {
+    "Piety": 30,
+    "Patronage": 20,
+    "Tradition": 10,
+    "Commerce": 10
+        }
+},
+  {
                 "name": "Haile Selassie",
                 "preferredVictoryType": "Scientific",
                 "food": 6,
