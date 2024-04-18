@@ -60,6 +60,7 @@
                 "uniqueName": "The Long Count",
                 "uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
                         "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.", "[+1 Food] from [Luxury resource] tiles [in all cities] <in tiles adjacent to [City center]>", "[+3]% [Science] from every [Faith]"],       
+ },
 {
                 "name": "Ethiopia",
                 "leaderName": "Haile Selassie",
