@@ -1122,30 +1122,31 @@
                 "strength": 6,
                 "rangedStrength": 10,
                 "cost": 56,
-                "requiredTech": "The Wheel",
+                "requiredTech": "Trapping",
                 "upgradesTo": "Knight",
                 "obsoleteTech": "Chivalry",
                 "uniques": ["No defensive terrain bonus",
 
                         "Rough terrain penalty",
                         "[+10]% Strength <when fighting in [Snow] tiles>",
-                        "[+10]% Strength <when fighting in [Tundra] tiles>"],
+                        "[+10]% Strength <when fighting in [Tundra] tiles>", "Ranged attacks may be performed over obstacles", "Ignores Zone of Control"],
                 "attackSound": "horse"
         },
         {
                 "name": "Elf Archer",
                 "unitType": "Archery",
-                "replaces": "Crossbowman",
+                "replaces": "Composite Bowman",
                 "uniqueTo": "The North Pole",
-                "movement": 2,
-                "strength": 13,
-                "rangedStrength": 18,
-                "cost": 120,
-                "requiredTech": "Machinery",
+                "movement": 3,
+                "strength": 5,
+                "rangedStrength": 10,
+                "cost": 50,
+                "requiredTech": "Construction",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Rifling",
-                "promotions": ["[Elf Archer] ability"],
-                "attackSound": "crossbow"
+                "promotions": ["[Elf Archer] ability", "May withdraw before melee ([40]%)", "Can speed up construction of a building"],
+                "attackSound": "crossbow",
+"attackSound": "shot"
         },
         {
                 "name": "Flying Reindeer",
@@ -1181,7 +1182,7 @@
                         "Can move after attacking",
                         "Ignores Zone of Control",
                         "Unable to capture cities"],
-                "promotions": ["Medic", "Flying Reindeer"],
+                "promotions": ["Medic", "Medic II", "[Flying Reindeer] ability"],
                 "attackSound": "Torpedo"
         }
 ]
