@@ -1112,5 +1112,76 @@
                                "Can see invisible [Wounded] units", 
                      ], 
                  "attackSound": "missile" 
-         }
+         },
+        {
+                "name": "One-Horse Open Sleigh",
+                "unitType": "Archery",
+                "uniqueTo": "The North Pole",
+                "replaces": "Chariot Archer",
+                "movement": 4,
+                "strength": 6,
+                "rangedStrength": 10,
+                "cost": 56,
+                "requiredTech": "The Wheel",
+                "upgradesTo": "Knight",
+                "obsoleteTech": "Chivalry",
+                "uniques": ["No defensive terrain bonus",
+
+                        "Rough terrain penalty",
+                        "[+10]% Strength <when fighting in [Snow] tiles>",
+                        "[+10]% Strength <when fighting in [Tundra] tiles>"],
+                "attackSound": "horse"
+        },
+        {
+                "name": "Elf Archer",
+                "unitType": "Archery",
+                "replaces": "Crossbowman",
+                "uniqueTo": "The North Pole",
+                "movement": 2,
+                "strength": 13,
+                "rangedStrength": 18,
+                "cost": 120,
+                "requiredTech": "Machinery",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Rifling",
+                "promotions": ["[Elf Archer] ability"],
+                "attackSound": "crossbow"
+        },
+        {
+                "name": "Flying Reindeer",
+                "unitType": "Mounted",
+                "replaces": "Cavalry",
+                "uniqueTo": "The North Pole",
+                "movement": 4,
+                "strength": 34,
+                "cost": 225,
+                "requiredTech": "Military Science",
+                "obsoleteTech": "Combustion",
+                "requiredResource": "Horses",
+                "upgradesTo": "Tank",
+                "uniques": ["Can move after attacking",
+                        "No defensive terrain bonus",
+                        "[-33]% Strength <vs cities> <when attacking>",
+                        "All tiles cost 1 movement",
+                        "Ignores Zone of Control",
+                        "Unable to capture cities"],
+                "promotions": ["[Flying Reindeer] ability"],
+                "attackSound": "horse"
+        },
+        {
+                "name": "Magic Sleigh",
+                "unitType": "Helicopter",
+                "replaces": "Horseman",
+                "uniqueTo": "The North Pole",
+                "movement": 5,
+                "strength": 10,
+                "cost": 100,
+                "requiredTech": "Trapping",
+                "uniques": [
+                        "Can move after attacking",
+                        "Ignores Zone of Control",
+                        "Unable to capture cities"],
+                "promotions": ["Medic", "Flying Reindeer"],
+                "attackSound": "Torpedo"
+        }
 ]
