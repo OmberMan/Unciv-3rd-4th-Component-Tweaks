@@ -50,4 +50,16 @@
         "name": "Warrior Monk",
         "uniques": ["[+60]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [15] HP <upon losing at least [30] HP in a single attack>", "[+15] HP when healing <when below [40] HP>", "[+1] additional attacks per turn", "[-20]% Strength", "[-20]% Strength <when attacking>", "[+80]% Strength <when defending> <when above [99] HP>", "Unit will heal every turn, even if it performs an action", "Can [Spread Religion] [1] times", "Can see invisible [Land] units", "Ignores terrain cost", "[-80]% XP gained from combat", "Damage is ignored when determining unit Strength"]
     },	
+        {
+                "name": "Snow Shoes",
+                "uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Can enter ice tiles"]
+        },
+        {
+                "name": "[Elf Archer] ability",
+                "uniques": ["Can build [Land] improvements on tiles"]
+        },
+        {
+                "name": "[Flying Reindeer] ability",
+                "uniques": ["Can pass through impassable tiles", "May Paradrop up to [5] tiles from inside friendly territory", "No defensive terrain bonus", "No defensive terrain penalty", "Invisible to non-adjacent units" , "May travel on Water tiles without embarking", "May enter foreign tiles without open borders", "Unable to capture cities"]
+        }
 ]
