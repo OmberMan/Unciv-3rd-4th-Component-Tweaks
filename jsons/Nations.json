@@ -32,7 +32,7 @@
                 "outerColor": [170,20,20],
                 "innerColor": [20,150,20],
                 "uniqueName": "Christmas Spirit",
-                "uniques": ["[+1 Happiness] from all [Production] buildings","[non-[Air]] units gain the [Snow Shoes] promotion","Double quantity of [Coal] produced", "[+1 Culture, +2 Production] from [Snow] tiles [in all cities]", "[+1 Production, +1 Food, +1 Happiness] from [Snow] tiles [in capital]", "[+1 Culture] from [Deer] tiles [in all cities]", "[-40]% Strength <in [Foreign land] tiles>"],
+                "uniques": ["[+1 Happiness] from all [Production] buildings","[non-[Air]] units gain the [Snow Shoes] promotion","Double quantity of [Coal] produced", "[+1 Culture, +2 Production] from [Snow] tiles [in all cities]", "[+2 Happiness] from every [Engineer]", "[-40]% Strength <in [Foreign land] tiles>"],
                 "cities": ["90 Degrees North","Santa's Corner","Coffee Club Island","Polar Expressway","Alert","Camp Barneo","Drift Station Alpha","Arktika","Hans Island","Candy Cane Forest","Rudolph's Place"]
         },
  {
@@ -60,6 +60,11 @@
                 "uniqueName": "The Long Count",
                 "uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
                         "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.", "[+1 Food] from [Luxury resource] tiles [in all cities] <in tiles adjacent to [City center]>", "[+3]% [Science] from every [Faith]"],       
+"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
+			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
+			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
+			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
+        "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]
  },
 {
                 "name": "Ethiopia",
