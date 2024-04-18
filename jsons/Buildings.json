@@ -5,7 +5,7 @@
                 "uniqueTo": "Ethiopia",
                 "uniques": ["[+1 Food, +1 Culture] per every [50] [Faith]", "Unbuildable",
                         "Automatically built in all cities where it is buildable", 
-                        "Can only be built <in [in all cities] cities> <in [Hill] tiles>", "[+1 Production] from [Forest] tiles [in this city]"]
+                        "Can only be built <in [in all cities] cities> <in [Hill] tiles>"]
         },
 		{
 		"name": "Mistwood Smithy",
