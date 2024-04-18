@@ -1,5 +1,22 @@
 [
   {
+                "name": "Haile Selassie",
+                "preferredVictoryType": "Scientific",
+                "food": 6,
+                "production": 4,
+                "gold": 6,
+                "culture": 7,
+                "science": 5,
+                "faith": 9,
+                "military": 6,
+                "warMongering": 5,
+    "priorities": {
+    "Piety": 20,
+    "Patronage": 10,
+    "Tradition": 10
+        }
+},
+  {
                 "name": "Napoleon",
                 "preferredVictoryType": "Cultural",
                 "food": 5,
