@@ -2,6 +2,24 @@
   {
                 "name": "Pacal",
                 "preferredVictoryType": "Scientific",
+                "food": 3,
+                "production": 10,
+                "gold": 1,
+                "culture": 8,
+                "science": 5,
+                "faith": 5,
+                "military": 2,
+                "warMongering": 1,
+    "priorities": {
+    "Order": 30,
+    "Aesthetics": 30,
+    "Tradition": 20,
+    "Commerce": 35
+    }
+  },
+  {
+                "name": "Pacal",
+                "preferredVictoryType": "Scientific",
                 "food": 7,
                 "production": 4,
                 "gold": 4,
