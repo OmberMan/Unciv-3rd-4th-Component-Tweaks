@@ -32,7 +32,7 @@
                 "outerColor": [170,20,20],
                 "innerColor": [20,150,20],
                 "uniqueName": "Christmas Spirit",
-                "uniques": ["[+1 Happiness, -1 Gold] from all [Production] buildings","[non-[Air]] units gain the [Snow Shoes] promotion","Double quantity of [Coal] produced", "[+1 Culture, +2 Production] from [Snow] tiles [in all cities]", "[-1 Food] from [Desert] tiles [in all cities]", "[-1 Food] from [Jungle] tiles [in all cities]", "[-25]% Growth [in all cities]", "Instantly provides [1] [Milk and Cookies] <upon declaring friendship>", "[+1 Happiness] from every [Engineer]", "[-50]% Strength <in [Foreign land] tiles>"],
+                "uniques": ["[+1 Happiness, -1 Gold] from all [Production] buildings","[non-[Air]] units gain the [Snow Shoes] promotion","Double quantity of [Coal] produced", "[+1 Culture, +2 Production] from [Snow] tiles [in all cities]", "[-1 Food] from [Desert] tiles [in all cities]", "[-1 Food] from [Jungle] tiles [in all cities]", "Instantly provides [1] [Milk and Cookies] <upon declaring friendship>", "[+1 Happiness] from every [Engineer]", "[-50]% Strength <in [Foreign land] tiles>"],
                 "cities": ["90 Degrees North","Santa's Corner","Coffee Club Island","Polar Expressway","Alert","Camp Barneo","Drift Station Alpha","Arktika","Hans Island","Candy Cane Forest","Rudolph's Place"]
         },
  {
@@ -260,7 +260,7 @@
 
 		"introduction": "Greetings from Wakanda. I am T'Challa, king of Africa's greatest people.",		
 		"neutralHello": "Molo unjani (Hello, how are you?)",
-		"hateHello": "Fuck off cracker.",		
+		"hateHello": "Wakanda Foreba, ham sandwich man.",		
 		"tradeRequest": "We all know the truth: more connects us than separates us. But in times of crisis the wise build bridges, while the foolish build barriers. We must find a way to look after one another, as if we were one single tribe.",
 
 		"outerColor": [10,17,10],
@@ -464,7 +464,7 @@
                 "outerColor": [65,54,42],
                 "innerColor": [78,244,234],
                 "uniqueName": "Great Expanse",
-                "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-40]% Culture cost of natural border growth [in all cities]", "[+2 Food] from every [Bison]"],
+                "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-40]% Culture cost of natural border growth [in all cities]", "[+2 Food] from every [Bison]", "[+1 Culture] from every [Bison] <after discovering [Horseback Riding]", "[-1 Food, +1 Production] from every [Plains] <when at war>"],
                 "cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
                         "Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
                         "Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -740,7 +740,7 @@
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[+25]% Production when constructing [All] buildings [in capital]", "[Great Scientist] is earned [50]% faster", "[+1 Faith] from all [Science] buildings"],
+		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[+15]% Production when constructing [All] buildings [in capital]", "[Great Scientist] is earned [50]% faster", "[+1 Faith] from all [Science] buildings"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
