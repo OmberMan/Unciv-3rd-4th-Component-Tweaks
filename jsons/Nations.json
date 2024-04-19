@@ -105,7 +105,8 @@
                 "leaderName": "Napoleon",
                 "adjective": ["French"],
                 "preferredVictoryType": "Cultural",
-                "personality": "Napoleon"
+"startBias": ["Avoid [Desert]"],
+                "personality": "Napoleon",
 
         "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
         "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
@@ -474,7 +475,7 @@
 		"leaderName": "Solomon",
 		"adjective": ["Israeli"],
   "personality": "Solomon",
-		"startBias": ["Avoid [Jungle]","Avoid [Forest]","Avoid [Tundra]"],
+		"startBias": ["Avoid [Jungle]","Avoid [Tundra]"],
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "Great and wise Solomon, King of Israel and son of David. You were the leader of the Jewish people, ruling over a shortlived kingdom in the Promised Land, before your people would once again become wanders. Yet Babylon has fallen, Alexander ended the rules of Persians, Rome grew in power and fell, the crusaders were defeated, and still your people has survived. The Jewish people have shown the world a strenght of culture and tradition, their religion and beliefs standing strong against the many who sought to destroy them. After three thousands years, your nation has proven to be one of the most tenacious in history, carving out a place for themselves like the rain wears away at the rock.",
@@ -509,7 +510,7 @@
 		"name": "Persia",
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
-  "startBias": ["Hills", "Plains"],
+  "startBias": ["Hills"],
 		"preferredVictoryType": "Neutral",
   "style": "Mesopotamian",
   "personality": "Darius",
@@ -790,7 +791,7 @@
 		"leaderName": "U Kix Chan",
 		"adjective": ["Olmec"],
 	        "personality": "U Kix Chan",
-		"startBias": ["Jungle","Coast"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Scientific",
                 "style": "South American",
 		
