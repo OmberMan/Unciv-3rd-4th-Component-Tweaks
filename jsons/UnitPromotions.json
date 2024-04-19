@@ -52,7 +52,7 @@
     },	
         {
                 "name": "Seaman",
-                "uniques": ["May attack when embarked", "Invisible to non-adjacent units <when [Embarked]>"]
+                "uniques": ["May attack when embarked", "Invisible to non-adjacent units <in [Water] tiles>"]
         },
         {
                 "name": "Snow Shoes",
