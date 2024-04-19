@@ -999,7 +999,7 @@
 		"uniques": ["[+1 Food] from every [Coast]", "Starts with [Sailing]",
 		"[+1 Food] from every [Coast] <after discovering [Astronomy]>", "Defense bonus when embarked", "All newly-trained [Worker] units [in all cities] receive the [Seaman] promotion",
 		"[+1 Food] from every [Ocean]", "[+2] Movement <for [Embarked] units>", "[1] Movement point cost to embark",
-		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>", "[+1] Sight <for [Embarked] units>", "[+1 Science] from every specialist [in all coastal cities] <during a Golden Age>"", "[+1 Culture, +1 Happiness] per [2] social policies adopted <during a Golden Age>", "[-10]% Strength <when fighting in [Land] tiles>", "[+10]% Strength <when fighting in [Coastal] tiles>", "[+10]% Strength <when fighting in [Water] tiles>", "[+5]% Strength <when fighting in [Ocean] tiles>"]
+		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>", "[+1] Sight <for [Embarked] units>", "[+1 Science] from every specialist [in all coastal cities] <during a Golden Age>", "[+1 Culture, +1 Happiness] per [2] social policies adopted <during a Golden Age>", "[-10]% Strength <when fighting in [Land] tiles>", "[+10]% Strength <when fighting in [Coastal] tiles>", "[+10]% Strength <when fighting in [Water] tiles>", "[+5]% Strength <when fighting in [Ocean] tiles>"]
 		"cities": ["Atlantis","Zuhaitz","Anoixte","Yamylaik","Burmiunean","Seamund","Osoa","Taidorie","Doxa","Vussted","Skratlantis","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
 	},
 	{
@@ -1234,7 +1234,7 @@
 		"innerColor": [83, 1, 208],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Monument Builders",
-		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]", "[-33]% tile improvement construction time"],
+		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]", "[-33]% tile improvement construction time", "[+2 Food] from every [Floodplains]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -1267,7 +1267,7 @@
 
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [3] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "No movement cost to pillage <for [Mounted] units>"],
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [3] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "No movement cost to pillage <for [Mounted] units>", "[+15]% Strength <when attacking>", "[-15]% Strength <when defending>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     }, 
