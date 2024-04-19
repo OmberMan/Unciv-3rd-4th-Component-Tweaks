@@ -51,6 +51,10 @@
         "uniques": ["[+60]% Strength <when fighting in [Holy site] tiles>", "Heal this unit by [15] HP <upon losing at least [30] HP in a single attack>", "[+15] HP when healing <when below [40] HP>", "[+1] additional attacks per turn", "[-20]% Strength", "[-20]% Strength <when attacking>", "[+80]% Strength <when defending> <when above [99] HP>", "Unit will heal every turn, even if it performs an action", "Can [Spread Religion] [1] times", "Can see invisible [Land] units", "Ignores terrain cost", "[-80]% XP gained from combat", "Damage is ignored when determining unit Strength"]
     },	
         {
+                "name": "Seaman",
+                "uniques": ["May attack when embarked", "Invisible to non-adjacent units <when [Embarked]>"]
+        },
+        {
                 "name": "Snow Shoes",
                 "uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Can enter ice tiles"]
         },
