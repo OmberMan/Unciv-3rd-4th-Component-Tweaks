@@ -990,7 +990,7 @@
 		"attacked": "The Tides foresaw this...",
 		"defeated": "Moon... Where have you gone?",
 		"introduction": "Ever try holding your breath underwater?",
-		"neutralHello": "You should come for a visit.",		
+		"neutralHello": "You should come for a visit. Tie these bricks to your land feet.",		
 		"hateHello": "You are not welcome in the sea.",	
 		"tradeRequest": "This was actually built underwater.",
 
@@ -998,7 +998,7 @@
 		"innerColor": [129,225,255],
 		"uniqueName": "The Sunken City",
 		"uniques": ["[+1 Food] from every [Coast]", "Starts with [Sailing]",
-		"[+1 Food] from every [Coast] <after discovering [Astronomy]>", "Defense bonus when embarked", "All newly-trained [Worker] units [in all cities] receive the [Seaman] promotion",
+		"[+1 Food] from every [Coast] <after discovering [Astronomy]>", "Defense bonus when embarked", "All newly-trained [All] units [in all cities] receive the [Seaman] promotion",
 		"[+1 Food] from every [Ocean]", "[+2] Movement <for [Embarked] units>", "[1] Movement point cost to embark",
 		"[+1 Food] from every [Ocean] <after discovering [Astronomy]>", "[+1] Sight <for [Embarked] units>", "[+1 Science] from every specialist [in all coastal cities] <during a Golden Age>", "[+1 Culture, +1 Happiness] per [2] social policies adopted <during a Golden Age>", "[-10]% Strength <when fighting in [Land] tiles>", "[+10]% Strength <when fighting in [Coastal] tiles>", "[+10]% Strength <when fighting in [Water] tiles>", "[+5]% Strength <when fighting in [Ocean] tiles>"]
 		"cities": ["Atlantis","Zuhaitz","Anoixte","Yamylaik","Burmiunean","Seamund","Osoa","Taidorie","Doxa","Vussted","Skratlantis","Krilas","Akkigia","Khalos","Meriham","Heinghall","Basall","Minamell"]
