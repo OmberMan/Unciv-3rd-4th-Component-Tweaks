@@ -54,7 +54,7 @@
                 "name": "Snow Shoes",
                 "uniques": ["Double movement in [Snow]", "Double movement in [Tundra]", "Can enter ice tiles"]
         },
-        {
+{
                 "name": "[Elf Archer] ability",
                 "uniques": ["Can build [Land] improvements on tiles"]
         },
