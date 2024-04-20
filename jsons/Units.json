@@ -163,8 +163,9 @@
                 "unitType": "Sword",
                 "movement": 2,
                 "strength": 12,
+	        "replaces": "Spearman",
                 "cost": 66,
-                "hurryCostModifier": -35,
+                "hurryCostModifier": -20,
                 "requiredTech": "Bronze Working",
                 "upgradesTo": "Gatling Gun",
                 "uniqueTo": "The Westerlands",
@@ -180,20 +181,40 @@
 "name": "Goldcloak Cavalry",
                 "unitType": "Mounted",
                 "movement": 4,
+	        "replaces": "Horseman",
                 "strength": 12,
-                "cost": 95,
-                "hurryCostModifier": -35,
+                "cost": 90,
+                "hurryCostModifier": -20,
                 "requiredTech": "Horseback Riding",
                 "upgradesTo": "Cavalry",
                 "uniqueTo": "The Westerlands",
-                "uniques": ["[+150]% to Flank Attack bonuses", "[+100]% maintenance costs", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"], 
-"promotions": ["Charge"],
+                                "uniques": ["[+150]% to Flank Attack bonuses", "[+50]% maintenance costs", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"], 
+	"promotions": ["Charge"],
                 "civilopediaText": [
                         {
                                 "text": "Literal Redshirts on horses."
                         }
                 ],
-                "attackSound": "metalhit",
+                "attackSound": "horse",
+   },
+	{
+"name": "Brave Companions",
+                "unitType": "Mounted",
+                "movement": 4,
+                "strength": 10,
+                "cost": 75,
+                "hurryCostModifier": 0,
+                "requiredTech": "Horseback Riding",
+                "upgradesTo": "Cavalry",
+                "uniqueTo": "The Westerlands",
+                "uniques": ["This Unit gains [2] XP <upon ending a turn in a [Enemy land] tile>", "[-100]% maintenance costs", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Earn [-10]% of the damage done to [Enemy] units as [Gold]", "Can move immediately once bought", "Ignores Zone of Control", "May enter foreign tiles without open borders", "Heal this unit by [+10] HP <upon ending a turn in a [{Farm} {Enemy land}] tile>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "Unbuildable", "[+33]% Strength <when attacking> <vs [Wounded] units>", "Can only heal by pillaging", "Unbuildable", "No movement cost to pillage "], 
+"promotions": ["Drill I", "Drill II", "Shock I", "Shock II"],
+                "civilopediaText": [
+                        {
+                                "text": "Literal Redshirts on horses."
+                        }
+                ],
+                "attackSound": "elephant",
    },
 {
 "name": "Stormbringer",
