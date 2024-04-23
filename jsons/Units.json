@@ -374,8 +374,8 @@
 			"[+120]% Strength <during the [Atomic era]>",
 			"[+140]% Strength <during the [Information era]>",
 			"[+160]% Strength <during the [Future era]>",
-			"[+1] Movement <starting from the [Information era]>"],
-		"attackSound": "arrow"
+			"[+1] Movement <starting from the [Information era]>", "Can be earned through combat"],
+		"attackSound": "nonmetalhit"
 	}, 
 	{
 		"name": "War Rhino",
@@ -404,6 +404,7 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects", "[+100]% Strength <when attacking> <with [50]% chance>"],
+"upgradesTo": "Infiltrator",
 		"attackSound": "torpedo"
 	},
 	{
@@ -604,7 +605,7 @@
         "requiredTech": "Bronze Working",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
-        "uniques": ["[+50]% Strength <vs [Mounted] units>", "[+20]% Strength <when attacking>", "[+20]% Strength <vs cities> <when attacking>"],
+        "uniques": ["[+50]% Strength <vs [Mounted] units>", "[+20]% Strength <when attacking>", "[+25]% Strength <vs cities> <when attacking>"],
         "attackSound": "metalhit"
     },
 {
@@ -1062,7 +1063,7 @@
 		"replaces": "Great General",
 		"movement": 4,
 		"strength": 12,
-		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Wounded] units> <when attacking>", "Heals [25] damage if it kills a unit"],
+		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Wounded] units> <when attacking>", "Can be earned through combat", "Heals [25] damage if it kills a unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
