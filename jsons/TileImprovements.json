@@ -8,4 +8,26 @@
 		"techRequired": "Currency",
 		"uniques": ["Can only be built on [Coastal] tiles","[+1 Food] for each adjacent [Fishing Boats]", "[+2 Gold] <with [1] to [2] neighboring [Luxury resource] tiles>", "[+3 Gold] <with [3] to [4] neighboring [Luxury resource] tiles>","[+4 Gold] <with [5] to [6] neighboring [Luxury resource] tiles>", "[+1 Gold] <with [1] to [6] neighboring [Water resource] tiles>", "[+1 Production] <after discovering [Navigation]>"]
 	},
+	    {
+        "name": "Tipi",
+        "uniqueTo": "Shoshone",
+        "terrainsCanBeBuiltOn": ["Plains"],
+        "food": 1,
+        "faith": 1,
+        "turnsToBuild": 5,
+        "techRequired": "Trapping",
+        "uniques": [
+            "Does not need removal of [Forest]",
+            "Does not need removal of [Jungle]",
+            "Must be next to [Luxury resource]",
+            "[+1 Food] <after discovering [Civil Service]>",
+            "[+1 Faith] <after discovering [Theology]>",
+            "[+1 Food] for each adjacent [Bison]",
+	    "[+1 Culture] for each adjacent [City center]",
+            "[+1 Gold] <in [River] tiles>",
+            "Cannot be built on [Hill] tiles",
+            "Can only be built to improve a resource <in [resource] tiles>",
+            "Pillaging this improvement yields approximately [+7 Gold]"
+        ]
+    },
 ]
