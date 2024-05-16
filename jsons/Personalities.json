@@ -1,4 +1,22 @@
 [
+{
+                "name": "House",
+                "preferredVictoryType": "Science",
+                "food": 3,
+                "production": 8,
+                "gold": 10,
+                "culture": 7,
+                "science": 9,
+                "faith": 1,
+                "military": 4,
+                "warMongering": 4,
+    "priorities": {
+    "Commerce": 80,
+    "Aesthetics": 30,
+    "Rationalism": 30,
+    "Patronage": 20
+    }
+  },
   {
                 "name": "Christmas Kid",
                 "preferredVictoryType": "Cultural",
