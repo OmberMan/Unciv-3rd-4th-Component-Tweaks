@@ -1,4 +1,45 @@
 [ 
+	  {
+    "name": "Securitron Mark I",
+    "uniqueTo": "New Vegas",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "strength": 74,
+    "cost": "370",
+    "requiredTech": "Electronics",
+    "obsolete tech": "Robotics",
+    "upgradesTo": "Securitron Mark II",
+    "attackSound": "shot",
+    "promotions": ["Ignore terrain cost"],
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought",
+      "[+1] Sight",
+      "[+30]% Strength <vs [Armored] units>"
+    ]
+  },
+  {
+    "name": "Securitron Mark II",
+    "uniqueTo": "New Vegas",
+    "unitType": "Ranged Gunpowder",
+    "movement": 3,
+    "range": 2,
+    "strength": 100,
+    "rangedStrength": 100,
+    "cost": 400,
+    "interceptRange": 6,
+    "requiredTech": "Robotics",
+    "attackSound": "tankshot",
+    "promotions": ["Ignore terrain cost"],
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought",
+      "[+1] Sight",
+      "[100]% chance to intercept air attacks",
+      "[+33]% Strength <vs cities> <when attacking>",
+      "[+40]% Strength <vs [Armored] units>"
+    ]
+  }
 {
 		"name": "Oromo",
 		"unitType": "Archery",
