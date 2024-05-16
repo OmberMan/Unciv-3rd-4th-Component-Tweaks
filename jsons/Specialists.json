@@ -1,0 +1,22 @@
+[
+{
+    "name": "Pitboss",
+    "greatPersonPoints": {
+      "Great Artist": 1,
+    },
+    "culture": 1,
+    "food": -1,
+    "gold": 4,
+    "color": [205, 175, 135]
+  },
+  {
+    "name": "RobCo Scientist",
+    "greatPersonPoints": {
+      "Great Scientist": 1,
+      "Great Engineer": 1
+    },
+    "science": 2,
+    "production": 3,
+    "color": [90, 175, 185]
+  }
+]
