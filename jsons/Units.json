@@ -9,11 +9,12 @@
     "requiredTech": "Bronze Working",
     "upgradesTo": "Securitron Mark II",
     "attackSound": "machineshot",
-    "promotions": ["Ignore terrain cost"],
     "uniques": [
       "Never appears as a Barbarian unit",
       "Can move immediately once bought",
       "[+1] Sight",
+      "Damage is ignored when determining unit Strength",
+      "[+1] Movement <in [Friendly land] tiles>",
       "[+30]% Strength <vs [Sword] units>",    "[+30]% Strength <vs [Gunpowder] units>",
 "[+300]% maintenance costs",
       "[-100]% XP gained from combat",
