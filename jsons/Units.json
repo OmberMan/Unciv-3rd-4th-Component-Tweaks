@@ -4,8 +4,8 @@
     "uniqueTo": "New Vegas",
     "unitType": "Gunpowder",
     "movement": 1,
-    "strength": 22,
-    "cost": "270",
+    "strength": 20,
+    "cost": "300",
     "requiredTech": "Bronze Working",
     "upgradesTo": "Securitron Mark II",
     "attackSound": "machineshot",
@@ -17,32 +17,41 @@
       "[+1] Movement <in [Friendly land] tiles>",
       "[+30]% Strength <vs [Sword] units>",    "[+30]% Strength <vs [Gunpowder] units>",
 "[+300]% maintenance costs",
+"[-10] HP when healing",
+"[+30]% Strength decreasing with distance from the capital",
       "[-100]% XP gained from combat",
-      
+      "No defensive terrain bonus"
     ]
   },
   {
     "name": "Securitron Mark II",
     "uniqueTo": "New Vegas",
     "unitType": "Ranged Gunpowder",
-    "movement": 3,
-    "range": 2,
-    "strength": 100,
-    "rangedStrength": 100,
+    "movement": 1,
+    "range": 1,
+    "strength": 24,
+    "rangedStrength": 24,
     "cost": 400,
     "interceptRange": 6,
-    "requiredTech": "Robotics",
+    "requiredTech": "Iron Working",
     "attackSound": "tankshot",
-    "promotions": ["Ignore terrain cost"],
     "uniques": [
       "Never appears as a Barbarian unit",
       "Can move immediately once bought",
       "[+1] Sight",
       "[100]% chance to intercept air attacks",
-      "[+33]% Strength <vs cities> <when attacking>",
-      "[+40]% Strength <vs [Armored] units>"
+      "[+30]% Strength <vs cities> <when attacking>",
+      "[+40]% Strength <vs [Armored] units>",
+"Damage is ignored when determining unit Strength",
+      "[+1] Movement <in [Friendly land] tiles>",
+      "[+40]% Strength <vs [Mounted] units>",
+"[+500]% maintenance costs",
+"[-10] HP when healing",
+"[+30]% Strength decreasing with distance from the capital",
+      "[-100]% XP gained from combat",
+      "No defensive terrain bonus"
     ]
-  }
+  },
 {
 		"name": "Oromo",
 		"unitType": "Archery",
