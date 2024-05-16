@@ -15,10 +15,9 @@
     },
     "requiredTech": "Bronze Working",
     "uniques": [
-      "[+1 Production] from every [Manufactory]",
-      "[+1 Science] from every [Manufactory]",
-      "[3] free [Securitron Mark I] units appear",
-      "[15]% Production when constructing [Ranged] units [in this city]"
+      "[+2 Production, +2 Science] from every [Manufactory]",
+      "[+1 Gold] from every [Engineer]",
+      "[3] free [Securitron Mark I] units appear"
     ]
   },
   {
