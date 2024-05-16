@@ -5,6 +5,7 @@
     "isNationalWonder": true,
     "production": 8,
     "science": 2,
+    "cityStrength": 13,
     "cost": 200,
     "specialistSlot": { 
       "RobCo Scientist": 2
@@ -16,6 +17,7 @@
     "requiredTech": "Bronze Working",
     "uniques": [
       "[+2 Production, +2 Science] from every [Manufactory]",
+"Population loss from nuclear attacks [-70]% [in this city]",
       "[+1 Gold] from every [Engineer]",
       "[3] free [Securitron Mark I] units appear"
     ]
