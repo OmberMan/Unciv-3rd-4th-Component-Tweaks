@@ -1,4 +1,44 @@
 [
+  {
+    "name": "RobCo Industries",
+    "uniqueTo": "New Vegas",
+    "isNationalWonder": true,
+    "production": 8,
+    "science": 2,
+    "cost": 200,
+    "specialistSlot": { 
+      "RobCo Scientist": 2
+    },
+    "percentStatBonus": { 
+      "production": 20,
+      "science": 20
+    },
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      "[+1 Production] from every [Manufactory]",
+      "[+1 Science] from every [Manufactory]",
+      "[3] free [Securitron Mark I] units appear",
+      "[15]% Production when constructing [Ranged] units [in this city]"
+    ]
+  },
+  {
+    "name": "Lucky 38 Casino",
+    "uniqueTo": "New Vegas",
+    "isNationalWonder": true,
+    "requiredTech": "Currency",
+    "percentStatBonus": {"gold": 50},
+    "gold": 3,
+    "happiness": 5,
+    "culture": 4,
+    "cost": 175,
+    "specialistSlots": {
+      "Pitboss": 3
+    },
+    "uniques": [
+      "Free Great Person",
+      "[+1 Happiness, +1 Gold] per [2] population [in this city]"
+    ]
+  }
                 {
                 "name": "The spirit of Adawa",
                 "requiredTech": "Calendar",
