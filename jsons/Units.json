@@ -3,19 +3,21 @@
     "name": "Securitron Mark I",
     "uniqueTo": "New Vegas",
     "unitType": "Gunpowder",
-    "movement": 2,
-    "strength": 74,
-    "cost": "370",
-    "requiredTech": "Electronics",
-    "obsolete tech": "Robotics",
+    "movement": 1,
+    "strength": 22,
+    "cost": "270",
+    "requiredTech": "Bronze Working",
     "upgradesTo": "Securitron Mark II",
-    "attackSound": "shot",
+    "attackSound": "machineshot",
     "promotions": ["Ignore terrain cost"],
     "uniques": [
       "Never appears as a Barbarian unit",
       "Can move immediately once bought",
       "[+1] Sight",
-      "[+30]% Strength <vs [Armored] units>"
+      "[+30]% Strength <vs [Sword] units>",    "[+30]% Strength <vs [Gunpowder] units>",
+"[+300]% maintenance costs",
+      "[-100]% XP gained from combat",
+      
     ]
   },
   {
