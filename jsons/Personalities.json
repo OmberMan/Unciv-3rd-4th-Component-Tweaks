@@ -1,5 +1,21 @@
 [
 {
+                "name": "Remilia",
+                "preferredVictoryType": "Neutral",
+                "food": 3,
+                "production": 2,
+                "gold": 3,
+                "culture": 7,
+                "science": 6,
+                "faith": 2,
+                "military": 10,
+                "warMongering": 4,
+    "priorities": {
+    "Aesthetics": 5,
+    "Tradition": 10
+    }
+  },
+{
                 "name": "House",
                 "preferredVictoryType": "Science",
                 "food": 3,
