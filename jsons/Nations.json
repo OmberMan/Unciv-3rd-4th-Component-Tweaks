@@ -57,7 +57,7 @@
     "uniqueName": "The House Always Wins",
     "uniques": [
       "Cannot build [Settler] units",
-       "[+33]% Yield from every [Gold]", "[+2 Science, +2 Gold] per every [100] [Gold]", "[+8 Science, +6 Culture] per every [500] [Gold]", "[+1 Gold, +1 Science] from every [Engineer]", "[+15]% Production when constructing [All] wonders [in capital]", "[85]% of excess happiness converted to [Gold]",
+       "[+3]% Yield from every [Gold]", "[+2 Science, +2 Gold] per every [100] [Gold]", "[+8 Science, +6 Culture] per every [500] [Gold]", "[+1 Gold, +1 Science] from every [Engineer]", "[+15]% Production when constructing [All] wonders [in capital]", "[85]% of excess happiness converted to [Gold]",
       "[+100]% Culture cost of natural border growth [in all cities]",
       "May not generate great prophet equivalents naturally",
       "[-50]% enemy spy effectiveness [in capital]", "May not annex cities",
