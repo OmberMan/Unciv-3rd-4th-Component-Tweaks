@@ -2,7 +2,7 @@
 	  {
     "name": "Securitron Mark I",
     "uniqueTo": "New Vegas",
-    "unitType": "Gunpowder",
+    "unitType": "Armored",
     "movement": 1,
     "strength": 20,
     "cost": "300",
@@ -26,7 +26,7 @@
   {
     "name": "Securitron Mark II",
     "uniqueTo": "New Vegas",
-    "unitType": "Ranged Gunpowder",
+    "unitType": "Armored",
     "movement": 1,
     "range": 1,
     "strength": 24,
@@ -445,7 +445,7 @@
                 "cost": 64,
                 "hurryCostModifier": 25,
                 "requiredTech": "Bronze Working",
-                "uniques": ["[+15]% Strength <when adjacent to a [Lockstep Legion] unit>", "[+15]% Strength <when defending> <when fighting in [Open terrain] tiles>", "[+20]% Strength <when defending> <when adjacent to a [Lockstep Legion] unit>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Earn [-10]% of the damage done to [Enemy] units as [Gold]", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can move immediately once bought", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"], 
+                "uniques": ["[+15]% Strength <when adjacent to a [Lockstep Legion] unit>", "[+15]% Strength <when defending> <when fighting in [Open terrain] tiles>", "[+20]% Strength <when defending> <when adjacent to a [Lockstep Legion] unit>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can move immediately once bought", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"], 
 "promotions": ["March", "Sellout"],
                 "attackSound": "metalhit",
    },
@@ -458,7 +458,7 @@
                 "hurryCostModifier": 40,
                 "requiredTech": "Horseback Riding",
                 "upgradesTo": "Cavalry",
-                "uniques": ["[+50]% Strength <when attacking>", "May withdraw before melee ([10]%)", "Can move after attacking", "[+1] additional attacks per turn", "No defensive terrain bonus", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles", "[-75]% Strength <vs cities> <when attacking>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Can move immediately once bought", "Earn [-10]% of the damage done to [Enemy] units as [Gold]", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"],
+                "uniques": ["[+50]% Strength <when attacking>", "May withdraw before melee ([10]%)", "Can move after attacking", "[+1] additional attacks per turn", "No defensive terrain bonus", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles", "[-50]% Strength <vs cities> <when attacking>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"],
 "promotions": ["Sellout"],
                 "attackSound": "horse",
    },
@@ -471,7 +471,7 @@
                 "hurryCostModifier": 40,
                 "requiredTech": "Optics",
                 "upgradesTo": "Musketman",
-                "uniques": ["[+67]% Strength <when attacking> <with [33]% chance>", "This Unit gains [1] XP <upon ending a turn in a [Enemy land] tile>", "May withdraw before melee ([20]%)", "Can move after attacking", "Can move immediately once bought", "[1] Movement point cost to disembark", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "[+10]% Strength <when above [300] [Gold]>", "[+10]% Strength <when above [600] [Gold]>", "[+10]% Strength <when above [900] [Gold]>", "[+10]% Strength <when above [1200] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Earn [-10]% of the damage done to [Enemy] units as [Gold]", "Earn [33]% of killed [Military] unit's [Strength] as [Gold]", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"],
+                "uniques": ["[+67]% Strength <when attacking> <with [33]% chance>", "This Unit gains [1] XP <upon ending a turn in a [Enemy land] tile>", "May withdraw before melee ([20]%)", "Can move after attacking", "Can move immediately once bought", "[1] Movement point cost to disembark", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "[+10]% Strength <when above [300] [Gold]>", "[+10]% Strength <when above [600] [Gold]>", "[+10]% Strength <when above [900] [Gold]>", "[+10]% Strength <when above [1200] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Earn [33]% of killed [Military] unit's [Strength] as [Gold]", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"],
 "promotions": ["Sellout"],
                 "attackSound": "shank",
    },
@@ -485,7 +485,7 @@
                 "hurryCostModifier": 40,
                 "requiredTech": "Construction",
                 "upgradesTo": "Gatling Gun",
-                "uniques": ["[+1] Range", "Defense bonus when embarked", "[+25]% Strength <when attacking> <vs [non-[Wounded]] units>", "May withdraw before melee ([10]%)", "Can move immediately once bought", "[1] Movement point cost to embark", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Earn [-10]% of the damage done to [Enemy] units as [Gold]"],
+                "uniques": ["[+1] Range", "Defense bonus when embarked", "[+25]% Strength <when attacking> <vs [non-[Wounded]] units>", "May withdraw before melee ([10]%)", "Can move immediately once bought", "[1] Movement point cost to embark", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>"],
 "promotions": ["Sellout"],
                 "attackSound": "Arrow",
    },
@@ -1109,7 +1109,7 @@
 		"requiredTech": "Mining",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Sword] units>","[+50]% Strength <when defending>"],
+		"uniques": ["[+25]% Strength <vs [Sword] units>","[+33]% Strength <when defending>"],
 		"attackSound": "nonmetalhit"
 	},
 {
@@ -1154,7 +1154,7 @@
 		"uniqueTo": "Indonesia",
 		"movement": 3,
 		"strength": 7,
-  "rangedStrength": 9,
+  "rangedStrength": 10,
 		"cost": 35,
   "range": 1,
 		"requiredTech": "Sailing",
@@ -1245,7 +1245,7 @@
 		"replaces": "Great General",
 		"movement": 4,
 		"strength": 12,
-		"uniques": ["Can start an [8]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Wounded] units> <when attacking>", "Can be earned through combat", "Heals [25] damage if it kills a unit"],
+		"uniques": ["Can start an [5]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Wounded] units> <when attacking>", "Can be earned through combat", "Heals [25] damage if it kills a unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -1286,7 +1286,7 @@
 		"uniqueTo": "Arabia",
 		"movement": 3,
 		"strength": 14,
-		"cost": 80,
+		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
 		"requiredResource": "Horses",
@@ -1303,7 +1303,7 @@
 		"strength": 15,
 		"cost": 60,
 		"requiredTech": "Animal Husbandry",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>","Never appears as a Barbarian unit", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] tiles", "[+1] Sight"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] tiles", "[+1] Sight", "[-90]% XP gained from combat",],
 		"attackSound": "horse"
 	},
   { 
@@ -1348,7 +1348,7 @@
                          "Ranged attacks may be performed over obstacles", 
                                "Can see invisible [Wounded] units", 
                      ], 
-                 "attackSound": "missile" 
+                 "attackSound": "falcon" 
          },
         {
                 "name": "One-Horse Open Sleigh",
