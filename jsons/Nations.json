@@ -32,7 +32,7 @@
     "personality": "House",
     "adjective": "Vegas",
     "startBias": ["Desert"],
-    "preferredVictoryType": "Science",
+    "preferredVictoryType": "Scientific",
 
     "outerColor": [66, 189, 74],
     "innerColor": [47, 26, 26],
