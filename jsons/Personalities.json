@@ -36,7 +36,7 @@
       "declareWar": 3,
       "commerce": 10,
       "diplomacy": 8,
-      "loyal": 1,
+      "loyal": 3,
       "expansion": 2,
     "priorities": {
     "Commerce": 80,
@@ -146,22 +146,6 @@
     "Tradition": 10
         }
 },
-  {
-                "name": "Ashurbanipal",
-                "preferredVictoryType": "Domination",
-                "food": 5,
-                "production": 6,
-                "gold": 4,
-                "culture": 4,
-                "science": 7,
-                "faith": 7,
-                "military": 9,
-                "warMongering": 10,
-    "priorities": {
-    "Autocracy": 100,
-    "Piety": 10,
-    "Patronage": 10
-}
         },
 {
 "name": "Tigranes",
@@ -770,7 +754,13 @@
                 "science": 4,
                 "faith": 9,
                 "military": 9,
-                "warMongering": 9,
+                //"warMongering": 9,
+ "aggressive": 7,
+      "declareWar": 9,
+      "commerce": 6,
+      "diplomacy": 7,
+      "loyal": 6,
+      "expansion": 8,
 "priorities": {
     "Piety": 20,
     "Honor": 20,
@@ -788,7 +778,13 @@
                 "science": 6,
                 "faith": 5,
                 "military": 3,
-                "warMongering": 5,
+                //"warMongering": 5,
+ "aggressive": 3,
+      "declareWar": 3,
+      "commerce": 7,
+      "diplomacy": 6,
+      "loyal": 4,
+      "expansion": 7,
 "priorities": {
     "Tradition": 10,
     "Commerce": 20,
@@ -806,7 +802,13 @@
                 "science": 10,
                 "faith": 2,
                 "military": 8,
-                "warMongering": 3,
+                //"warMongering": 3,
+ "aggressive": 2,
+      "declareWar": 4,
+      "commerce": 2,
+      "diplomacy": 1,
+      "loyal": 9,
+      "expansion": 3,
 "priorities": {
     "Tradition": 40,
     "Rationalism": 40,
@@ -824,7 +826,13 @@
                 "science": 7,
                 "faith": 8,
                 "military": 3,
-                "warMongering": 4,
+                //"warMongering": 4,
+"aggressive": 5,
+      "declareWar": 4,
+      "commerce": 8,
+      "diplomacy": 6,
+      "loyal": 5,
+      "expansion": 5,
     "priorities": {
     "Commerce": 30,
     "Exploration": 10,
