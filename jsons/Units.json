@@ -317,6 +317,21 @@
                 "uniques": ["[+15]% Strength <when defending>", "[+30]% Strength decreasing with distance from the capital", "[+15]% Strength when stacked with [Great General]"],
 "attackSound": "metalhit",
    },
+ {
+  "name": "Rando Rig 2",
+  "unitType": "Armor",
+  "uniqueTo": "Rando's Army",
+  "replaces": "Chariot Archer",
+  "movement": 5,
+  "strength": 20,
+  "cost": 150,
+  "requiredTech": "Engineering",
+  "requiredResource": "Iron",
+  "upgradesTo": "Modern Armor",
+  "attackSound": "Vroom",
+  "promotions": ["Shock I", "Medic"],
+  "uniques": ["No defensive terrain bonus", "Transfer Movement to [Civilian]", "[-33]% Strength <vs [Armor] units>", "[+33]% Strength <vs [Fortified] units> <when attacking>", "[-25]% Strength <vs cities> <when attacking>", "Can move after attacking"]
+ },
 {
 "name": "Sand Viper",
   "unitType": "Sword",
