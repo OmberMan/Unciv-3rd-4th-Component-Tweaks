@@ -21,7 +21,7 @@
 		"outerColor": [145, 40,  0],
 		"innerColor": [ 10, 10, 10],
 		"uniqueName": "Scarlet Mist",
-		"uniques" : ["-[75]% Culture cost of acquiring tiles [in all cities]", "New [Military] units start with [15] Experience <during We Love The King Day>", "-[25]% tile improvement construction time", "Heals [33] damage if it kills a unit <for [{Land} {Melee}] units>", "[-66]% enemy spy effectiveness [in capital]", "[-66]% growth [in all cities]", "[+1 Culture, +1 Science] from [Lake] tiles [in all cities]", "Enemy [Wounded] units must spend [1] extra movement points when inside your territory", "[-100]% Food is carried over after population increases [in all cities]", "May not annex cities"],
+		"uniques" : ["-[75]% Culture cost of acquiring tiles [in all cities]", "New [Military] units start with [15] Experience <during We Love The King Day>", "-[50]% tile improvement construction time", "Heals [33] damage if it kills a unit <for [{Land} {Melee}] units>", "[-50]% enemy spy effectiveness [in capital]", "[-50]% growth [in all cities]", "[+1 Culture, +1 Science] from [Lake] tiles [in all cities]", "Enemy [Wounded] units must spend [1] extra movement points when inside your territory", "[-100]% Food is carried over after population increases [in all cities]", "May not annex cities"],
 		"cities": ["Scarlet Mansion", "Amaranth", "Gungnir", "Carnelian", "Voile", "Misty Lake", "Piros", "Sarkans", "Lavatein", "Antares",
 					"Cranberry Acres", "Alizarin", "Cardinal", "New Bucharest", "Crimson", "Sanguine", "Betelgeuze", "Maroon", "Vörös", "Arcturus",
 					"Kermes", "Carmine", "Cerise", "Aldebaran", "Scharlaken"]
@@ -57,7 +57,7 @@
     "uniqueName": "The House Always Wins",
     "uniques": [
       "Cannot build [Settler] units",
-       "[+3]% Yield from every [Gold]", "[+2 Science, +2 Gold] per every [100] [Gold]", "[+8 Science, +6 Culture] per every [500] [Gold]", "[+1 Gold, +1 Science] from every [Engineer]", "[+15]% Production when constructing [All] wonders [in capital]", "[85]% of excess happiness converted to [Gold]",
+       "[+2]% Yield from every [Gold]", "[+2 Science, +2 Gold] per every [100] [Gold]", "[+8 Science, +6 Culture] per every [500] [Gold]", "[+1 Gold, +1 Science] from every [Engineer]", "[+15]% Production when constructing [All] wonders [in capital]", "[85]% of excess happiness converted to [Gold]",
       "[+100]% Culture cost of natural border growth [in all cities]",
       "May not generate great prophet equivalents naturally",
       "[-50]% enemy spy effectiveness [in capital]", "May not annex cities",
@@ -120,7 +120,7 @@
                 "outerColor": [170,20,20],
                 "innerColor": [20,150,20],
                 "uniqueName": "Christmas Spirit",
-                "uniques": ["[+1 Happiness, -1 Gold] from all [Production] buildings","[non-[Air]] units gain the [Snow Shoes] promotion","Double quantity of [Coal] produced", "[+1 Culture, +2 Production] from [Snow] tiles [in all cities]", "[-1 Food] from [Desert] tiles [in all cities]", "[-1 Food] from [Jungle] tiles [in all cities]", "Instantly provides [1] [Milk and Cookies] <upon declaring friendship>", "[+1 Happiness] from every [Engineer]", "[-50]% Strength <in [Foreign land] tiles>", "[-40]% growth [in all cities]"],
+                "uniques": ["[+1 Happiness, -1 Gold] from all [Production] buildings","[non-[Air]] units gain the [Snow Shoes] promotion","Double quantity of [Coal] produced", "[+1 Culture, +1 Production] from [Snow] tiles [in all cities]", "[-1 Food] from [Desert] tiles [in all cities]", "[-1 Food] from [Jungle] tiles [in all cities]", "Instantly provides [1] [Milk and Cookies] <upon declaring friendship>", "[+1 Happiness] from every [Engineer]", "[-50]% Strength <for [Military] units> <in [Foreign land] tiles>", "[-40]% growth [in all cities]"],
                 "cities": ["90 Degrees North","Santa's Corner","Coffee Club Island","Polar Expressway","Alert","Camp Barneo","Drift Station Alpha","Arktika","Hans Island","Candy Cane Forest","Rudolph's Place"]
         },
  {
