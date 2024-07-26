@@ -424,7 +424,7 @@
                 "hurryCostModifier": -75,
                 "requiredTech": "Mathematics",
                 
-                "uniques": ["[+500]% Strength <when attacking> <vs [{Land} {Military}] units>", "Ignores Zone of Control", "Earn [-500]% of killed [Land] unit's [Strength] as [Gold]", "May enter foreign tiles without open borders", "Can only attack [Military] units", "May withdraw before melee ([67]%)", "Invisible to non-adjacent units", "Unable to capture cities", "Unable to pillage tiles", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [House of Black and White]>"], 
+                "uniques": ["[+700]% Strength <when attacking> <vs [{Land} {Military}] units>", "Ignores Zone of Control", "Earn [-500]% of killed [Land] unit's [Strength] as [Gold]", "May enter foreign tiles without open borders", "Can only attack [Military] units", "May withdraw before melee ([67]%)", "Invisible to non-adjacent units", "Unable to capture cities", "Unable to pillage tiles", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [House of Black and White]>"], 
                 "attackSound": "woah",
    },
 {
@@ -448,7 +448,7 @@
                 "cost": 80,
                 "hurryCostModifier": 50,
                 "requiredTech": "Bronze Working",
-                "uniques": ["Heal this unit by [15] HP <upon losing at least [25] HP in a single attack>", "[+10]% Strength <when adjacent to a [Unsullied] unit>", "Can move immediately once bought", "[-100]% maintenance costs", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"], 
+                "uniques": ["[+10]% Strength <when adjacent to a [Unsullied] unit>", "Can move immediately once bought", "[-100]% maintenance costs", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"], 
                 "attackSound": "metalhit",
 "promotions": ["Drill I", "Drill II", "Shock I", "Shock II", "Neutered"]
    },
@@ -587,8 +587,8 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["[+33]% Strength <when attacking>",
-			"No defensive terrain bonus", "Destroys tile improvements when attacking",
-			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles"],
+			"No defensive terrain bonus", "Destroys tile improvements when attacking", "[+15]% Strength <vs [Mounted] units>",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles", "[+33]% Strength <vs [Fortified] units>"],
 		"attackSound": "elephant"		
 	},
 	{
@@ -600,7 +600,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects", "[+100]% Strength <when attacking> <with [50]% chance>"],
+		"uniques": ["Ignores terrain cost", "Can see invisible [Land] units", "Ignores Zone of Control", "May upgrade to [Infiltrator] through ruins-like effects", "[+100]% Strength <when attacking> <with [20]% chance>"],
 "upgradesTo": "Infiltrator",
 		"attackSound": "torpedo"
 	},
@@ -781,8 +781,8 @@
         "replaces": "Horseman",
         "uniqueTo": "Babylon",
         "movement": 4,
-        "strength": 12,
-        "promotions": ["Shock I"],
+        "strength": 11,
+        "promotions": ["Shock I", "Shock II"],
         "cost": 65,
         "requiredTech": "The Wheel",
         "requiredResource": "Horses",
