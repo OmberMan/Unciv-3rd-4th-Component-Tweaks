@@ -6,13 +6,14 @@
 		"uniqueTo": "The Vandals",
 		"movement": 4,
 		"strength": 11,
-		"cost": 75,
+		"cost": 80,
 		"requiredTech": "Horseback Riding",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Knight",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "No movement cost to pillage",
+		"requiredResource": "Horses",
+		"uniques": ["Founds a new city <by consuming this unit>", "No movement cost to pillage",
 		"No defensive terrain bonus", "Eliminates combat penalty for attacking over a river", "May capture killed [Barbarian] units <with [33]% chance>",
-		"May enter foreign tiles without open borders", "[-25]% Strength <vs cities> <when attacking"],
+		"May enter foreign tiles without open borders", "[-25]% Strength <vs cities> <when attacking", "Can move after attacking"],
 		"attackSound": "horse"
 	},
 	  {
