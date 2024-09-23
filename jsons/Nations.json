@@ -21,11 +21,11 @@
 
 		"tradeRequest": "May I offer you this trade?",
 
-		"outerColor": [32, 31, 0],
+		"outerColor": [146, 131, 74],
 		"innerColor": [36, 153, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Regnum Vandalorum et Alanorum",
-		"uniques": ["Units in cities cost no Maintenance", "Gain [400] [Gold] <upon conquering a city>"]
+		"uniques": ["Units in cities cost no Maintenance", "Gain [200] [Gold] <upon conquering a city>", "Upon capturing a city, receive [2] times its [Food] production as [Gold] immediately", "Ignores Zone of Control <for [Civilian] units> <in [{Foreign Land} {Coastal}] tiles>", "[+2] Movement <for [Melee] units> <in [{Foreign Land} {Coastal}] tiles>", "", ""]
 		"cities": ["Alania","Alan Hippo Regius","Hadrumetum","Utica","Cirta","Thapsus","Tunis","Leptis Magna","Sabratha","Gafsa",
 			"Vaga","Theveste","Lambaesis","Bulla Regia","Thugga","Thysdrus","Sufetula","Clupea","Carthago Nova","Calama",
 			"Vescera","Timgad","Sitifis","Sicca Veneria","Rusadir","Capsa","Pupianum","Tacapae","Auzia","Tipasa",
