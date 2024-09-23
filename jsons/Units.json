@@ -724,7 +724,7 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Iron Working",
-		"promotions": ["Woods Warfare", "Woodsman"],
+		"promotions": ["Woods Warfare", "Woodsman", "Poisoned Tips"],
 		"uniques": ["May capture killed [Wounded] units <with [20]% chance> <when fighting in [Friendly Land] tiles>", "Heal this unit by [15] HP <upon ending a turn in a [Forest] tile>", "Gain [10]-[15] [Faith] <upon being defeated>", "[+25]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "metalhit" 
