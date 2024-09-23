@@ -5,7 +5,7 @@
     },
 			{
         "name": "Poisoned!",
-        "uniques": ["[This Unit] takes [10] damage <upon ending a turn in a [non-[City center]] tile>"]
+        "uniques": ["[This Unit] takes [8] damage <upon ending a turn in a [non-[City center]] tile>"]
     },
 	{
 	"name": "Scorching",
@@ -21,6 +21,10 @@
     },
 		{
         "name": "Shock and Awe",
+        "uniques": ["[Target Unit] gains the [Disoriented!] status for [2] turn(s) <with [20]% chance> <upon damaging a [Land] unit>", "[Target Unit] gains the [Disorganized!] status for [1] turn(s) <with [10]% chance> <upon damaging a [Land] unit>"]
+    },
+	{
+        "name": "Shock and Awe II",
         "uniques": ["[Target Unit] gains the [Disoriented!] status for [2] turn(s) <with [30]% chance> <upon damaging a [Land] unit>", "[Target Unit] gains the [Disorganized!] status for [1] turn(s) <with [15]% chance> <upon damaging a [Land] unit>"]
     },
 		{
