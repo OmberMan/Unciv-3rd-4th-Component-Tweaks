@@ -22,7 +22,8 @@
     "unitType": "Armored",
     "movement": 1,
     "strength": 20,
-    "cost": "300",
+    "cost": 300,
+		  "promotions": ["Shock and Awe"],
     "requiredTech": "Bronze Working",
     "upgradesTo": "Securitron Mark II",
     "attackSound": "machineshot",
@@ -52,6 +53,7 @@
     "interceptRange": 6,
     "requiredTech": "Iron Working",
     "attackSound": "tankshot",
+	  "promotions": ["Shock and Awe"],
     "uniques": [
       "Never appears as a Barbarian unit",
       "Can move immediately once bought",
@@ -115,7 +117,7 @@
                 "requiredResource": "Horses",
                 "uniques": ["Can move after attacking",
                         "No defensive terrain bonus"],
-                "promotions": ["Sickening Plague","Rejuvenation"],
+                "promotions": ["Sickening Plague","Rejuvenation", "Poisoned Tips"],
                 "attackSound": "horse"
         },
         {
@@ -301,7 +303,7 @@
 "replaces": "Horseman",
                 "uniqueTo": "The Stormlands",
                 "uniques": ["[+25]% Strength <vs [Fortified] units>", "[+25]% Strength <vs [Sword] units>", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-"promotions": ["Blitz"],
+"promotions": ["Blitz", "Shock and Awe"],
 "attackSound": "metalhit",
    },
 {
@@ -317,7 +319,7 @@
           "upgradesTo": "Musketman",
                 "uniqueTo": "The Stormlands",
                 "uniques": ["[+50]% Strength <vs [Fortified] units>", "[+25]% Strength <vs [Sword] units>"],
-"promotions": ["Blitz"],
+"promotions": ["Blitz", "Shock and Awe"],
 "attackSound": "metalhit",
    },
           {
@@ -361,7 +363,7 @@
 "replaces": "Spearman",
                 "uniqueTo": "Dorne",
                 "uniques": ["[+20]% Strength <when attacking> <vs [Wounded] units>", "[+25]% Strength <vs [Mounted] units>", "May withdraw before melee ([40]%)", "Can move after attacking", "[+50]% Strength <vs [Ranged] units> <when defending> <in [Desert] tiles>"],
-"promotions": ["Unbent"],
+"promotions": ["Unbent", "Poisoned Tips"],
 "attackSound": "metalhit",
    },
    {
@@ -504,7 +506,7 @@
                 "requiredTech": "Optics",
                 "upgradesTo": "Musketman",
                 "uniques": ["[+67]% Strength <when attacking> <with [33]% chance>", "This Unit gains [1] XP <upon ending a turn in a [Enemy land] tile>", "May withdraw before melee ([20]%)", "Can move after attacking", "Can move immediately once bought", "[1] Movement point cost to disembark", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "[+10]% Strength <when above [300] [Gold]>", "[+10]% Strength <when above [600] [Gold]>", "[+10]% Strength <when above [900] [Gold]>", "[+10]% Strength <when above [1200] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Earn [33]% of killed [Military] unit's [Strength] as [Gold]", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"],
-"promotions": ["Sellout"],
+"promotions": ["Sellout", "Poisoned Tips"],
                 "attackSound": "shank",
    },
 {
@@ -603,6 +605,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Metallurgy",
+		"promotions": ["Shock and Awe II"],
 		"uniques": ["[+33]% Strength <when attacking>",
 			"No defensive terrain bonus", "Destroys tile improvements when attacking", "[+15]% Strength <vs [Mounted] units>",
 			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles", "[+33]% Strength <vs [Fortified] units>"],
@@ -787,7 +790,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"promotions": ["Great Generals II"],
+		"promotions": ["Great Generals II", "Shock and Awe"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
 		"hurryCostModifier": 0,
 		"attackSound": "elephant"
@@ -993,7 +996,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+10]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit","[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [50]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units"],
+	"promotions": ["Poisoned Tips"],
+		"uniques": ["[+10]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit","[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [50]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units"],
 		"attackSound": "fire"
 	},
 {	
@@ -1040,6 +1044,7 @@
   "hurryCostModifier": -10,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
+	        "promotions": ["Shock and Awe"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+25]% Strength <vs [Mounted] units> <when defending>"],
 		"attackSound": "elephant"
