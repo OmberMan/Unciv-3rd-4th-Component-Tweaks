@@ -19,6 +19,18 @@
         "name": "Fire on Deck!",
         "uniques": ["[This Unit] takes [20] damage <upon ending a turn in a [Water] tile>"]
     },
+		{
+        "name": "Shock and Awe",
+        "uniques": ["[Target Unit] gains the [Disoriented!] status for [2] turn(s) <with [30]% chance> <upon damaging a [Land] unit>", "[Target Unit] gains the [Disorganized!] status for [1] turn(s) <with [15]% chance> <upon damaging a [Land] unit>"]
+    },
+		{
+        "name": "Disoriented!",
+        "uniques": ["[-20]% Strength <when attacking>", "[-1] Movement"]
+    },
+		{
+        "name": "Disorganized!",
+        "uniques": ["[-30]% Strength", "Cannot Move"]
+    },
 	{
         "name": "Despoilers of Rome",
         "uniques": ["Earn [30]% of killed [Water] unit's [Cost] as [Gold]", "Earn [30]% of the damage done to [City] units as [Gold]", "May capture killed [Water] units <with [30]% chance>"]
