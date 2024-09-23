@@ -1,7 +1,7 @@
 [
 	{
         "name": "Despoilers of Rome",
-        "uniques": ["Earn [30]% of killed [Water] unit's [Cost] as [Gold]", "Earn [30]% of the damage done to [City] units as [Gold]"]
+        "uniques": ["Earn [30]% of killed [Water] unit's [Cost] as [Gold]", "Earn [30]% of the damage done to [City] units as [Gold]", "May capture killed [Water] units <with [30]% chance>"]
     },
 	{
         "name": "Death from Above",
