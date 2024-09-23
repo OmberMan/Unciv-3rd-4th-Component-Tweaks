@@ -3,7 +3,7 @@
 		"name": "The Vandals",
 		"leaderName": "Gaiseric",
 		"adjective": ["Vandal"],
-		"startBias": ["Desert"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"style": "Germanic",
 "personality": "Gaiseric",
@@ -25,7 +25,7 @@
 		"innerColor": [36, 153, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Regnum Vandalorum et Alanorum",
-		"uniques": ["Units in cities cost no Maintenance", "Gain [200] [Gold] <upon conquering a city>", "Upon capturing a city, receive [2] times its [Food] production as [Gold] immediately", "Ignores Zone of Control <for [Civilian] units> <in [{Foreign Land} {Coastal}] tiles>", "[+2] Movement <for [Melee] units> <in [{Foreign Land} {Coastal}] tiles>", "[+2] Movement <for [Civilian] units> <in [{Foreign Land} {Coastal}] tiles>", "All newly-trained [{Water} {Melee}] units [in all cities] receive the [Prize Ships] promotion"]
+		"uniques": ["Units in cities cost no Maintenance", "Gain [200] [Gold] <upon conquering a city>", "Empire enters golden age <upon conquering a city> <with [30]% chance>", "Ignores Zone of Control <for [Settler] units> <in [{Foreign Land} {Coastal}] tiles>", "[+1] Movement <for [Melee] units> <in [{Foreign Land} {Coastal}] tiles>", "[+1] Movement <for [Settler] units> <in [{Foreign Land} {Coastal}] tiles>", "All newly-trained [{Water} {Melee}] units [in all cities] receive the [Despoilers of Rome] promotion <during a Golden Age>"]
 		"cities": ["Alania","Alan Hippo Regius","Hadrumetum","Utica","Cirta","Thapsus","Tunis","Leptis Magna","Sabratha","Gafsa",
 			"Vaga","Theveste","Lambaesis","Bulla Regia","Thugga","Thysdrus","Sufetula","Clupea","Carthago Nova","Calama",
 			"Vescera","Timgad","Sitifis","Sicca Veneria","Rusadir","Capsa","Pupianum","Tacapae","Auzia","Tipasa",
