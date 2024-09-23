@@ -1,7 +1,7 @@
 [
 	{
         "name": "Despoilers of Rome",
-        "uniques": ["Earn [33]% of killed [Water] unit's [Cost] as [Gold]", "[+25]% Strength decreasing with distance from the capital"]
+        "uniques": ["Earn [30]% of killed [Water] unit's [Cost] as [Gold]", "Earn [30]% of the damage done to [City] units as [Gold]"]
     },
 	{
         "name": "Death from Above",
