@@ -1,4 +1,5 @@
 [
+	{
 	"name": "Alan Courthouse",
 		"replaces": "Courthouse",
 		"uniqueTo": "The Vandals",
@@ -9,6 +10,7 @@
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>", "[+2 Gold] from each Trade Route", "[+1 Gold] from [Bonus resource] tiles [in this city]"],
 		"requiredTech": "Mathematics"
+	}
   {
     "name": "RobCo Industries",
     "uniqueTo": "New Vegas",
