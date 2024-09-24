@@ -1,5 +1,9 @@
-[
-		{
+[		
+{
+        "name": "Kern",
+        "uniques": ["This Unit] gains [5] XP <upon adopting [all]>"]
+    },
+{
         "name": "Poisoned Tips",
         "uniques": ["[Target Unit] gains the [Poisoned!] status for [4] turn(s) <with [67]% chance> <upon damaging a [{[non-[Armor]]} {Land}] unit>"]
     },
