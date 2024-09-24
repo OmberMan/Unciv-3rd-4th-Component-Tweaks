@@ -1,5 +1,17 @@
 [
 	{
+                "name": "Ringfort",
+                "replaces": "Walls",
+                "uniqueTo": "Ireland",
+                "cityStrength": 2,
+                "cityHealth": 40,
+		"specialistSlots": {"Artist": 1},
+                "hurryCostModifier": 25,
+                "uniques": ["[+1 Culture] from [Marsh] tiles [in this city]", "[10]% Food is carried over after population increases [in this city]",
+                        "Destroyed when the city is captured"],
+                "requiredTech": "Masonry"
+        },
+	{
 		"name": "Abbey",
 		"replaces": "Amphitheater",
 		"uniqueTo": "Ireland",
