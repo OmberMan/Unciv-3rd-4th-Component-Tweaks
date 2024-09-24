@@ -6,14 +6,15 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 12,
-		"cost": 75,
+		"cost": 85,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"hurryCostModifier": 20,
-		"promotions": ["Shock and Awe"],
+		"uniques": ["[+2] Movement <in [{Enemy land} {Road}] tiles>"],
+		"promotions": ["Shock and Awe", "Cover I"],
 		"attackSound": "metalhit"
-	}, <in [tileFilter] tiles>
+	}, 
 	{
 		"name": "Pillager",
 		"unitType": "Mounted",
