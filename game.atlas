@@ -116,14 +116,7 @@ TileSets/FantasyHex/Units/Charging Chariot
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cliathairi
-  rotate: false
-  xy: 812, 388
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Gallic Oathsworn
+TileSets/FantasyHex/Units/Oathsworn
   rotate: false
   xy: 812, 388
   size: 32, 32
@@ -467,6 +460,13 @@ TileSets/FantasyHex/Units/Worker-Horseman
   offset: 0, 0
   index: -1
 UnitIcons/Sarawit
+  rotate: false
+  xy: 812, 756
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Oathsworn
   rotate: false
   xy: 812, 756
   size: 64, 64
