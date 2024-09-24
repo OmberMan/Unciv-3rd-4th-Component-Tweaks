@@ -1,4 +1,35 @@
 [
+	{
+		"name": "Ireland",
+		"leaderName": "Tairrdelbach Ua Conchobair",
+		"adjective": ["Irish"],
+		"preferredVictoryType": "Diplomatic",
+"style": "Germanic",
+"personality": "Hilbert",
+		
+		"declaringWar": "You shall taste steel for swiping me lucky charms! May their luck be with you, because that's the only thing to save you!",
+		"attacked": "How dare You! You will beg for mercy!",
+		"defeated": "I have failed, but the history of Ireland will never be lost.",
+		"introduction": "I am Tairrdelbach Ua Conchobair, the High King of Ireland. Who are You stranger? Is that a beginning of new, brighter future?",
+		
+		"neutralHello": "Hmh?",
+		"neutralLetsHearIt": ["Yes.","Go on."],
+		"neutralNo": ["No.","Unacceptable."],
+		"neutralYes": ["Fine.","I gladly accept."],
+		"hateHello": "You know I'm such a fool for you.",
+		"hateLetsHearIt": ["What's your offer?"],
+		"hateNo": ["I will never accept that!","No way!"],
+		"hateYes": ["I must accept.","If I have to..."],
+		
+		"afterPeace": "The bards will sing songs about this war. Yet, I am glad it is over.",
+		"tradeRequest": "Here is an offer that might benefit both of us.",
+
+		"outerColor": [64, 217, 49],
+		"innerColor": [255, 179, 0],
+		"uniqueName": "Go n-éirí leat!",
+		"uniques": ["Each city founded increases culture cost of policies [17]% less than normal","[-1 Happiness] [in all cities]", "All newly-trained [Melee] units [in all non-occupied cities] receive the [Kern] promotion"],
+		"cities": ["Dublin","Cork","Downpatrick","Tipperary","Trim","Limerick","Kilkenny","Belfast","Galway","Lucan","Newry","Lifford","Tallaght","Armagh","Waterford","An Uaimh"],
+	},
 		{
 		"name": "The Vandals",
 		"leaderName": "Gaiseric",
