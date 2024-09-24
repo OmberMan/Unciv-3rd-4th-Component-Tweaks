@@ -1,5 +1,20 @@
 [ 
 	{
+		"name": "Cliathairi",
+		"unitType": "Sword",
+		"uniqueTo": "Ireland",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"promotions": ["Shock and Awe"],
+		"attackSound": "metalhit"
+	}, <in [tileFilter] tiles>
+	{
 		"name": "Pillager",
 		"unitType": "Mounted",
 		"replaces": "Horseman",
