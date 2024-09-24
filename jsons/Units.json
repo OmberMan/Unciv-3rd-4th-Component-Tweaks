@@ -1,5 +1,21 @@
 [ 
 	{
+		"name": "Javelinman",
+		"replaces": "Spearman",
+		"unitType": "Archery",
+		"uniqueTo": "Ireland",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 9,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Ignores terrain cost"],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Cliathairi",
 		"unitType": "Sword",
 		"uniqueTo": "Ireland",
