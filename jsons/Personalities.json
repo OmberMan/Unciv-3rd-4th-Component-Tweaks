@@ -1,4 +1,30 @@
 [
+ {
+                "name": "Hilbert",
+                "preferredVictoryType": "Diplomatic",
+                "food": 7,
+                "production": 3,
+                "gold": 3,
+                "culture": 8,
+                "science": 4,
+                "faith": 8,
+                "military": 6,
+                //"warMongering": 7,
+      "aggressive": 3,
+      "declareWar": 7,
+      "commerce": 5,
+      "diplomacy": 4,
+      "loyal": 7,
+      "expansion": 7,
+    "priorities": {
+    "Liberty": 15,
+    "Piety": 25,
+      "Freedom": 20,
+      "Aesthetics": 10,
+      "Tradition": 20,
+       "Exploration": 10
+    }
+  }, 
 {
                 "name": "Gaiseric",
                 "preferredVictoryType": "Domination",
