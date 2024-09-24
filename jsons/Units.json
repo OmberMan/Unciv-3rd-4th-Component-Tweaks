@@ -1302,7 +1302,7 @@
 		"attackSound": "gdrAttack"
 	},
 	{
-		"name": "Cliathairi",
+		"name": "Oathsworn",
 		"unitType": "Sword",
 		"uniqueTo": "Celts",
 		"replaces": "Swordsman",
