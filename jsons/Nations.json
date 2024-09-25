@@ -24,7 +24,7 @@
 		"innerColor": [218, 145, 38],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancient Sandstone Geniuses",
-		"uniques": ["[+2 Culture] <in cities connected to the capital> <starting from the [Medieval era]>", "[+1 Production] from [Desert] tiles [in all cities] <starting from the [Medieval era]>"]
+		"uniques": ["[+50]% [Production] from every [{Desert} {Hill}]", "[+10]% [Food] from every [Food] <in [in all cities] cities> <in [Desert] tiles>"]
 		"cities": ["Petra","Hegra","Bosra","Avdat","Sela","Madain Saleh","Dumatha","Aila","Jauf","Rekem",
 			"Raqmu","Oboda","Hijr","Egra","Kadesh","Humeima","Philoteria","Al-`Ula","Gerasa","Gaulane",
 			"Rabathmoba","Zoara","Mecca","Dedan","Edom","Moab","Tafila","Amman","Yotvata","Humayma",
