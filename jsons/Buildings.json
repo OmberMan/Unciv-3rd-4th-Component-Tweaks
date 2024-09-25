@@ -5,10 +5,11 @@
 		"uniqueTo": "Khwarazm",
 		"faith": 1,
 		"culture": 1,
+		"specialistSlots": {"Merchant": 2},
 		"maintenance": 1,
-		"cost": 40,
-		"requiredTech": "Pottery",
-		"uniques": ["Gain [10]-[60] [Faith] <upon declaring friendship>", "Gain [50]-[75] [Gold] <upon declaring friendship>", "Gain [20]-[60] [Gold] <upon declaring a defensive pact>"]
+		"cost": 70,
+		"requiredTech": "Horseback Riding",
+		"uniques": ["[+2] from [Luxury resource] tiles [in this city]", "Gain [10]-[60] [Faith] <upon declaring friendship>", "Gain [50]-[75] [Gold] <upon declaring friendship>", "Gain [20]-[60] [Faith] <upon declaring a defensive pact>", "Gain [50]-[75] [Gold] <upon declaring a defensive pact>"]
 	},
 	{
 		"name": "Caravanserai",
