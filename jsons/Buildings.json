@@ -1,15 +1,15 @@
 [
 	{
 		"name": "Ziyarateh",
-		"replaces": "Shrine",
+		"replaces": "Temple",
 		"uniqueTo": "Khwarazm",
 		"faith": 1,
 		"culture": 1,
 		"specialistSlots": {"Merchant": 2},
-		"maintenance": 1,
-		"cost": 70,
-		"requiredTech": "Horseback Riding",
-		"uniques": ["[+2] from [Luxury resource] tiles [in this city]", "Gain [10]-[60] [Faith] <upon declaring friendship>", "Gain [50]-[75] [Gold] <upon declaring friendship>", "Gain [20]-[60] [Faith] <upon declaring a defensive pact>", "Gain [50]-[75] [Gold] <upon declaring a defensive pact>"]
+		"maintenance": 2,
+		"cost": 100,
+		"requiredTech": "Philosophy",
+		"uniques": ["[15]% Great Person generation [in this city] <in cities with an enhanced religion>", "Gain [10]-[50] [Faith] <upon declaring friendship>", "Gain [40]-[60] [Gold] <upon declaring friendship>", "Gain [10]-[50] [Faith] <upon declaring a defensive pact>", "Gain [40]-[60] [Gold] <upon declaring a defensive pact>"]
 	},
 	{
 		"name": "Caravanserai",
