@@ -45,7 +45,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["Founds a new city <by consuming this unit>", "No movement cost to pillage",
 		"No defensive terrain bonus", "Eliminates combat penalty for attacking over a river", "May capture killed [Barbarian] units <with [33]% chance>",
-		"May enter foreign tiles without open borders", "[-25]% Strength <vs cities> <when attacking", "Can move after attacking"],
+		"May enter foreign tiles without open borders", "[-25]% Strength <vs cities> <when attacking>", "Can move after attacking"],
 		"attackSound": "horse"
 	},
 	  {
