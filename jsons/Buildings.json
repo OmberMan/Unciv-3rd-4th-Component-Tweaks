@@ -17,22 +17,21 @@
 		"uniqueTo": "The Nabataeans",
 		"gold": 2,
 		"happiness": 1,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchant": 1, "Artist": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+2 Gold] from each Trade Route", "Provides [1] [Porcelain]", "Gain [2] [Food] <upon constructing [All] [in this city]> <in this city>"],
-		"requiredTech": "Currency"
+		"uniques": ["[+1 Gold] from each Trade Route", "Provides [1] [Porcelain]", "All newly-trained [scout] units [in this city] receive the [Sentry] promotion", "Gain [2] [Food] <upon constructing [All] [in this city]> <in this city>"],
+		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Sandstone Mausoleum",
 		"replaces": "Stone Works",
 		"uniqueTo": "The Nabataeans",
-	        "cost": 150,
+	        "cost": 125,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"specialistSlots": {"Artist": 1}
 		"happiness": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": [
 			"[+1 Production, +2 Gold, +1 Culture] from [Stone] tiles [in this city]",
@@ -60,7 +59,6 @@
 		"culture": 3,
 		"faith": 2,
 		"cost": 100,
-		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
