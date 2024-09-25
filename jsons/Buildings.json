@@ -1,5 +1,27 @@
 [
 	{
+		"name": "Caravanserai",
+		"replaces": "Market",
+		"uniqueTo": "The Nabataeans",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+2] from each Trade Route", "Provides [1] [Porcelain]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Sandstone Mausoleum",
+		"replaces": "Garden"
+		"uniqueTo": "The Nabataeans"
+		"culture": 1,
+		"faith": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredTech": "Theology"
+	},
+	{
                 "name": "Ringfort",
                 "replaces": "Walls",
                 "uniqueTo": "Ireland",
