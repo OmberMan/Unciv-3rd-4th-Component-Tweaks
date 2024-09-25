@@ -1,5 +1,37 @@
 [
 	{
+		"name": "The Nabataeans",
+		"leaderName": "Aretas IV",
+		"adjective": ["Nabataean"],
+		"startBias": ["Desert", "Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"style": "Middle Eastern",
+"personality": "Aretas",
+
+		"startIntroPart1": "Aretas, King of the Nabataeans, Friend of his People, your rule was the zenith of the Nabataean civilization as your capital, Petra was one of the largest economical hubs and cities in the world at that time. Art and culture flourished while under your rule, and the culture that has grown during your rule is still being felt till today. Can you once again strike the world in awe with your culture? Can you create an economy that can eclipse your last achievements? Can you build a civilization that will stand the test of time?",
+
+		"declaringWar": "Apologies, friend. But you must die!",
+		"attacked": "Oh no!",
+		"defeated": "You will be cursed for eternity for what you've done! You will pay!",
+		"introduction": "I am Aretas IV, friend of his people.",
+
+		"neutralHello": "Please dont rush Petra.",
+		"hateHello": "If I knew magic, I would've cursed you by now.",
+
+		"tradeRequest": "Shall we trade our wealth?",
+
+		"outerColor": [112, 30, 4],
+		"innerColor": [218, 145, 38],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Ancient Sandstone Geniuses",
+		"uniques": ["[+2 Culture] <in cities connected to the capital> <starting from the [Medieval era]>", "[+1 Production] from [Desert] tiles [in all cities] <starting from the [Medieval era]>"]
+		"cities": ["Petra","Hegra","Bosra","Avdat","Sela","Madain Saleh","Dumatha","Aila","Jauf","Rekem",
+			"Raqmu","Oboda","Hijr","Egra","Kadesh","Humeima","Philoteria","Al-`Ula","Gerasa","Gaulane",
+			"Rabathmoba","Zoara","Mecca","Dedan","Edom","Moab","Tafila","Amman","Yotvata","Humayma",
+			"Tayma","Tabuk","Wadi Rum","Qasr al-Bint","Mampsis","Kurnub","Halasa","Aslah","Jauf","Negev",
+			"Shobak","Kadesh","Aretas","Bir Madhkur","Qasr Usaykhim","Al-Hijr"]
+        },
+	{
 		"name": "Khwarazm",
 		"leaderName": "Ala ad-Din Muhammad",
 		"adjective": ["Khwarazmite"],
