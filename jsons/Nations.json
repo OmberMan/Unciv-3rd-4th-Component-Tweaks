@@ -25,7 +25,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancient Sandstone Geniuses",
 		"uniques": ["[+50]% [Production] from every [{Desert} {Hill}]", 
-			    "[+10]% [Food] from every [Food] <in [in all cities] cities> <in [Desert] tiles>",]
+			    "[+10]% [Food] from every [Food] <in [in all cities] cities> <in [Desert] tiles>", "[+40]% Production when constructing [Food] buildings [in all cities]", "No Maintenance costs for improvements in [Desert] tiles"]
 		"cities": ["Petra","Hegra","Bosra","Avdat","Sela","Madain Saleh","Dumatha","Aila","Jauf","Rekem",
 			"Raqmu","Oboda","Hijr","Egra","Kadesh","Humeima","Philoteria","Al-`Ula","Gerasa","Gaulane",
 			"Rabathmoba","Zoara","Mecca","Dedan","Edom","Moab","Tafila","Amman","Yotvata","Humayma",
@@ -65,7 +65,7 @@ And I wanna spend some time with you.",
 		"uniques": ["[+100]% unhappiness from the number of cities", 
 			"Empire enters a [2]-turn Golden Age <upon gaining a [Great Merchant] unit>",
 			"[+1 Gold] from [{Road} {Trading Post}] tiles [in all cities connected to the capital]",
-			"[+1 Gold] from every [Merchant] <with [Porcelain]>", "[+1 Gold] from every [Merchant] <with [Jewelry]>", "[+1 Gold] from every [Merchant] <with [Horses]>", "[+1 Gold] from every [Merchant] <with [Gold]>", "[+1 Gold] from every [Merchant] <with [Furs]>",
+			"[+1 Gold] from every [Merchant] <with [Porcelain]>", "[+1 Gold] from every [Merchant] <with [Jewelry]>", "[+1 Gold] from every [Merchant] <with [Horses]>", "[+1 Gold] from every [Merchant] <with [Gold]>", "[+1 Gold] from every [Merchant] <with [Incense]>",
 		         "Retain [25]% of the happiness from a luxury after the last copy has been traded away", 
 			"[+2 Gold, +1 Faith] from each Trade Route"]
 		"cities": ["Urgench","Gurganj","Khiva","Nishapur","Khwarazm Samarkand","Khwarazm Bukhara","Khwarazm Merv","Kath","Hazārasp",
