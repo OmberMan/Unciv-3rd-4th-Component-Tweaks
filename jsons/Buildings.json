@@ -1,5 +1,16 @@
 [
 	{
+		"name": "Ziyarateh",
+		"replaces": "Shrine",
+		"uniqueTo": "Khwarazm",
+		"faith": 1,
+		"culture": 1,
+		"maintenance": 1,
+		"cost": 40,
+		"requiredTech": "Pottery",
+		"uniques": ["Gain [10]-[60] [Faith] <upon declaring friendship>", "Gain [50]-[75] [Gold] <upon declaring friendship>", "Gain [20]-[60] [Gold] <upon declaring a defensive pact>"]
+	},
+	{
 		"name": "Caravanserai",
 		"replaces": "Market",
 		"uniqueTo": "The Nabataeans",
@@ -8,7 +19,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+2 Gold] from each Trade Route", "Provides [1] [Porcelain]"],
+		"uniques": ["[+2 Gold] from each Trade Route", "Provides [1] [Porcelain]", "Gain [2]-[5] [Food] <upon constructing [All] [in this city]> <in this city>"],
 		"requiredTech": "Currency"
 	},
 	{
