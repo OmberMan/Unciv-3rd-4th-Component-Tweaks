@@ -63,10 +63,10 @@ And I wanna spend some time with you.",
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Empire of the Sands",
 		"uniques": ["[+75]% unhappiness from the number of cities", 
-			"[-50]% construction time for [All Road] improvements",
+			"[+1] from [Luxury resource] tiles [in this city]",
 			"[+33]% Production when constructing [Gold] buildings [in all cities]",
 		         "Retain [25]% of the happiness from a luxury after the last copy has been traded away", 
-			"[+3 Gold, +2 Culture, +2 Faith] from each Trade Route"]
+			"[+3 Gold, +1 Culture, +1 Faith] from each Trade Route"]
 		"cities": ["Urgench","Gurganj","Khiva","Nishapur","Khwarazm Samarkand","Khwarazm Bukhara","Khwarazm Merv","Kath","Hazārasp",
 			"Amul","Kunya-Urgench","Farab","Nasaf","Shahrisabz","Chach","Termez","Herat","Balkh","Sar-e Pol",
 			"Nisa","Rayy","Qazvin","Gurgan","Tus","Mashhad","Marv-Rud","Tabriz","Isfahan","Harat",
