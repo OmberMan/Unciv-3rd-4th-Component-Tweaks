@@ -9,7 +9,7 @@
 		"maintenance": 2,
 		"cost": 100,
 		"requiredTech": "Philosophy",
-		"uniques": ["[15]% Great Person generation [in this city] <in cities with an enhanced religion>", "Gain [10]-[50] [Faith] <upon declaring friendship>", "Gain [40]-[60] [Gold] <upon declaring friendship>", "Gain [10]-[50] [Faith] <upon declaring a defensive pact>", "Gain [40]-[60] [Gold] <upon declaring a defensive pact>"]
+		"uniques": ["[15]% Great Person generation [in this city] <in cities with an enhanced religion>", "Gain [10]-[40] [Faith] <upon declaring friendship>", "Gain [25]-[50] [Gold] <upon declaring friendship>", "Gain [10]-[40] [Faith] <upon declaring a defensive pact>", "Gain [25]-[50] [Gold] <upon declaring a defensive pact>"]
 	},
 	{
 		"name": "Caravanserai",
@@ -20,7 +20,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+2 Gold] from each Trade Route", "Provides [1] [Porcelain]", "Gain [2]-[5] [Food] <upon constructing [All] [in this city]> <in this city>"],
+		"uniques": ["[+2 Gold] from each Trade Route", "Provides [1] [Porcelain]", "Gain [2] [Food] <upon constructing [All] [in this city]> <in this city>"],
 		"requiredTech": "Currency"
 	},
 	{
@@ -28,7 +28,7 @@
 		"replaces": "Stone Works",
 		"uniqueTo": "The Nabataeans",
 	        "cost": 150,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"specialistSlots": {"Artist": 1}
 		"happiness": 1,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
@@ -39,7 +39,9 @@
 			"[+1 Production] from [Marble] tiles [in this city]",
 		         "Must be next to [Hill]"],
 		"requiredTech": "Construction"
+
 	},
+	{
                 "name": "Ringfort",
                 "replaces": "Walls",
                 "uniqueTo": "Ireland",
