@@ -1,5 +1,21 @@
 [ 
 	{
+		"name": "Khwarazmiyya",
+		"uniqueTo": "Khwarazm",
+		"unitType": "Sword",
+                "movement": 2,
+                "strength": 14,
+                "cost": 80,
+                "hurryCostModifier": -10,
+                "requiredTech": "Iron Working",
+"requiredResource": "Iron",
+"replaces": "Swordsman",                
+          "upgradesTo": "Musketman",
+                "uniques": ["[+15]% Strength <vs [Fortified] units>", "Can move immediately once bought", "[+25]% Strength <when defending> <in [Desert] tiles>"],
+"promotions": ["Drill I"],
+"attackSound": "nonmetalhit",
+	},
+	{
 		"name": "Javelinman",
 		"replaces": "Spearman",
 		"unitType": "Archery",
