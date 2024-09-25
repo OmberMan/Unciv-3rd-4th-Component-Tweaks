@@ -24,7 +24,7 @@
 		"innerColor": [218, 145, 38],
 		"favoredReligion": "Christianity", 
 		"uniqueName": "Ancient Sandstone Geniuses",
-		"uniques": ["[+100]% [Production] from every [{Desert} {Hill}]", "[+10]% [Food] from every [Production]",  "[+1] [Food] from every [Desert] <in tiles without [Flood plains]> <in tiles without [Hill]>",
+		"uniques": ["[+100]% [Production] from every [{Desert} {Hill}]", "[+1] [Food] from every [Desert] <in tiles without [Flood plains]> <in tiles without [Hill]>",
 			    "No Maintenance costs for improvements in [Desert] tiles", "Provides a [Architectural Ingenuity] in your first [1] cities for free <upon building a [Great] improvement>"]
 		"cities": ["Petra","Hegra","Bosra","Avdat","Sela","Madain Saleh","Dumatha","Aila","Jauf","Rekem",
 			"Raqmu","Oboda","Hijr","Egra","Kadesh","Humeima","Philoteria","Al-`Ula","Gerasa","Gaulane",
@@ -65,7 +65,7 @@ And I wanna spend some time with you.",
 		"uniques": ["[+100]% unhappiness from the number of cities", 
 			"Empire enters a [2]-turn Golden Age <upon gaining a [Great Merchant] unit>",
 			"[+1 Gold] from [{Road} {Trading Post}] tiles [in all cities connected to the capital]",
-			"[+1 Gold] from every [Merchant] <with [Porcelain]>", "[+1 Gold] from every [Merchant] <with [Jewelry]>", "[+1 Gold] from every [Merchant] <with [Horses]>", "[+1 Gold] from every [Merchant] <with [Gold]>", "[+1 Gold] from every [Merchant] <with [Incense]>",
+			"[+1 Gold] from every [Merchant] <with [Porcelain]>", "[+1 Gold] from every [Merchant] <with [Jewelry]>", "[+1 Gold] from every [Merchant] <with [Horses]>", "[+1 Gold] from every [Merchant] <with [Gold Ore]>", "[+1 Gold] from every [Merchant] <with [Incense]>",
 		         "Retain [25]% of the happiness from a luxury after the last copy has been traded away", 
 			"[+2 Gold, +1 Faith] from each Trade Route"]
 		"cities": ["Urgench","Gurganj","Khiva","Nishapur","Khwarazm Samarkand","Khwarazm Bukhara","Khwarazm Merv","Kath","Hazārasp",
@@ -669,7 +669,7 @@ And I wanna spend some time with you.",
 		"outerColor": [	32, 34, 31],
 		"innerColor": [	247, 198, 0],
 		"uniqueName": "Desert Paradise",
-		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>", "[+15]% [Gold] from Trade Routes <during a Golden Age>", "[+1 Faith] from every [Incense] <after discovering [Currency]>"],
+		"uniques": ["Double quantity of [Incense] produced","May convert Incense to Myrrh or Frankincense luxury resources","[+10]% Strength <when fighting in [Desert] tiles>", "[+50]% [Gold] from Trade Routes <during a Golden Age>", "[+1 Faith] from every [Incense] <after discovering [Currency]>"],
 		"cities": ["Zafar","Sana'a","Ma'rib","Najran","Mocha","Haram","Haywan","Mukhwan","Yabrin","Shabwa","Wa'lan","Libna","Nashaq","Timna","Sirwah","Quarnawu","Kaminahu","Baraqish"]
 	},
         {
