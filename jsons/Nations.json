@@ -25,8 +25,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancient Sandstone Geniuses",
 		"uniques": ["[+50]% [Production] from every [{Desert} {Hill}]", 
-			    "[+10]% [Food] from every [Food] <in [in all cities] cities> <in [Desert] tiles>",
-		             "Gain [2]-[5] [Food] <upon constructing [All] [in this city]> <in this city>"]
+			    "[+10]% [Food] from every [Food] <in [in all cities] cities> <in [Desert] tiles>",]
 		"cities": ["Petra","Hegra","Bosra","Avdat","Sela","Madain Saleh","Dumatha","Aila","Jauf","Rekem",
 			"Raqmu","Oboda","Hijr","Egra","Kadesh","Humeima","Philoteria","Al-`Ula","Gerasa","Gaulane",
 			"Rabathmoba","Zoara","Mecca","Dedan","Edom","Moab","Tafila","Amman","Yotvata","Humayma",
