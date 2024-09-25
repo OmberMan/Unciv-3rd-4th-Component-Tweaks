@@ -12,15 +12,23 @@
 		"uniques": ["[15]% Great Person generation [in this city] <in cities with an enhanced religion>", "Gain [10]-[40] [Faith] <upon declaring friendship>", "Gain [25]-[50] [Gold] <upon declaring friendship>", "Gain [10]-[40] [Faith] <upon declaring a defensive pact>", "Gain [25]-[50] [Gold] <upon declaring a defensive pact>"]
 	},
 	{
+		"name": "Architectual Ingenuity",
+		"replaces": "Market",
+		"uniqueTo": "The Nabataeans",
+		"gold": 2,
+		"cost": 1
+		"uniques": ["[+1 Culture, +1 Gold, +1 Food] from every [Engineer] <in this city>", "[+2]% [Food] from every [Building] <in this city>", "Cannot be purchased", "Only available <in cities with a [Palace]>", "Automatically built in all cities where it is buildable", "Unsellable"],
+	"requiredTech": "Agriculture",
+	}
+	{
 		"name": "Caravanserai",
 		"replaces": "Market",
 		"uniqueTo": "The Nabataeans",
 		"gold": 2,
-		"happiness": 1,
 		"specialistSlots": {"Merchant": 1, "Artist": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+1 Gold] from each Trade Route", "Provides [1] [Porcelain]", "All newly-trained [scout] units [in this city] receive the [Sentry] promotion", "Gain [2] [Food] <upon constructing [All] [in this city]> <in this city>"],
+		"uniques": ["Provides [1] [Porcelain]", "All newly-trained [scout] units [in this city] receive the [Sentry] promotion"],
 		"requiredTech": "Mathematics"
 	},
 	{
