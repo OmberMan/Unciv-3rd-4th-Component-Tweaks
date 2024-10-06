@@ -1319,11 +1319,11 @@
 		"range": 1,
 		"rangedStrength": 10,
 		"cost": 40,
-		"requiredTech": "Archery",
+		"requiredTech": "Pottery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
   "uniques": ["[+33]% Strength <when attacking> <with [33]% chance>", "May withdraw before melee ([33]%)", "Can move after attacking","[-25]% Strength <vs cities> <when attacking>","Invisible to non-adjacent units <in [Jungle] tiles]"],
-"promotions": ["Poisoned Tips", "Ignores Terrain Cost"],
+"promotions": ["Poisoned Tips"],
 		"attackSound": "throw"
 	},
 	{
