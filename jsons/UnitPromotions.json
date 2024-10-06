@@ -1,7 +1,19 @@
 [		
 {
+                "name": "Simple Man",
+                "uniques": ["[+20]% Strength <when fighting in [Hill] tiles>", "[+2] Movement <in [Hill] tiles>", "Can construct [Pasture]"]
+        },
+        {
+        "name": "Sundering",
+        "uniques": ["[Target Unit] gains the [Sundered!] status for [2] turn(s) <with [40]% chance> <upon damaging a [Land] unit>"]
+    },
+                        {
+        "name": "Sundered!",
+        "uniques": ["[-20]% Strength <when defending> <vs [Melee] units>"]
+    },
+{
         "name": "Kern",
-        "uniques": ["This Unit] gains [5] XP <upon adopting [all]>"]
+        "uniques": ["[This Unit] gains [5] XP <upon adopting [all]>"]
     },
 	{
         "name": "Poisoned Tips",
