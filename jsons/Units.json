@@ -28,7 +28,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Ignores terrain cost"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Ignores terrain cost", "Can move after attacking"],
 		"attackSound": "throw"
 	},
 	{
@@ -146,7 +146,7 @@
                 "upgradesTo": "Knight",
                 "obsoleteTech": "Chivalry",
                 "requiredResource": "Horses",
-                "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Ignores Zone of Control"],
+                "uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Ignores Zone of Control"],
                 "promotions": ["Medic", "Great Generals I"],
                 "hurryCostModifier": 0,
                 "attackSound": "horse"
@@ -1044,9 +1044,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-	"promotions": ["Poisoned Tips"],
-		"uniques": ["[+10]% Strength bonus for [Sword] units within [1] tiles","Heals [25] damage if it kills a unit","[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [50]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units"],
-		"attackSound": "fire"
+		"uniques": ["[+5]% Strength bonus for [Sword] units within [2] tiles","Heals [25] damage if it kills a unit","[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Earn [10]% of killed [All] unit's [Strength] as [Faith]", "Can see invisible [All] units", "May capture killed [Wounded] units <with [15]% chance>"],
+		"attackSound": "gdrAttack"
 	},
 {	
 		"name": "Desert Archer",
@@ -1061,7 +1060,7 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"promotions": ["Accuracy I"],
-                "uniques": ["[+30]% Strength <when fighting in [Luxury resource] tiles>"],
+                "uniques": ["[+33]% Strength <when fighting in [Luxury resource] tiles>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1336,7 +1335,7 @@
 		"uniques": ["Can start an [5]-turn golden age","[-10]% Strength for enemy [Land] units in adjacent [All] tiles","[+15]% Strength bonus for [Military] units within [2] tiles", "Great Person - [War]", "Unbuildable", "Uncapturable","Can move after attacking", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Wounded] units> <when attacking>", "Can be earned through combat", "Heals [25] damage if it kills a unit"],
 "promotions": ["Shock and Awe"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "gdrAttack"
 	},
 		{
 		"name": "Dmag Mi",
@@ -1392,8 +1391,8 @@
 		"strength": 15,
 		"cost": 60,
 		"requiredTech": "Animal Husbandry",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] tiles", "[+1] Sight", "[-90]% XP gained from combat",],
-		"attackSound": "horse"
+		"uniques": ["[+25]% Strength <vs [Wounded] units>", "Heals [25] damage if it kills a unit", "Ignores Zone of Control", "Can see invisible [Water] units", "Can only attack [Water] tiles", "[+1] Sight", "[-90]% XP gained from combat"],
+		"attackSound": "elephant"
 	},
   { 
                  "name": "Tamed Shark", 
