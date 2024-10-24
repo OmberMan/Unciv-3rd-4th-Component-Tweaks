@@ -351,7 +351,7 @@
 "replaces": "Horseman",
                 "uniqueTo": "The Stormlands",
                 "uniques": ["[+25]% Strength <vs [Fortified] units>", "[+25]% Strength <vs [Sword] units>", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-"promotions": ["Blitz", "Shock and Awe"],
+"promotions": ["Blitz", "Sundering"],
 "attackSound": "metalhit",
    },
 {
@@ -367,7 +367,7 @@
           "upgradesTo": "Musketman",
                 "uniqueTo": "The Stormlands",
                 "uniques": ["[+50]% Strength <vs [Fortified] units>", "[+25]% Strength <vs [Sword] units>"],
-"promotions": ["Blitz", "Shock and Awe"],
+"promotions": ["Blitz", "Sundering"],
 "attackSound": "metalhit",
    },
           {
@@ -396,7 +396,7 @@
   "requiredResource": "Iron",
   "upgradesTo": "Modern Armor",
   "attackSound": "Vroom",
-  "promotions": ["Shock I", "Medic"],
+  "promotions": ["Shock I", "Medic", "Shock and Awe"],
   "uniques": ["No defensive terrain bonus", "Transfer Movement to [Civilian]", "[-33]% Strength <vs [Armor] units>", "[+33]% Strength <vs [Fortified] units> <when attacking>", "[-25]% Strength <vs cities> <when attacking>", "Can move after attacking"]
  },
 {
@@ -479,7 +479,7 @@
                 "requiredTech": "Construction",
                 
                 "uniques": ["[+20]% Strength <vs [Sword] units>", "[+15]% Strength <when fighting in [Hill] tiles>", "Prevents spreading of religion to the city it is next to", "[+10]% Strength bonus for [Land] units within [1] tiles", "[+5]% Strength bonus for [Land] units within [2] tiles", "[-5]% Strength for enemy [Land] units in adjacent [Land] tiles", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Faith] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"], 
-"promotions": ["Sellout"],
+"promotions": ["Sellout", "Shock and Awe"],
                 "attackSound": "bellend",
    },
 {
@@ -541,7 +541,7 @@
                 "requiredTech": "Horseback Riding",
                 "upgradesTo": "Cavalry",
                 "uniques": ["[+50]% Strength <when attacking>", "May withdraw before melee ([10]%)", "Can move after attacking", "[+1] additional attacks per turn", "No defensive terrain bonus", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles", "[-50]% Strength <vs cities> <when attacking>", "[+10]% Strength <when above [500] [Gold]>", "[+10]% Strength <when above [1000] [Gold]>", "[+10]% Strength <when above [1500] [Gold]>", "Unbuildable", "Can be purchased with [Gold] [in all cities] <in cities with a [Essosi Sellsword Camp]>", "Can be purchased with [Gold] [in all cities] <in cities with a [Sellsword Quarters]>"],
-"promotions": ["Sellout"],
+"promotions": ["Sellout", "Shock and Awe"],
                 "attackSound": "horse",
    },
 {
@@ -965,6 +965,7 @@
         "obsoleteTech": "Civil Service",
         "hurryCostModifier": 30,
         "uniques": ["+1 Sight", "[+10]% Strength bonus for [Melee] units within [1] tiles", "[+50]% Strength <vs [Mounted] units>"],
+"promotions": ["Shock and Awe"],
         "attackSound": "nonmetalhit"
 },
 {
@@ -1110,7 +1111,7 @@
 "requiredResource": "Horses",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>", "[+20]% Strength <when fighting in [Hills] tiles>", "[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
-"promotions": ["Cover I"],
+"promotions": ["Sundering"],
 		"hurryCostModifier": 25,
 		"attackSound": "horse"
 	},
