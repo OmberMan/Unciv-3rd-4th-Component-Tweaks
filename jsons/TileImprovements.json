@@ -6,7 +6,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 8,
 		"techRequired": "Currency",
-		"uniques": ["Can only be built on [Coastal] tiles","[+1 Food] for each adjacent [Fishing Boats]", "[+2 Gold] <with [1] to [2] neighboring [Luxury resource] tiles>", "[+3 Gold] <with [3] to [4] neighboring [Luxury resource] tiles>","[+4 Gold] <with [5] to [6] neighboring [Luxury resource] tiles>", "[+1 Gold] <with [1] to [6] neighboring [Water resource] tiles>", "[+1 Production] <after discovering [Navigation]>"]
+		"uniques": ["Can only be built on [Coastal] tiles","[+1 Food] for each adjacent [Fishing Boats]", "[+1 Gold] <with [1] to [2] neighboring [Luxury resource] tiles>", "[+2 Gold] <with [3] to [4] neighboring [Luxury resource] tiles>","[+4 Gold] <with [5] to [6] neighboring [Luxury resource] tiles>", "[+1 Gold] <with [1] to [6] neighboring [Water resource] tiles>", "[+1 Production] <after discovering [Navigation]>"]
 	},
 	    {
         "name": "Tipi",
