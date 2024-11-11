@@ -1,4 +1,4 @@
-[
+I'm[
 	{
 		"name": "The Nabataeans",
 		"leaderName": "Aretas IV",
@@ -1286,7 +1286,7 @@ And I wanna spend some time with you.",
 		"favoredReligion": "Christianity",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Units ending their turn on [Mountain] tiles take [50] damage", "[Gold] cost of purchasing [Land] units [-50]%", "[+33]% [Gold] [in all coastal cities] <on foreign continents>", "[-33]% [Production] [in all non-occupied cities] <on foreign continents>", "[-33]% Unhappiness from [Population] [in all coastal cities] <on foreign continents>"],
+			"Units ending their turn on [Mountain] tiles take [33] damage", "[Gold] cost of purchasing [Land] units [-50]%", "[+33]% [Gold] [in all coastal cities] <on foreign continents>", "[-33]% [Production] [in all non-occupied cities] <on foreign continents>", "[-33]% Unhappiness from [Population] [in all coastal cities] <on foreign continents>"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -1585,14 +1585,14 @@ And I wanna spend some time with you.",
                  "hateHello": "Go on, spit it out!", 
                  "tradeRequest": "I have a proposal.", 
   
-                 "outerColor": [0,100,100], 
-                 "innerColor": [255,255,255], 
+                 "outerColor": [0,100,110], 
+                 "innerColor": [245,250,255], 
   
                  "favoredReligion": "Christianity", 
   
-                 "uniqueName": "The Sky Favors Us", 
+                 "uniqueName": "The Boat King", 
                  "uniques": [ 
-                 "[+2] Sight for [Scout] units", "[+1] Sight for [Military] units", "[+2] Movement for [Air] units", "[+25]% Strength for cities <in [Coastal] tiles>" 
+                 "[+2] Sight for [Scout] units", "[+1] Sight for [Military] units", "[+2] Movement for [Air] units", "[+25]% Strength for cities <in [Coastal] tiles>", "[+1 Happiness, +1 Culture] per [3] social policies adopted <when at war>", "[+40]% Production when constructing [Naval] units [in capital] <when at war>" 
                  ], 
                  "cities": ["Aléria", "Brutus' Edge", "Aule","Lakara","Venicia Noka","Outpost Unūm","Outpost Duo","Outpost Cīes","Outpost Quatuorth","Outpost Maîque"], 
          }, 
