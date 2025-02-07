@@ -1,7 +1,7 @@
 [
 {
 	"name": "Oasis Farm",
-		"uniqueTo": "Nabataea"
+		"uniqueTo": "The Nabataeans"
 		"terrainsCanBeBuiltOn": ["Desert"],
   "food": 1,
 		"turnsToBuild": 7,
