@@ -1,4 +1,5 @@
 [
+{
 	"name": "Oasis Farm",
 		"uniqueTo": "Nabataea"
 		"terrainsCanBeBuiltOn": ["Desert"],
