@@ -1,4 +1,13 @@
-[	
+[
+	"name": "Oasis Farm",
+		"uniqueTo": "Nabataea"
+		"terrainsCanBeBuiltOn": ["Desert"],
+  "food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["Removes removable features when built", "[+1 Food] for each adjacent [Oasis]", "[+1 Food] for each adjacent [City center]", "Cannot be built on [Oasis] tiles", "Cannot be built on [Hill] tiles", "[+1 Food] <after discovering [Civil Service]>",
+            ]
+	},
 {
 		"name": "Seaside Stall",
 		"uniqueTo": "Phoenicia",
