@@ -79,7 +79,7 @@
       "Never appears as a Barbarian unit",
       "Can move immediately once bought",
       "[+1] Sight",
-      "Damage is ignored when determining unit Strength",
+      "No damage penalty for wounded units",
       "[+1] Movement <in [Friendly land] tiles>",
       "[+30]% Strength <vs [Sword] units>",    "[+30]% Strength <vs [Gunpowder] units>",
 "[+300]% maintenance costs",
@@ -109,7 +109,7 @@
       "[100]% chance to intercept air attacks",
       "[+30]% Strength <vs cities> <when attacking>",
       "[+40]% Strength <vs [Armored] units>",
-"Damage is ignored when determining unit Strength",
+"No damage penalty for wounded units",
       "[+1] Movement <in [Friendly land] tiles>",
       "[+40]% Strength <vs [Mounted] units>",
 "[+500]% maintenance costs",
@@ -162,7 +162,7 @@
                 "requiredTech": "Horseback Riding",
                 "obsoleteTech": "Military Science",
                 "upgradesTo": "Cavalry",
-                "uniques": ["Can move after attacking",
+                "uniques": ["Can move after attacking", "No damage penalty for wounded units"
                         "No defensive terrain bonus"],
                 "promotions": ["Sickening Plague","Rejuvenation", "Poisoned Tips"],
                 "attackSound": "horse"
@@ -996,7 +996,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "Earn [15]% of killed [Land] unit's [Cost] as [Culture]", "[-33]% Strength <vs cities> <when attacking>", "Damage is ignored when determining unit Strength <when below [30] HP>", "This Unit gains the [Haka War Dance] promotion <upon defeating a [Melee] unit>"],
+		"uniques": ["Can move after attacking", "Earn [15]% of killed [Land] unit's [Cost] as [Culture]", "[-33]% Strength <vs cities> <when attacking>", "No damage penalty for wounded units <when below [30] HP>", "This Unit gains the [Haka War Dance] promotion <upon defeating a [Melee] unit>"],
 		"hurryCostModifier": 30,
 		"attackSound": "horse"
 	},
@@ -1289,7 +1289,7 @@
 		"cost": 65,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Rifleman",
-  "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "[+50]% Strength <vs [Sword] units>"],
+  "uniques": ["Upgrades to Rifleman","No movement cost to pillage", "[+30]% Strength <vs [Sword] units>"],
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"attackSound": "nonmetalhit"
@@ -1365,7 +1365,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"hurryCostModifier": 40,
-                "uniques": ["Heal this unit by [25] HP <upon being promoted>", "Gain [8]-[16] [Culture] <upon being defeated>", "All adjacent units heal [+10] HP when healing", "[-5]% Strength for enemy [Military] units in adjacent [Land] tiles"]
+                "uniques": ["Heal this unit by [25] HP <upon being promoted>", "No damage penalty for wounded units <when below [20] HP>", "Gain [8]-[16] [Culture] <upon being defeated>", "All adjacent units heal [+10] HP when healing", "[-5]% Strength for enemy [Military] units in adjacent [Land] tiles"]
 		"attackSound": "metalhit"
 	},
 {
