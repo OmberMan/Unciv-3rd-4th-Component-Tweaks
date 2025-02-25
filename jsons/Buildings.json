@@ -5,18 +5,17 @@
 		"uniqueTo": "Khwarazm",
 		"faith": 1,
 		"culture": 1,
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchant": 1},
 		"maintenance": 2,
-		"cost": 100,
+		"cost": 75,
 		"requiredTech": "Philosophy",
-		"uniques": ["[15]% Great Person generation [in this city] <in cities with an enhanced religion>", "Gain [10]-[40] [Faith] <upon declaring friendship>", "Gain [25]-[50] [Gold] <upon declaring friendship>", "Gain [10]-[40] [Faith] <upon declaring a defensive pact>", "Gain [25]-[50] [Gold] <upon declaring a defensive pact>"]
+		"uniques": ["[+10]% [Gold] [in this city] <in cities with an enhanced religion>", "Gain [10]-[40] [Faith] <upon declaring friendship>", "Gain [10]-[40] [Gold] <upon declaring friendship>"]
 	},
 	{
 		"name": "Architectual Ingenuity",
-		"replaces": "Market",
 		"uniqueTo": "The Nabataeans",
 		"gold": 2,
-		"cost": 1
+		"cost": 1,
 		"uniques": ["[+1 Culture, +1 Gold, +1 Food] from every [Engineer] <in this city>", "[+2]% [Food] from every [Building] <in this city>", "Cannot be purchased", "Only available <in cities with a [Palace]>", "Automatically built in all cities where it is buildable", "Unsellable"],
 	"requiredTech": "Agriculture",
 	}
@@ -25,7 +24,7 @@
 		"replaces": "Market",
 		"uniqueTo": "The Nabataeans",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1, "Artist": 1},
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides [1] [Porcelain]", "All newly-trained [scout] units [in this city] receive the [Sentry] promotion"],
@@ -36,8 +35,8 @@
 		"replaces": "Stone Works",
 		"uniqueTo": "The Nabataeans",
 	        "cost": 125,
-		"greatPersonPoints": {"Great Engineer": 1},
 		"happiness": 1,
+		"specialistSlots": {"Engineer": 1, "Artist": 1},
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
 		"hurryCostModifier": 50,
@@ -147,7 +146,7 @@
 		"replaces": "Forge",
 		"uniques": ["[+10]% Production when constructing [Spaceship part] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]", 
-			"[+2 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Forest] tiles [in this city]"]
+			"[+1 Production] from [Iron] tiles [in this city]", "[+1 Production] from [Forest] tiles [in this city] <when at war>"]
 	},
 	{
 		"name": "Great Wall",
@@ -436,17 +435,17 @@
 		"hurryCostModifier": 15,
                 "cost": 50,
 		"requiredTech": "Philosophy",
-		"uniques": ["[+1 Happiness] [in capital]"]
+		"uniques": ["[+1 Happiness] [in capital]", "[-10]% Unhappiness from [Population] [in this city] <when at war>"]
 	},
 {
         "name": "Forum Romanum",
         "replaces": "Market",
         "uniqueTo": "Rome",
         "hurryCostModifier": 25,
-        "gold": 2,
+        "gold": 3,
 	"specialistSlots": {"Merchant": 1},
 	"percentStatBonus": {"gold": 25},
-        "uniques": ["[+15]% Great Person generation [in this city]", "[+1 Culture, +1 Happiness] [in annexed cities]", "[-15]% Unhappiness from [Population] [in this city] <when at war>"]
+        "uniques": ["[+10]% Great Person generation [in this city]", "[+1 Culture, +1 Happiness] [in annexed cities]"]
         "requiredTech": "Mathematics"
     },
 {
@@ -458,7 +457,7 @@
         "happiness": 2,
         "food": 1,
         "science": 1,
-        "maintenance": 1,
+        "maintenance": 2,
         "uniques": ["[+25]% Great Person generation [in this city]"]
         "requiredTech": "Construction"
     },
@@ -485,15 +484,14 @@
         },
 {
                 "name": "Blood Altar",
-		"replaces": "Shrine",
+		"replaces": "Temple",
 		"uniqueTo": "Aztecs",
-		"faith": 2,
+		"faith": 3,
                 "happiness": 1,
-          
-		"cost": 50,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled", "[-1] population [in this city] <upon adopting [All]>"]
+		"cost": 100,
+		"maintenance": 2,
+		"requiredTech": "Calendar",
+		"uniques": ["Hidden when religion is disabled", "Gain [40]-[80] [Faith] <upon conquering a city>", "[-1] population [in this city] <upon conquering a city> <with [10]% chance>", "[+15]% Production when constructing [Military] units [in this city] <when at war>", "[+1 Happiness] [in this city] <when at war>"]
 	},
 {
 		"name": "Dar-e Mehr",
@@ -504,7 +502,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled", "[+1 Happiness] [in capital]", "[+2 Culture] from [Gold Ore] tiles [in this city]"]
+		"uniques": ["Hidden when religion is disabled", "[+1 Happiness] [in capital]", "[+1 Happiness, +1 Culture] [in this city] <during a Golden Age>", "[10]% Food is carried over after population increases [in this city]", "[+2 Culture] from [Gold Ore] tiles [in this city]"]
 	},
 {
                 "name": "Shadoof",
@@ -560,6 +558,7 @@
 		"cityStrength": 7,
 		"cityHealth": 70,
 		"culture": 1,
+  "faith": 2,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Walls] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
@@ -701,12 +700,13 @@
 		"uniqueTo": "The Khmer",
 		"faith": 2,
 		"maintenance": 2,
+"greatPersonPoints": {"Great Engineer": 1},
 		"specialistSlots": {"Engineer": 1},
 		"cityHealth": 5,
   "cost": 100,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Shrine",
-		"uniques": ["Provides 1 Engineer specialist slots.", "Hidden when religion is disabled", "[+1 Food] from [Farm] tiles [in this city] <with [2] to [6] neighboring [Fresh water] [Farm] tiles>", "[15]% Food is carried over after population increases [in this city]"],
+		"uniques": ["Provides 1 Engineer specialist slots.", "Hidden when religion is disabled", "[+1 Food] from [Farm] tiles [in this city] <with [2] to [6] neighboring [Fresh water] [Farm] tiles>"],
 		"requiredTech": "Philosophy"
 	},
 {
@@ -751,6 +751,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
+"greatPersonPoints": {"Great General": 1},
 		"uniques": ["[+2 Happiness] [in this city] <before the [Medieval era]>", "[+1 Culture, +1 Faith] [in this city] <starting from the [Medieval era]>","Hidden when religion is disabled", "New [Mounted] units start with [10] Experience [in this city] <if [Heroic Epic] is constructed>", "New [Sword] units start with [10] Experience [in this city] <if [National Epic] is constructed>"]
 	},
 {
