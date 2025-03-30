@@ -296,6 +296,20 @@
 		"requiredTech": "Drama and Poetry",
 		"uniques": ["[+1 Culture] <during a Golden Age>"]
 	},
+{
+		"name": "Hippodrome",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Byzantium",
+		"happiness": 1,
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+  "gold": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [1] [Horses]", "[-10]% Unhappiness from [Population] [in this city]", "New [Mounted] units start with [15] Experience [in this city]"],
+		"requiredTech": "Drama and Poetry"
+	},
     {
         "name": "Cloves",
         "uniqueTo": "Indonesia",
@@ -435,7 +449,7 @@
 		"hurryCostModifier": 15,
                 "cost": 50,
 		"requiredTech": "Philosophy",
-		"uniques": ["[+1 Happiness] [in capital]", "[+5]% Growth [in this city] <when at war>"]
+		"uniques": ["[+1 Happiness] [in capital]", "[+5]% growth [in this city] <when at war>"]
 	},
 {
         "name": "Forum Romanum",
@@ -878,5 +892,3 @@
                 "requiredTech": "Engineering"
         }
 ]
-
-//* "Consumes [3] [Iron]"
